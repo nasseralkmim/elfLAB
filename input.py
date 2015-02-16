@@ -12,8 +12,6 @@ mesh = gmsh.parse('mesh4')
 
 ele = element.Matrices(mesh)
 
-jaskdjas = 2
-
 s = mesh.surfaces
 def k(x1, x2):
     return {s[0]: 1}
