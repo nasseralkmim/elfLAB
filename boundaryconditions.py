@@ -12,11 +12,13 @@ def dirichlet(K, B, mesh, temperature):
 
         How its done:
 
-        1. Loop over the lines where Dirichlet boundary conditions are applied.
+        1. Loop over the lines where Dirichlet boundary conditions are
+        applied. This is specified as key argument of the dictionary. The
+        boundaries are defined on the gmsh nad tagged with a number.
 
-        2. loop over the lines at the boundary.
+        2. loop over all the nodes at the boundaries.
 
-        3. If this nodes, which is identified as follows::
+        3. If those nodes, identified as follows::
 
             boundary_nodes = [line node1 node2]
 
@@ -24,16 +26,16 @@ def dirichlet(K, B, mesh, temperature):
             stiffness matrix and the B vector based on this node index.
 
     Args:
-        K: Stiffness matrix.
-        B: Vector with the load and traction.
-        temperature: Function with 4 components.
-        temperature_sides: Boundary lines where dirichlet boundary conditions
-            are applied.
+        K (2nd order array): Stiffness matrix.
+        B (1st order array): Vector with the load and traction.
+        temperature (function): Function with 4 components.
+
 
     Returns:
-        K: Modified stiffness matrix.
+        K (2nd order array), B (1st order array): Modified stiffness matrix
+        and vector.
 
-        B: Modified vector.
+
 
     """
     for line in temperature(1,1).keys():

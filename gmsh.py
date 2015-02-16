@@ -43,25 +43,20 @@ class parse:
             in the "gmsh.geo" file.
         boundary_lines (array of int): Index of lines that define the
             boundary globally, i.e, whole geometry.
-        nodes_coord (array of flaot): Nodes of the mesh in the format
+        nodes_coord (array of flaot): Nodes of the mesh in the format.
             ::
-
                 nodes_coord = [ coordinate x1 of node 0, coordinade x2 of node 0]
-
         ele_conn (array of int): Nodes that form an quad element in the format
             ::
                 ele_conn = [node1, node2, node3, node4]
-
         ele_surface (array of int): element index and the physical surface
             where it is. The format is::
 
                 ele_surface = [element index, surface index]
-
-        boundary_nodes (array of float): Nodes at the boundary in the format
+        boundary_nodes (array of float): Nodes at the boundary in the format.
             ::
 
                 boundary_nodes = [boundary line, node1, node2]
-
         boundary_elements (array of int): Elements at the boundary and the
             boundary, which could be 0->first two points on the connectivity;
             1->2nd 2points; 2-> 3rd 2 points; 3-> 4th 2 points. Example::
@@ -183,18 +178,20 @@ class parse:
 
         Args:
             nodes_cooord (float, float): Nodes coordinates pair in the real
-            domain.
+                domain.
             natural_coord (flaot, float): Variables in the natural (
-            iso-parametric domain) [e1,e2].
+                iso-parametric domain) [e1,e2].
 
-        Returns:
-            phi(float): Function of the natural coordinates.
-            dphi (float): Derivative of the shape functions::
-
-                [[dphi1_e1, dphi2_e1, dphi3_e1, dphi4_e1 ],
-                 [dphi1_e2, dphi2_e2, dphi3_e2, dphi4_e2 ]]
-
+        Attributes:
+            phi (float): Function of the natural coordinates with the format.
+                ::
+                    phi = [phi1, phi2, phi3, phi4]
+            dphi (float): Derivative of the shape functions.
+                ::
+                    dphi = [[dphi1_e1, dphi2_e1, dphi3_e1, dphi4_e1 ],
+                        [dphi1_e2, dphi2_e2, dphi3_e2, dphi4_e2 ]]
             Jac (float): Jacobian of the transformation as a function
+
 
         """
         # variables in the natural (iso-parametric) domain
@@ -222,11 +219,11 @@ class parse:
         """maps from cartesian to isoparametric.
 
         Args:
-            e: Designate the element in which the calculation is made.
+            e (int): Designated the element in which the calculation is made.
 
         Returns:
-            x1_o_e1e2 : first coordinate as a function of [e1, e2]
-            x2_o_e1e2 : second coordinate as a function of [e1, e2]
+            x1_o_e1e2 , x2_o_e1e2 (float, float) : first and second coordinate
+            as a function of [e1, e2].
 
         """
         x1_o_e1e2 = np.dot(
