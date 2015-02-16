@@ -12,7 +12,7 @@ mesh = gmsh.parse('mesh4')
 
 ele = element.Matrices(mesh)
 
-#tete
+jaskdjas = 2
 
 s = mesh.surfaces
 def k(x1, x2):
