@@ -1,0 +1,545 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Mesh module &mdash; ignis 3.0.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '3.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ignis 3.0.0 documentation" href="index.html" />
+    <link rel="prev" title="elfLAB documentation!" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="elfLAB documentation!"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">ignis 3.0.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-gmsh">
+<span id="mesh-module"></span><h1>Mesh module<a class="headerlink" href="#module-gmsh" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="gmsh.parse">
+<em class="property">class </em><code class="descclassname">gmsh.</code><code class="descname">parse</code><span class="sig-paren">(</span><em>filename</em><span class="sig-paren">)</span><a class="headerlink" href="#gmsh.parse" title="Permalink to this definition">¶</a></dt>
+<dd><p>Produce mesh with gmsh file.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">parse: analyze into its parts.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>In order to create a mesh for the code follow the steps:</p>
+<ol class="last arabic">
+<li><p class="first">Draw the geometry</p>
+<blockquote>
+<div><p>1.1 Draw Points.</p>
+<p>1.2 Connect these points with straight lines.</p>
+<p>1.3 Define a plane surface.</p>
+</div></blockquote>
+</li>
+<li><p class="first">Add physical groups where the BC are going to be applied</p>
+<blockquote>
+<div><p>2.1 Add lines in order to get the nodes in that line.</p>
+<p>2.2 Add a Surface in order to get the connectivity.</p>
+</div></blockquote>
+</li>
+<li><p class="first">Change the subdivision algorithm to &#8220;all quads&#8221; ontools-mesh-general tab.</p>
+</li>
+<li><p class="first">Click on 2D to create the mesh. It should contain quad elements only.</p>
+</li>
+<li><p class="first">Save the .msh file with the mesh with the same name as the .geo.</p>
+</li>
+</ol>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>filename</strong> (<em>str</em>) &#8211; Name of the file with the mesh geometry and properties.</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt id="gmsh.parse.surfaces">
+<code class="descname">surfaces</code><a class="headerlink" href="#gmsh.parse.surfaces" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>array of int</em></p>
+<p>Index that identifies the surfaces assigned
+in the &#8220;gmsh.geo&#8221; file.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="gmsh.parse.boundary_lines">
+<code class="descname">boundary_lines</code><a class="headerlink" href="#gmsh.parse.boundary_lines" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>array of int</em></p>
+<p>Index of lines that define the
+boundary globally, i.e, whole geometry.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="gmsh.parse.nodes_coord">
+<code class="descname">nodes_coord</code><a class="headerlink" href="#gmsh.parse.nodes_coord" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>array of flaot</em></p>
+<p>Nodes of the mesh in the format</p>
+<div class="highlight-python"><div class="highlight"><pre>nodes_coord = [ coordinate x1 of node 0, coordinade x2 of node 0]
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="gmsh.parse.ele_conn">
+<code class="descname">ele_conn</code><a class="headerlink" href="#gmsh.parse.ele_conn" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>array of int</em></p>
+<p>Nodes that form an quad element in the format</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">ele_conn</span> <span class="o">=</span> <span class="p">[</span><span class="n">node1</span><span class="p">,</span> <span class="n">node2</span><span class="p">,</span> <span class="n">node3</span><span class="p">,</span> <span class="n">node4</span><span class="p">]</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="gmsh.parse.ele_surface">
+<code class="descname">ele_surface</code><a class="headerlink" href="#gmsh.parse.ele_surface" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>array of int</em></p>
+<p>element index and the physical surface
+where it is. The format is:</p>
+<div class="highlight-python"><div class="highlight"><pre>ele_surface = [element index, surface index]
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="gmsh.parse.boundary_nodes">
+<code class="descname">boundary_nodes</code><a class="headerlink" href="#gmsh.parse.boundary_nodes" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>array of float</em></p>
+<p>Nodes at the boundary in the format</p>
+<div class="highlight-python"><div class="highlight"><pre>boundary_nodes = [boundary line, node1, node2]
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="gmsh.parse.boundary_elements">
+<code class="descname">boundary_elements</code><a class="headerlink" href="#gmsh.parse.boundary_elements" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>array of int</em></p>
+<p>Elements at the boundary and the
+boundary, which could be 0-&gt;first two points on the connectivity;
+1-&gt;2nd 2points; 2-&gt; 3rd 2 points; 3-&gt; 4th 2 points. Example:</p>
+<div class="highlight-python"><div class="highlight"><pre>ele_conn = [1, 5, 13, 10]
+element boundary 0 = [1, 5]
+element boundary 1 = [5, 13]
+element boundary 2 = [13, 10]
+element boundary 3 = [10, 1]
+</pre></div>
+</div>
+<p>the format of this array is:</p>
+<div class="highlight-python"><div class="highlight"><pre>boundary_elements = [ele index, element boundary, boundary line]
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="gmsh.parse.basisFunction2D">
+<code class="descname">basisFunction2D</code><span class="sig-paren">(</span><em>natural_coord</em><span class="sig-paren">)</span><a class="headerlink" href="#gmsh.parse.basisFunction2D" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create the basis function and its properties.</p>
+<p>The function will be evaluated at the quadrature points that will be
+passed as a natural coordinate.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>nodes_cooord</strong> (<em>float, float</em>) &#8211; Nodes coordinates pair in the real</li>
+<li><strong>natural_coord</strong> (<em>flaot, float</em>) &#8211; Variables in the natural (</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><p><strong>phi</strong> &#8211;
+Function of the natural coordinates.
+dphi (float): Derivative of the shape functions:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="p">[[</span><span class="n">dphi1_e1</span><span class="p">,</span> <span class="n">dphi2_e1</span><span class="p">,</span> <span class="n">dphi3_e1</span><span class="p">,</span> <span class="n">dphi4_e1</span> <span class="p">],</span>
+ <span class="p">[</span><span class="n">dphi1_e2</span><span class="p">,</span> <span class="n">dphi2_e2</span><span class="p">,</span> <span class="n">dphi3_e2</span><span class="p">,</span> <span class="n">dphi4_e2</span> <span class="p">]]</span>
+</pre></div>
+</div>
+<p>Jac (float): Jacobian of the transformation as a function</p>
+</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">float</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="gmsh.parse.eleJacobian">
+<code class="descname">eleJacobian</code><span class="sig-paren">(</span><em>element_nodes_coord</em><span class="sig-paren">)</span><a class="headerlink" href="#gmsh.parse.eleJacobian" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates the Jacobian matrix of the mapping between an element
+and its natural form.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><strong>Jac</strong> &#8211;
+jacobian matrix 2x2
+detJac (float): determinant of the jacobian matrix
+dphi_xi (float): derivative of the shape functions with respect
+the cartesian coordinates</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">float</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="gmsh.parse.mapping">
+<code class="descname">mapping</code><span class="sig-paren">(</span><em>e</em><span class="sig-paren">)</span><a class="headerlink" href="#gmsh.parse.mapping" title="Permalink to this definition">¶</a></dt>
+<dd><p>maps from cartesian to isoparametric.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>e</strong> &#8211; Designate the element in which the calculation is made.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">first coordinate as a function of [e1, e2]
+x2_o_e1e2 : second coordinate as a function of [e1, e2]</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">x1_o_e1e2</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-element">
+<span id="element-module"></span><h1>Element module<a class="headerlink" href="#module-element" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="element.Matrices">
+<em class="property">class </em><code class="descclassname">element.</code><code class="descname">Matrices</code><span class="sig-paren">(</span><em>object</em><span class="sig-paren">)</span><a class="headerlink" href="#element.Matrices" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build the elemental matrices.</p>
+<p>Creates an object that has as attributes the elemental matrices.</p>
+<dl class="method">
+<dt id="element.Matrices.load_internal">
+<code class="descname">load_internal</code><span class="sig-paren">(</span><em>q</em><span class="sig-paren">)</span><a class="headerlink" href="#element.Matrices.load_internal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build the load vector thermal diffusivity</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>mesh</strong> &#8211; object that includes the mesh atributes and methods for basis
+functions and transformation jacobians</li>
+<li><strong>q</strong> &#8211; thermal diffusivity</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="element.Matrices.stiffness">
+<code class="descname">stiffness</code><span class="sig-paren">(</span><em>k</em><span class="sig-paren">)</span><a class="headerlink" href="#element.Matrices.stiffness" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build the elemental stiffness matrix.</p>
+<p>Runs over each individual element properties when the object methods
+are called. The object is the mesh and its methods are basisFunction2D
+which defines the phi function and its derivative;  eleJacobian which
+produce a Jacobian matrix and its determinant and also the derivative
+of the basis function with respect the spatial coordinates.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>How it works:</p>
+<ol class="last arabic simple">
+<li>Loop over elements.</li>
+<li>loop over the 4 possible combination of 2 GP for each direction.</li>
+<li>Call the methods to create the derivative of shape functions  and Jacobian for each GP combination.</li>
+<li>Build the stiffness matrix from a matrix multiplication.</li>
+</ol>
+</div>
+<p>Gauss points from natural nodal coordinates:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">gp</span> <span class="o">=</span> <span class="p">[</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+       <span class="p">[</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+       <span class="p">[</span> <span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span><span class="p">]</span>
+       <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span><span class="p">]</span> <span class="p">]</span><span class="o">/</span> <span class="n">sqrt</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>mesh</strong> &#8211; object that includes the mesh atributes and methods for basis
+functions and transformation jacobians.</li>
+<li><strong>k</strong> (<em>function</em>) &#8211; material properties for the constitutive relation.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>K_ele</strong> &#8211;
+3nd order array 4x4 with the elemental
+stiffness matrix.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array of float</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="element.Matrices.stiffness2">
+<code class="descname">stiffness2</code><span class="sig-paren">(</span><em>k</em><span class="sig-paren">)</span><a class="headerlink" href="#element.Matrices.stiffness2" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build the elemental stiffness matrix.</p>
+<p>Runs over each individual element properties when the object methods
+are called. The object is the mesh and its methods are basisFunction2D
+which defines the phi function and its derivative;  eleJacobian which
+produce a Jacobian matrix and its determinant and also the derivative
+of the basis function with respect the spatial coordinates.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>How it works:</p>
+<ol class="last arabic simple">
+<li>Loop over elements.</li>
+<li>loop over the 4 possible combination of 2 GP for each direction.</li>
+<li>Call the methods to create the derivative of shape functions  and Jacobian for each GP combination.</li>
+<li>Build the stiffness matrix from a matrix multiplication.</li>
+</ol>
+</div>
+<p>Gauss points from natural nodal coordinates:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">gp</span> <span class="o">=</span> <span class="p">[</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+       <span class="p">[</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+       <span class="p">[</span> <span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span><span class="p">]</span>
+       <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span><span class="p">]</span> <span class="p">]</span><span class="o">/</span> <span class="n">sqrt</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>mesh</strong> &#8211; object that includes the mesh atributes and methods for basis
+functions and transformation jacobians.</li>
+<li><strong>k</strong> (<em>function</em>) &#8211; material properties for the constitutive relation.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>K_ele</strong> &#8211;
+3nd order array 4x4 with the elemental
+stiffness matrix.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">array of float</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-boundaryconditions">
+<span id="boundary-conditions-module"></span><h1>Boundary Conditions module<a class="headerlink" href="#module-boundaryconditions" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="boundaryconditions.dirichlet">
+<code class="descclassname">boundaryconditions.</code><code class="descname">dirichlet</code><span class="sig-paren">(</span><em>K</em>, <em>B</em>, <em>mesh</em>, <em>temperature</em><span class="sig-paren">)</span><a class="headerlink" href="#boundaryconditions.dirichlet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Apply Dirichlet BC.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>How its done:</p>
+<ol class="last arabic">
+<li><p class="first">Loop over the lines where Dirichlet boundary conditions are applied.</p>
+</li>
+<li><p class="first">loop over the lines at the boundary.</p>
+</li>
+<li><p class="first">If this nodes, which is identified as follows:</p>
+<div class="highlight-python"><div class="highlight"><pre>boundary_nodes = [line node1 node2]
+
+are in the line where dirichlet BC were specified, change the
+stiffness matrix and the B vector based on this node index.
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>K</strong> &#8211; Stiffness matrix.</li>
+<li><strong>B</strong> &#8211; Vector with the load and traction.</li>
+<li><strong>temperature</strong> &#8211; Function with 4 components.</li>
+<li><strong>temperature_sides</strong> &#8211; Boundary lines where dirichlet boundary conditions
+are applied.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><p>Modified stiffness matrix.</p>
+<p>B: Modified vector.</p>
+</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">K</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="boundaryconditions.dirichlet_sides">
+<code class="descclassname">boundaryconditions.</code><code class="descname">dirichlet_sides</code><span class="sig-paren">(</span><em>sides</em>, <em>tsides</em>, <em>mesh</em><span class="sig-paren">)</span><a class="headerlink" href="#boundaryconditions.dirichlet_sides" title="Permalink to this definition">¶</a></dt>
+<dd><p>Assign the sides that contain Dirichlet boundary conditions</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="boundaryconditions.neumann">
+<code class="descclassname">boundaryconditions.</code><code class="descname">neumann</code><span class="sig-paren">(</span><em>mesh</em>, <em>traction</em><span class="sig-paren">)</span><a class="headerlink" href="#boundaryconditions.neumann" title="Permalink to this definition">¶</a></dt>
+<dd><p>Apply Neumann BC.</p>
+<p>Computes the integral from the weak form with the boundary term.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>How its done:</p>
+<p>1. Define an array with the Gauss points for each path, each path will
+have 2 sets of two gauss points. One of the gp is fixed, which indicates
+that its going over an specific boundary of the element.</p>
+<p>Gauss points are defines as:</p>
+<div class="highlight-python"><div class="highlight"><pre>gp = [gp, -1    1st path --&gt; which has 2 possibilities for gp.
+      1,  gp    2nd path
+      gp,  1    3rd
+      -1,  gp]  4th
+</pre></div>
+</div>
+<p class="last">2. A loop over the elements on the boundary extracting also the side
+where the boundary is located on this element.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Edge elements are necessary because we need to extract the nodes
+from the connectivity. Then we can create a T for this element.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>traction</strong> &#8211; Function with the traction and the line where the traction
+is applied.</li>
+<li><strong>mesh</strong> &#8211; Object with the mesh attributes.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">Traction vector with size equals the dof.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">T</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="boundaryconditions.neumann_sides">
+<code class="descclassname">boundaryconditions.</code><code class="descname">neumann_sides</code><span class="sig-paren">(</span><em>sides</em>, <em>mesh</em><span class="sig-paren">)</span><a class="headerlink" href="#boundaryconditions.neumann_sides" title="Permalink to this definition">¶</a></dt>
+<dd><p>Assign the sides that contain Neumann boundary conditions</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Mesh module</a></li>
+<li><a class="reference internal" href="#module-element">Element module</a></li>
+<li><a class="reference internal" href="#module-boundaryconditions">Boundary Conditions module</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">elfLAB documentation!</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/code.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="elfLAB documentation!"
+             >previous</a> |</li>
+        <li><a href="index.html">ignis 3.0.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, Nasser Alkmim.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b2.
+    </div>
+  </body>
+</html>

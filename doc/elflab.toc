@@ -1,0 +1,44 @@
+\contentsline {section}{\numberline {1}Heat Equation}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Fourier's Law}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Newton's Law of Cooling}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Conservation of Energy}{3}{subsection.1.3}
+\contentsline {section}{\numberline {2}Steady Heat Equation}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Model}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Weak Form}{4}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Green's Theorem}{4}{subsubsection.2.2.1}
+\contentsline {subsection}{\numberline {2.3}Finite Elements Approximation}{4}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Shape Functions}{5}{subsubsection.2.3.1}
+\contentsline {subsection}{\numberline {2.4}Approximate Solution on the Weak Form}{5}{subsection.2.4}
+\contentsline {section}{\numberline {3}Transient Heat Equation}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Partial Differential Equation}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Weak Form}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Finite Elements Approximation}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Approximate Solution on the Weak Form}{7}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Time Discretization with Finite Differences}{7}{subsection.3.5}
+\contentsline {section}{\numberline {4}Implementation}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Preliminaries}{7}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Mapping}{7}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Jacobian}{8}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Gaussian Quadrature}{9}{subsubsection.4.1.3}
+\contentsline {subsection}{\numberline {4.2}Mesh Generation}{9}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Gmsh}{9}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Module}{10}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Methods}{10}{subsubsection.4.2.3}
+\contentsline {paragraph}{\textsf {basisFunction2D}}{10}{section*.4}
+\contentsline {paragraph}{\textsf {mapping}}{10}{section*.5}
+\contentsline {paragraph}{eleJacobian}{11}{section*.6}
+\contentsline {paragraph}{\textsf {ArchLength}}{11}{section*.7}
+\contentsline {subsection}{\numberline {4.3}Stiffness Matrix}{12}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Load Vector}{13}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Traction Vector}{13}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Mass Matrix}{14}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Boundary Conditions}{14}{subsection.4.7}
+\contentsline {section}{\numberline {5}Results}{15}{section.5}
+\contentsline {subsection}{\numberline {5.1}Dirichlet Conditions}{15}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Internal Load}{16}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Neumann Boundary Condition}{16}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}General materials}{17}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}General Geometry}{19}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Dam Examples}{20}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}General Tests}{21}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}Dam with non-convex Geometry}{22}{subsection.5.8}
