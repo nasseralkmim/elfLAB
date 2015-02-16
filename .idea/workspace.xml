@@ -35,8 +35,8 @@
               <file leaf-file-name="input.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/input.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.36975858" vertical-offset="77" max-vertical-offset="1072">
-                      <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                    <state vertical-scroll-proportion="0.18678527" vertical-offset="77" max-vertical-offset="1088">
+                      <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                       <folding>
                         <element signature="e#22#40#0" expanded="true" />
                       </folding>
@@ -412,7 +412,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424119791590</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new branch added&#10;">
+      <created>1424119905996</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1424119905996</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -478,7 +484,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="teste&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="teste&#10;" />
+    <MESSAGE value="new branch added&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="new branch added&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -559,8 +566,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36975858" vertical-offset="77" max-vertical-offset="1072">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.18678527" vertical-offset="77" max-vertical-offset="1088">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#22#40#0" expanded="true" />
           </folding>
