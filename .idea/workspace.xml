@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8fd69ab-466c-4030-9ecd-f4157d6c2d6d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.py" afterPath="$PROJECT_DIR$/input.py" />
+    <list default="true" id="e8fd69ab-466c-4030-9ecd-f4157d6c2d6d" name="Default" comment="teste&#10;" />
+    <list id="82616d1c-ed7b-41c5-8cc9-d1ee2ea30fb9" name="New changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ignis.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +35,8 @@
               <file leaf-file-name="input.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/input.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.31568018" vertical-offset="0" max-vertical-offset="1104">
-                      <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                    <state vertical-scroll-proportion="0.57306224" vertical-offset="93" max-vertical-offset="1072">
+                      <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
                       <folding>
                         <element signature="e#22#40#0" expanded="true" />
                       </folding>
@@ -50,8 +51,8 @@
               <file leaf-file-name="element.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/element.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.06736842" vertical-offset="192" max-vertical-offset="1712">
-                      <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+                    <state vertical-scroll-proportion="0.6408269" vertical-offset="192" max-vertical-offset="1712">
+                      <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
                       <folding>
                         <element signature="e#0#18#0" expanded="true" />
                       </folding>
@@ -141,7 +142,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,6 +162,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,10 +378,30 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e8fd69ab-466c-4030-9ecd-f4157d6c2d6d" name="Default" comment="" />
+      <changelist id="82616d1c-ed7b-41c5-8cc9-d1ee2ea30fb9" name="New changelist" comment="" />
       <created>1420638487062</created>
       <option name="number" value="Default" />
       <updated>1420638487062</updated>
     </task>
+    <task id="LOCAL-00001" summary="teste&#10;">
+      <created>1424113991324</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1424113991324</updated>
+    </task>
+    <task id="LOCAL-00002" summary="teste&#10;">
+      <created>1424114050497</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1424114050497</updated>
+    </task>
+    <task id="LOCAL-00003" summary="teste&#10;">
+      <created>1424118896959</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1424118896959</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -408,15 +429,16 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1296875" sideWeight="0.44832826" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32795155" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17759839" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1296875" sideWeight="0.55167174" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17759839" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.108333334" sideWeight="0.44832826" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1296875" sideWeight="0.55167174" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13562006" sideWeight="0.54814005" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -444,6 +466,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="teste&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="teste&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -452,6 +476,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1104">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="1712">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boundaryconditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2128">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmsh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4768">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/boundaryconditions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2128">
@@ -472,30 +536,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Issues 0.url">
+    <entry file="file://$PROJECT_DIR$/input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.040660735" vertical-offset="0" max-vertical-offset="787">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.57306224" vertical-offset="93" max-vertical-offset="1072">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/element.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06736842" vertical-offset="192" max-vertical-offset="1712">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.6408269" vertical-offset="192" max-vertical-offset="1712">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31568018" vertical-offset="0" max-vertical-offset="1104">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
