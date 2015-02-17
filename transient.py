@@ -57,7 +57,7 @@ def transient(mesh, delta_t, a0):
     a = spsolve(M, G)
 
     #plotter.trisurface(a, mesh)
-    plotter.tricontourtransient(a, mesh)
+    plotter.tricontour_transient(a, mesh)
     #plotter.nodes_network2(mesh)
 
     plt.show(block=False)
