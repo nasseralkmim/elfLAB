@@ -316,7 +316,7 @@ def tricontour(a, mesh):
     # plt.savefig('1.png', transparent=True, dpi=300)
     plt.draw()
 
-def tricontourtransient(a, mesh):
+def tricontour_transient(a, mesh):
     """Plot contour with the tricoutour function and the boundary line with
     the boundary node.
 
@@ -340,7 +340,7 @@ def tricontourtransient(a, mesh):
     CS2 = plt.tricontourf(xx, yy, triangles, zz, 10, origin='lower',
                           cmap='hot')
 
-    plt.plot(ccx , ccy, '-k')
+    #plt.plot(ccx , ccy, '-k')
     #plt.scatter(xx, yy, c=zz)
     #plt.xlabel(r'$x$', fontsize=18)
     #plt.ylabel(r'$y$', fontsize=18)
