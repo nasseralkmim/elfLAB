@@ -58,7 +58,7 @@ a = spsolve(K, B)
 
 plotter.trisurface(a, mesh)
 plotter.tricontour(a, mesh)
-plotter.nodes_network2(mesh)
+plotter.nodes_network_edges(mesh)
 
 
 plt.show()

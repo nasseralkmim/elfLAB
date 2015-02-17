@@ -11,6 +11,7 @@ class Matrices:
     def __init__(self, object):
         self.mesh = object
 
+
     def stiffness(self, k):
         """Build the elemental stiffness matrix.
 
@@ -73,6 +74,7 @@ class Matrices:
                         self.K[:, :, e] += kvar*(np.dot(np.transpose(B), B) *
                                             self.mesh.detJac)
 
+
     def load_internal(self, q):
         """Build the load vector thermal diffusivity.
 
@@ -98,6 +100,7 @@ class Matrices:
                 self.R[1, e] += load*self.mesh.phi[1]*self.mesh.detJac
                 self.R[2, e] += load*self.mesh.phi[2]*self.mesh.detJac
                 self.R[3, e] += load*self.mesh.phi[3]*self.mesh.detJac
+
 
 
     def mass(self):

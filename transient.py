@@ -10,7 +10,7 @@ import plotter
 import boundaryconditions
 
 
-def transient(mesh, delta_t, a0):
+def transient(mesh, delta_t, a0, i):
     """Solves for each step.
 
     """
@@ -37,8 +37,8 @@ def transient(mesh, delta_t, a0):
         return {}
 
     def temperature(x1, x2):
-        return {0:20,
-                1:20,
+        return {0:20-x2,
+                1:20-x2,
                 2:15,
                 3:27,
                 4:27,
@@ -57,8 +57,8 @@ def transient(mesh, delta_t, a0):
     a = spsolve(M, G)
 
     #plotter.trisurface(a, mesh)
-    plotter.tricontour_transient(a, mesh)
-    #plotter.nodes_network2(mesh)
+    plotter.tricontour_transient(a, mesh, i)
+    #plotter.nodes_network_edges(mesh)
 
     plt.show(block=False)
     return a
@@ -66,14 +66,14 @@ def transient(mesh, delta_t, a0):
 
 mesh = gmsh.parse('mesh4')
 
-delta_t = 0.1
+delta_t = 0.15
 
-time_interval = 100
+time_interval = 35
 
-a0 = np.zeros((mesh.num_nodes, 1))
+a0 = np.zeros((mesh.num_nodes, 1))+10
 
 for i in range(time_interval):
-    a = transient(mesh, delta_t, a0)
+    a = transient(mesh, delta_t, a0, i)
     a0 = np.reshape(a, (mesh.num_nodes, 1))
 
 plt.show()

@@ -150,7 +150,7 @@ def nodes_network(mesh):
     plt.show()
 
 
-def nodes_network2(mesh):
+def nodes_network_edges(mesh):
     c = mesh.nodes_coord
 
     X, Y = c[:, 0], c[:, 1]
@@ -316,12 +316,12 @@ def tricontour(a, mesh):
     # plt.savefig('1.png', transparent=True, dpi=300)
     plt.draw()
 
-def tricontour_transient(a, mesh):
+def tricontour_transient(a, mesh, i):
     """Plot contour with the tricoutour function and the boundary line with
     the boundary node.
 
     """
-    plt.figure('Tricontour')
+    #plt.figure('Tricontour - '+str(i))
     c = mesh.nodes_coord
     bn = mesh.boundary_nodes
 
@@ -348,6 +348,6 @@ def tricontour_transient(a, mesh):
     #cbar.ax.set_ylabel('Temperature', fontsize=14)
 
     limits=plt.axis('off')
-    # plt.savefig('1.png', transparent=True, dpi=300)
+    plt.savefig(str(i)+'.eps', transparent=True, dpi=300)
     plt.draw()
 
