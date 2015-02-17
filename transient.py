@@ -68,9 +68,9 @@ mesh = gmsh.parse('mesh4')
 
 delta_t = 0.1
 
-time_interval = 10
+time_interval = 100
 
-a0 = np.zeros((mesh.num_nodes, 1)) + 1
+a0 = np.zeros((mesh.num_nodes, 1))
 
 for i in range(time_interval):
     a = transient(mesh, delta_t, a0)
