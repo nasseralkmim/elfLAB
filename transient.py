@@ -68,7 +68,7 @@ mesh = gmsh.parse('mesh4')
 
 delta_t = 0.1
 
-time_interval = 100
+time_interval = 10
 
 a0 = np.zeros((mesh.num_nodes, 1)) + 1
 
