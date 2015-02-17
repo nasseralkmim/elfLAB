@@ -316,3 +316,38 @@ def tricontour(a, mesh):
     # plt.savefig('1.png', transparent=True, dpi=300)
     plt.draw()
 
+def tricontour_transient(a, mesh):
+    """Plot contour with the tricoutour function and the boundary line with
+    the boundary node.
+
+    """
+    plt.figure('Tricontour')
+    c = mesh.nodes_coord
+    bn = mesh.boundary_nodes
+
+    xx, yy, zz = c[:, 0], c[:, 1], a
+
+    ccx = np.append(c[bn[:, 1], 0], c[bn[0, 1], 0])
+    ccy = np.append(c[bn[:, 1], 1], c[bn[0, 1], 1])
+
+    triangles = []
+    for n1, n2, n3, n4 in mesh.ele_conn:
+        triangles.append([n1, n2, n3])
+        triangles.append([n1, n3, n4])
+
+    triangles = np.asarray(triangles)
+
+    CS2 = plt.tricontourf(xx, yy, triangles, zz, 10, origin='lower',
+                          cmap='hot')
+
+    #plt.plot(ccx , ccy, '-k')
+    #plt.scatter(xx, yy, c=zz)
+    #plt.xlabel(r'$x$', fontsize=18)
+    #plt.ylabel(r'$y$', fontsize=18)
+    #cbar = plt.colorbar(CS2, shrink=0.8, extend='both')
+    #cbar.ax.set_ylabel('Temperature', fontsize=14)
+
+    limits=plt.axis('off')
+    # plt.savefig('1.png', transparent=True, dpi=300)
+    plt.draw()
+
