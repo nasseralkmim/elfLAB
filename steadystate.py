@@ -1,6 +1,7 @@
 __author__ = 'Nasser'
 import numpy as np
 from scipy.sparse.linalg import spsolve
+from scipy import sparse
 import matplotlib.pyplot as plt
 import gmsh
 import element
@@ -35,8 +36,8 @@ def traction(x1, x2):
 
 
 def temperature(x1, x2):
-    return {0:20-x2,
-            1:20-x2,
+    return {0:20,
+            1:20,
             2:15,
             3:27,
             4:27,
@@ -49,6 +50,8 @@ B = R + T
 
 
 K, B = boundaryconditions.dirichlet(K, B, mesh, temperature)
+
+K = sparse.csc_matrix(K)
 
 a = spsolve(K, B)
 

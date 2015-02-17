@@ -56,7 +56,7 @@ def dirichlet(K, B, mesh, temperature):
                 B[mesh.boundary_nodes[n, 1]] = t1[line]
                 B[mesh.boundary_nodes[n, 2]] = t2[line]
 
-    K = sparse.csc_matrix(K)
+    #K = sparse.csc_matrix(K)
     return K, B
 
 @jit
