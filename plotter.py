@@ -3,7 +3,6 @@ import matplotlib.mlab as ml
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri
-from mayavi import mlab
 import networkx as nx
 import scipy.interpolate
 from scipy.spatial import cKDTree as KDTree
@@ -91,23 +90,6 @@ def nodes(nodes_coord):
     plt.plot(X, Y, 'ok')
     plt.show()
 
-def mayavi(a, mesh):
-    c = mesh.nodes_coord
-
-    Z = a
-
-    X, Y = c[:, 0], c[:, 1]
-
-    nx = 1000
-    ny = 1000
-    xi = np.linspace(min(X), max(X), nx)
-    yi = np.linspace(min(Y), max(Y), ny)
-
-    Xg, Yg = np.meshgrid(xi, yi)
-    Zg = ml.griddata(X, Y, Z, Xg, Yg, interp='nn')
-
-    mlab.imshow(Zg)
-    mlab.show()
 
 def nodes_network(mesh):
 

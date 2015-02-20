@@ -258,7 +258,7 @@ class parse:
                               self.Jac[0, 1]*self.Jac[1, 0]))
 
         if self.detJac < 0.0:
-            print 'detJac negativo'
+            print ('detJac negativo')
 
         # JacInv = [ e1_x1 e2_x1
         #            e1_x2 e2_x2 ]
