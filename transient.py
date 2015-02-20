@@ -70,7 +70,7 @@ delta_t = 0.15
 
 time_interval = 35
 
-a0 = np.zeros((mesh.num_nodes, 1))+10
+a0 = np.zeros((mesh.num_nodes, 1))+2
 
 for i in range(time_interval):
     a = transient(mesh, delta_t, a0, i)
