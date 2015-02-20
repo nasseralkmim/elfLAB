@@ -2,12 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab52b4e-f35e-406b-b471-d3dbd6a88c69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/doctrees/environment.pickle" afterPath="$PROJECT_DIR$/build/doctrees/environment.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/objects.inv" afterPath="$PROJECT_DIR$/build/html/objects.inv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/doctrees/code.doctree" afterPath="$PROJECT_DIR$/build/doctrees/code.doctree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/code.html" afterPath="$PROJECT_DIR$/build/html/code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gmsh.py" afterPath="$PROJECT_DIR$/gmsh.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/searchindex.js" afterPath="$PROJECT_DIR$/build/html/searchindex.js" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\doctrees\code.doctree" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\doctrees\environment.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\doctrees\index.doctree" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\.buildinfo" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_sources\code.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_sources\index.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\basic.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\comment-bright.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\comment-close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\comment.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\default.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\doctools.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\down-pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\down.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\file.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\jquery-1.11.1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\minus.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\plus.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\pygments.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\searchtools.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\underscore-1.3.1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\underscore.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\up-pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\up.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\_static\websupport.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\code.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\genindex.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\objects.inv" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\py-modindex.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\search.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\build\html\searchindex.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\docs\source\assemble.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\docs\source\dirichlet.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\docs\source\element.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\docs\source\gmsh.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\docs\source\input.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\docs\source\mesh2d.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\docs\source\modules.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\docs\source\plotter.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\docs\source\test.rst" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make.bat" afterPath="$PROJECT_DIR$/make.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="elflab.iws" />
@@ -33,7 +72,7 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.52902454">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.6289593">
+        <splitter split-orientation="horizontal" split-proportion="0.40950227">
           <split-first>
             <leaf>
               <file leaf-file-name="steadystate.py" pinned="false" current-in-tab="false">
@@ -49,7 +88,7 @@
               <file leaf-file-name="transient.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/transient.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.16688396" vertical-offset="0" max-vertical-offset="1248">
+                    <state vertical-scroll-proportion="0.16976127" vertical-offset="0" max-vertical-offset="1248">
                       <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
                       <folding />
                     </state>
@@ -63,8 +102,8 @@
               <file leaf-file-name="gmsh.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/gmsh.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.38196287" vertical-offset="3600" max-vertical-offset="4720">
-                      <caret line="243" column="20" selection-start-line="243" selection-start-column="20" selection-end-line="243" selection-end-column="20" />
+                    <state vertical-scroll-proportion="0.1061008" vertical-offset="3600" max-vertical-offset="4720">
+                      <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
                       <folding>
                         <element signature="e#0#18#0" expanded="true" />
                       </folding>
@@ -122,6 +161,7 @@
         <option value="$PROJECT_DIR$/source/conf.py" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/gmsh.py" />
+        <option value="$PROJECT_DIR$/make.bat" />
       </list>
     </option>
   </component>
@@ -186,20 +226,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elfLAB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elflab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -436,7 +462,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424446744106</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="general commit">
+      <created>1424446861336</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1424446861336</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -637,34 +669,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/assemble.rst">
+    <entry file="file://$PROJECT_DIR$/transient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="767">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.16976127" vertical-offset="0" max-vertical-offset="1248">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.862069" vertical-offset="2270" max-vertical-offset="3024">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3024">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/transient.py">
+    <entry file="file://$PROJECT_DIR$/make.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16688396" vertical-offset="0" max-vertical-offset="1248">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state vertical-scroll-proportion="-0.17558299" vertical-offset="240" max-vertical-offset="4304">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gmsh.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38196287" vertical-offset="3600" max-vertical-offset="4720">
-          <caret line="243" column="20" selection-start-line="243" selection-start-column="20" selection-end-line="243" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.1061008" vertical-offset="3600" max-vertical-offset="4720">
+          <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
