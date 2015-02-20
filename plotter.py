@@ -348,6 +348,6 @@ def tricontour_transient(a, mesh, i):
     #cbar.ax.set_ylabel('Temperature', fontsize=14)
 
     limits=plt.axis('off')
-    plt.savefig(str(i)+'.eps', transparent=True, dpi=300)
+    #plt.savefig(str(i)+'.eps', transparent=True, dpi=300)
     plt.draw()
 
