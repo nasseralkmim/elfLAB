@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab52b4e-f35e-406b-b471-d3dbd6a88c69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/down-pressed.png" afterPath="$PROJECT_DIR$/build/html/_static/down-pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/down.png" afterPath="$PROJECT_DIR$/build/html/_static/down.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/doctrees/environment.pickle" afterPath="$PROJECT_DIR$/build/doctrees/environment.pickle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/file.png" afterPath="$PROJECT_DIR$/build/html/_static/file.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/minus.png" afterPath="$PROJECT_DIR$/build/html/_static/minus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/objects.inv" afterPath="$PROJECT_DIR$/build/html/objects.inv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/plus.png" afterPath="$PROJECT_DIR$/build/html/_static/plus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/up-pressed.png" afterPath="$PROJECT_DIR$/build/html/_static/up-pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/up.png" afterPath="$PROJECT_DIR$/build/html/_static/up.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/basic.css" afterPath="$PROJECT_DIR$/build/html/_static/basic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/doctrees/code.doctree" afterPath="$PROJECT_DIR$/build/doctrees/code.doctree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/code.html" afterPath="$PROJECT_DIR$/build/html/code.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/conf.py" afterPath="$PROJECT_DIR$/source/conf.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/default.css" afterPath="$PROJECT_DIR$/build/html/_static/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/doctools.js" afterPath="$PROJECT_DIR$/build/html/_static/doctools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/genindex.html" afterPath="$PROJECT_DIR$/build/html/genindex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/doctrees/index.doctree" afterPath="$PROJECT_DIR$/build/doctrees/index.doctree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/index.html" afterPath="$PROJECT_DIR$/build/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/jquery.js" afterPath="$PROJECT_DIR$/build/html/_static/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/py-modindex.html" afterPath="$PROJECT_DIR$/build/html/py-modindex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/search.html" afterPath="$PROJECT_DIR$/build/html/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/searchindex.js" afterPath="$PROJECT_DIR$/build/html/searchindex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/searchtools.js" afterPath="$PROJECT_DIR$/build/html/_static/searchtools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/sidebar.js" afterPath="$PROJECT_DIR$/build/html/_static/sidebar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/underscore.js" afterPath="$PROJECT_DIR$/build/html/_static/underscore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/_static/websupport.js" afterPath="$PROJECT_DIR$/build/html/_static/websupport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="elflab.iws" />
@@ -53,7 +28,7 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.52902454">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.5">
+        <splitter split-orientation="horizontal" split-proportion="0.6289593">
           <split-first>
             <leaf>
               <file leaf-file-name="steadystate.py" pinned="false" current-in-tab="false">
@@ -69,7 +44,7 @@
               <file leaf-file-name="transient.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/transient.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.29708222" vertical-offset="0" max-vertical-offset="1248">
+                    <state vertical-scroll-proportion="0.29204693" vertical-offset="0" max-vertical-offset="1248">
                       <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
                       <folding />
                     </state>
@@ -141,6 +116,7 @@
         <option value="$PROJECT_DIR$/gmsh.py" />
         <option value="$PROJECT_DIR$/plotter.py" />
         <option value="$PROJECT_DIR$/source/conf.py" />
+        <option value="$PROJECT_DIR$/Makefile" />
       </list>
     </option>
   </component>
@@ -443,7 +419,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424444005186</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="general commit">
+      <created>1424444907993</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1424444907993</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -654,9 +636,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/assemble.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="767">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.862069" vertical-offset="2270" max-vertical-offset="3024">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/transient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29708222" vertical-offset="0" max-vertical-offset="1248">
+        <state vertical-scroll-proportion="0.29204693" vertical-offset="0" max-vertical-offset="1248">
           <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding />
         </state>
