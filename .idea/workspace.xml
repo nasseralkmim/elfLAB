@@ -1,133 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d97ae544-7fe2-4d23-a8f0-f54a6efefb1b" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\elflab.aux" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\elflab.dvi" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\elflab.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\elflab.out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\elflab.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\elflab.ps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\elflab.tex" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\elflab.toc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\0.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\10.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\11.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\12.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\13.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\14.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\15.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\16.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\17.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\18.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\19.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\20.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\21.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\22.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\23.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\24.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\25.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\26.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\27.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\28.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\29.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\3.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\30.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\31.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\32.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\33.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\34.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\4.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\5.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\6.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\7.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\8.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\9.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam1_1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam1_2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam1_3.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam1_4.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam2_1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam2_2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam2_3.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam2_4.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam3_1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam3_2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam3_3.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam3_4.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam4_1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam4_2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam4_3.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam4_4.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam5_1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam5_2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\exdam5_3.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_1.1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_2.1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_3.1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_3.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_4.1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_4.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_5.1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_5.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_6.1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_6.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_7.1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\figure_7.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\isoparametric.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\logo.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\logo2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\logo2.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\logo3.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\logo3.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\logo4.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\logo4.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\logo5.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\logo5.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\logo6.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\logo7.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\mesh1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\mesh2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\meshgmsh.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test1_1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test1_2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test1_3.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test2_1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test2_2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test2_3.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test2_4.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test3_1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test3_2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test3_3.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test3_4.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test4_1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test4_2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test4_3.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test5_1.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test5_2.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\fig\test5_3.eps" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\poster\Poster-JoseAugusto-Pibic.pptm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\poster\casestudy.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\poster\casestudy.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\poster\code.PNG" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\poster\drawing.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\poster\elemtno.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\poster\poster.ppt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\poster\posterNasser.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\poster\posterNasserPibic.ppt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\poster\posterNasserv2.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\poster\shape function.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\poster\shape.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\doc\validations.xlsx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transient.py" afterPath="$PROJECT_DIR$/transient.py" />
+    <list default="true" id="9ab52b4e-f35e-406b-b471-d3dbd6a88c69" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/conf.py" afterPath="$PROJECT_DIR$/source/conf.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path="elfLAB.iws" />
+    <ignored path="elflab.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -143,94 +21,35 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="elfLAB" />
+    <favorites_list name="elflab" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.27947336">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="transient.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/transient.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7718919" vertical-offset="310" max-vertical-offset="1248">
-                  <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="steadystate.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/steadystate.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="992">
-                  <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.5">
-          <split-first>
-            <leaf>
-              <file leaf-file-name="plotter.py" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/plotter.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5744">
-                      <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding>
-                        <element signature="e#0#18#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="element.py" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/element.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2048">
-                      <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding>
-                        <element signature="e#0#18#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="gmsh.py" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/gmsh.py">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4720">
-                      <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding>
-                        <element signature="e#0#18#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="conf.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/conf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23880596" vertical-offset="384" max-vertical-offset="4672">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/steadystate.py" />
-        <option value="$PROJECT_DIR$/transient.py" />
+        <option value="$PROJECT_DIR$/source/conf.py" />
       </list>
     </option>
   </component>
@@ -250,6 +69,9 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -263,7 +85,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -282,53 +103,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elfLAB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elflab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elfLAB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elflab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FullScreen" value="false" />
-    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.transient">
-    <configuration default="false" name="steadystate" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="elfLAB" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/steadystate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="transient" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="elfLAB" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transient.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -340,7 +158,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="elfLAB" />
+      <module name="elflab" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -355,7 +173,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="elfLAB" />
+      <module name="elflab" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -377,7 +195,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="elfLAB" />
+      <module name="elflab" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -401,7 +219,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="elfLAB" />
+      <module name="elflab" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -420,7 +238,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="elfLAB" />
+      <module name="elflab" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -439,7 +257,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="elfLAB" />
+      <module name="elflab" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -451,33 +269,28 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.steadystate" />
-      <item index="1" class="java.lang.String" itemvalue="Python.transient" />
-    </list>
-    <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.transient" />
-        <item index="1" class="java.lang.String" itemvalue="Python.steadystate" />
-      </list>
-    </recent_temporary>
+    <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d97ae544-7fe2-4d23-a8f0-f54a6efefb1b" name="Default" comment="" />
-      <created>1424214298793</created>
+      <changelist id="9ab52b4e-f35e-406b-b471-d3dbd6a88c69" name="Default" comment="" />
+      <created>1424438321686</created>
       <option name="number" value="Default" />
-      <updated>1424214298793</updated>
+      <updated>1424438321686</updated>
     </task>
+    <task id="LOCAL-00001" summary="general commit">
+      <created>1424438527454</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1424438527454</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1929" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1296875" sideWeight="0.44832826" order="0" side_tool="false" content_ui="combo" />
@@ -490,11 +303,12 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13562006" sideWeight="0.54814005" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="91" y="565" width="683" height="390" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17701863" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17759839" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -516,192 +330,18 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="general commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="general commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/transient.py">
+    <entry file="file://$PROJECT_DIR$/source/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1248">
-          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steadystate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="992">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5744">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2048">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmsh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4720">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1248">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steadystate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="992">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5744">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2048">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmsh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4720">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1248">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steadystate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="992">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5744">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2048">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmsh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4720">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5744">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmsh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4720">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steadystate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="992">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2048">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7718919" vertical-offset="310" max-vertical-offset="1248">
-          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.23880596" vertical-offset="384" max-vertical-offset="4672">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding />
         </state>
       </provider>
