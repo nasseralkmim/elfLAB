@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab52b4e-f35e-406b-b471-d3dbd6a88c69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/doctrees/environment.pickle" afterPath="$PROJECT_DIR$/build/doctrees/environment.pickle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/objects.inv" afterPath="$PROJECT_DIR$/build/html/objects.inv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/doctrees/code.doctree" afterPath="$PROJECT_DIR$/build/doctrees/code.doctree" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/code.html" afterPath="$PROJECT_DIR$/build/html/code.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gmsh.py" afterPath="$PROJECT_DIR$/gmsh.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/html/searchindex.js" afterPath="$PROJECT_DIR$/build/html/searchindex.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="elflab.iws" />
@@ -44,8 +49,8 @@
               <file leaf-file-name="transient.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/transient.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.29204693" vertical-offset="0" max-vertical-offset="1248">
-                      <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+                    <state vertical-scroll-proportion="0.16688396" vertical-offset="0" max-vertical-offset="1248">
+                      <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
                       <folding />
                     </state>
                   </provider>
@@ -58,8 +63,8 @@
               <file leaf-file-name="gmsh.py" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/gmsh.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.7427056" vertical-offset="3600" max-vertical-offset="4720">
-                      <caret line="260" column="37" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
+                    <state vertical-scroll-proportion="0.38196287" vertical-offset="3600" max-vertical-offset="4720">
+                      <caret line="243" column="20" selection-start-line="243" selection-start-column="20" selection-end-line="243" selection-end-column="20" />
                       <folding>
                         <element signature="e#0#18#0" expanded="true" />
                       </folding>
@@ -113,10 +118,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/transient.py" />
-        <option value="$PROJECT_DIR$/gmsh.py" />
         <option value="$PROJECT_DIR$/plotter.py" />
         <option value="$PROJECT_DIR$/source/conf.py" />
         <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/gmsh.py" />
       </list>
     </option>
   </component>
@@ -425,7 +430,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424444907993</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="general commit">
+      <created>1424446744106</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1424446744106</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -598,16 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmsh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7427056" vertical-offset="3600" max-vertical-offset="4720">
-          <caret line="260" column="37" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/steadystate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="992">
@@ -654,9 +655,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/transient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29204693" vertical-offset="0" max-vertical-offset="1248">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.16688396" vertical-offset="0" max-vertical-offset="1248">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmsh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38196287" vertical-offset="3600" max-vertical-offset="4720">
+          <caret line="243" column="20" selection-start-line="243" selection-start-column="20" selection-end-line="243" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -241,7 +241,7 @@ class parse:
 
         Args:
             element_nodes_coord ([float, float]: Coordinates of an individual
-            element
+            element.
 
         Returns:
             Jac (float): jacobian matrix 2x2
