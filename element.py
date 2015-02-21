@@ -8,8 +8,9 @@ class Matrices:
     Creates an object that has as attributes the elemental matrices.
 
     """
-    def __init__(self, object):
-        self.mesh = object
+    def __init__(self, objectmesh):
+        self.m = objectmesh
+
 
 
     def stiffness(self, k):
@@ -52,27 +53,27 @@ class Matrices:
 
         """
 
-        self.gp = self.mesh.chi / math.sqrt(3)
+        self.gp = self.m.chi / math.sqrt(3)
 
         B = np.zeros((2, 4))
-        self.K = np.zeros((4, 4, self.mesh.num_ele))
+        self.K = np.zeros((4, 4, self.m.num_ele))
 
         for surface in k(1,1).keys():
-            for e in range(self.mesh.num_ele):
-                if self.mesh.ele_surface[e, 1] == surface:
+            for e in range(self.m.num_ele):
+                if self.m.ele_surface[e, 1] == surface:
                     for w in range(4):
-                        self.mesh.basisFunction2D(self.gp[w])
-                        self.mesh.eleJacobian(self.mesh.nodes_coord[
-                            self.mesh.ele_conn[e, :]])
+                        self.m.basisFunction2D(self.gp[w])
+                        self.m.eleJacobian(self.m.nodes_coord[
+                            self.m.ele_conn[e, :]])
 
-                        x1_o_e1e2, x2_o_e1e2 = self.mesh.mapping(e)
+                        x1_o_e1e2, x2_o_e1e2 = self.m.mapping(e)
 
                         kvar = k(x1_o_e1e2, x2_o_e1e2)[surface]
 
-                        B = self.mesh.dphi_xi
+                        B = self.m.dphi_xi
 
                         self.K[:, :, e] += kvar*(np.dot(np.transpose(B), B) *
-                                            self.mesh.detJac)
+                                            self.m.detJac)
 
 
     def load_internal(self, q):
@@ -84,22 +85,22 @@ class Matrices:
             q: thermal diffusivity
 
         """
-        self.R = np.zeros((4, self.mesh.num_ele))
+        self.R = np.zeros((4, self.m.num_ele))
 
-        for e in range(self.mesh.num_ele):
+        for e in range(self.m.num_ele):
             for w in range(4):
-                self.mesh.basisFunction2D(self.gp[w])
-                self.mesh.eleJacobian(self.mesh.nodes_coord[
-                    self.mesh.ele_conn[e]])
+                self.m.basisFunction2D(self.gp[w])
+                self.m.eleJacobian(self.m.nodes_coord[
+                    self.m.ele_conn[e]])
 
-                x1_o_e1e2, x2_o_e1e2 = self.mesh.mapping(e)
+                x1_o_e1e2, x2_o_e1e2 = self.m.mapping(e)
 
                 load = q(x1_o_e1e2, x2_o_e1e2)
 
-                self.R[0, e] += load*self.mesh.phi[0]*self.mesh.detJac
-                self.R[1, e] += load*self.mesh.phi[1]*self.mesh.detJac
-                self.R[2, e] += load*self.mesh.phi[2]*self.mesh.detJac
-                self.R[3, e] += load*self.mesh.phi[3]*self.mesh.detJac
+                self.R[0, e] += load*self.m.phi[0]*self.m.detJac
+                self.R[1, e] += load*self.m.phi[1]*self.m.detJac
+                self.R[2, e] += load*self.m.phi[2]*self.m.detJac
+                self.R[3, e] += load*self.m.phi[3]*self.m.detJac
 
 
 
@@ -107,16 +108,16 @@ class Matrices:
         """Build the mass matrix for each element.
 
         """
-        self.M = np.zeros((4, 4, self.mesh.num_ele))
+        self.M = np.zeros((4, 4, self.m.num_ele))
 
-        for e in range(self.mesh.num_ele):
+        for e in range(self.m.num_ele):
             for w in range(4):
-                self.mesh.basisFunction2D(self.gp[w])
-                self.mesh.eleJacobian(self.mesh.nodes_coord[
-                    self.mesh.ele_conn[e]])
+                self.m.basisFunction2D(self.gp[w])
+                self.m.eleJacobian(self.m.nodes_coord[
+                    self.m.ele_conn[e]])
 
-                self.M[0, :, e] += self.mesh.phi[0]*self.mesh.phi[:]
-                self.M[1, :, e] += self.mesh.phi[1]*self.mesh.phi[:]
-                self.M[2, :, e] += self.mesh.phi[2]*self.mesh.phi[:]
-                self.M[3, :, e] += self.mesh.phi[3]*self.mesh.phi[:]
+                self.M[0, :, e] += self.m.phi[0]*self.m.phi[:]
+                self.M[1, :, e] += self.m.phi[1]*self.m.phi[:]
+                self.M[2, :, e] += self.m.phi[2]*self.m.phi[:]
+                self.M[3, :, e] += self.m.phi[3]*self.m.phi[:]
 
