@@ -13,7 +13,7 @@ class Matrices:
 
 
 
-    def stiffness(self, k):
+    def stiffness_1dof(self, k):
         """Build the elemental stiffness matrix.
 
         Runs over each individual element properties when the object methods
@@ -76,7 +76,7 @@ class Matrices:
                                             self.m.detJac)
 
 
-    def load_internal(self, q):
+    def load_1dof(self, q):
         """Build the load vector thermal diffusivity.
 
         Args:
@@ -120,4 +120,5 @@ class Matrices:
                 self.M[1, :, e] += self.m.phi[1]*self.m.phi[:]
                 self.M[2, :, e] += self.m.phi[2]*self.m.phi[:]
                 self.M[3, :, e] += self.m.phi[3]*self.m.phi[:]
+
 

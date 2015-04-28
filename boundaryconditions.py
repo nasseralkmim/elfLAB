@@ -5,7 +5,7 @@ import math
 from numba import jit
 
 
-def dirichlet(K, B, mesh, temperature):
+def dirichlet_1dof(K, B, mesh, temperature):
     """Apply Dirichlet BC.
 
     .. note::
@@ -60,7 +60,7 @@ def dirichlet(K, B, mesh, temperature):
     return K, B
 
 @jit
-def neumann(mesh, traction):
+def neumann_1dof(mesh, traction):
     """Apply Neumann BC.
 
     Computes the integral from the weak form with the boundary term.
@@ -128,3 +128,4 @@ def neumann(mesh, traction):
     T = assemble.globalVector(Tele, mesh)
 
     return T
+
