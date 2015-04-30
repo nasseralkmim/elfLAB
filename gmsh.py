@@ -257,9 +257,6 @@ class parse:
         self.detJac = abs((self.Jac[0, 0]*self.Jac[1, 1] -
                               self.Jac[0, 1]*self.Jac[1, 0]))
 
-        if self.detJac < 0.0:
-            print ('detJac negativo')
-
         # JacInv = [ e1_x1 e2_x1
         #            e1_x2 e2_x2 ]
         self.JacInv = ((1.0 / self.detJac) *
@@ -270,7 +267,7 @@ class parse:
         self.dphi_xi2 = np.dot(self.JacInv, self.dphi_ei)
 
         # Using Chain rule,
-        # phi_xi = hi_eI * eI_xi (2x8 array)
+        # phi_xi = phi_eI * eI_xi (2x8 array)
         self.dphi_xi = np.zeros((2, 4))
         self.dphi_xi[0, :] = (self.dphi_ei[0, :]*self.JacInv[0, 0] +
                               self.dphi_ei[1, :]*self.JacInv[0, 1])

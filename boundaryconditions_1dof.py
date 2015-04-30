@@ -1,11 +1,11 @@
 import numpy as np
-import assemble
+import assemble_1dof
 from scipy import sparse
 import math
 from numba import jit
 
 
-def dirichlet_1dof(K, B, mesh, temperature):
+def dirichlet(K, B, mesh, temperature):
     """Apply Dirichlet BC.
 
     .. note::
@@ -60,7 +60,7 @@ def dirichlet_1dof(K, B, mesh, temperature):
     return K, B
 
 @jit
-def neumann_1dof(mesh, traction):
+def neumann(mesh, traction):
     """Apply Neumann BC.
 
     Computes the integral from the weak form with the boundary term.
@@ -125,7 +125,7 @@ def neumann_1dof(mesh, traction):
                     Tele[2, ele] += mesh.phi[2]*t[l]*mesh.ArchLength[side]
                     Tele[3, ele] += mesh.phi[3]*t[l]*mesh.ArchLength[side]
 
-    T = assemble.globalVector(Tele, mesh)
+    T = assemble_1dof.globalVector(Tele, mesh)
 
     return T
 

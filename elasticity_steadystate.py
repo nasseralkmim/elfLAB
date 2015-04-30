@@ -5,60 +5,53 @@ from scipy.sparse.linalg import spsolve
 from scipy import sparse
 import matplotlib.pyplot as plt
 import gmsh
-import element
-import assemble
+import element_2dof
+import assemble_2dof
 import plotter
-import boundaryconditions
+import boundaryconditions_2dof
 
-mesh = gmsh.parse('mesh13')
+mesh = gmsh.parse('mesh4')
 
-ele = element.Matrices(mesh)
+ele = element_2dof.Matrices(mesh)
 
 s = mesh.surfaces
-def k(x1, x2):
-    return {s[0]: 1}
 
-ele.stiffness_1dof(k)
+ele.stiffness(nu=0.1, E=1000.0)
 
+def distributed_load(x1, x2):
+    return np.array([
+        150.0,
+        0.0
+    ])
 
-def load(x1, x2):
-    return 0.0
+ele.load(distributed_load)
 
-
-ele.load_1dof(load)
-
-
-K = assemble.globalMatrix(ele.K, mesh)
-R = assemble.globalVector(ele.R, mesh)
+K = assemble_2dof.globalMatrix(ele.K, mesh)
+R = assemble_2dof.globalVector(ele.R, mesh)
 
 
 def traction(x1, x2):
     return {}
 
 
-def temperature(x1, x2):
-    return {0:20,
-            1:20,
-            2:15,
-            3:10
-          }
+def displacement(x1, x2):
+    return {
+        2:[0., 0.]
+    }
 
-T = boundaryconditions.neumann_1dof(mesh, traction)
+T = boundaryconditions_2dof.neumann(mesh, traction)
 
+B = R #+ T
 
-B = R + T
-
-
-K, B = boundaryconditions.dirichlet_1dof(K, B, mesh, temperature)
+K, B = boundaryconditions_2dof.dirichlet(K, B, mesh, displacement)
 
 K = sparse.csc_matrix(K)
 
 a = spsolve(K, B)
 
+plotter.nodes_network_deformedshape2(mesh, a)
+#plotter.nodes_network_edges(mesh)
 
-plotter.trisurface(a, mesh)
-plotter.tricontour(a, mesh)
-plotter.nodes_network_edges(mesh)
 
 
 plt.show()

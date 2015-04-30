@@ -4,34 +4,34 @@ from scipy import sparse
 from scipy.sparse.linalg import spsolve
 import matplotlib.pyplot as plt
 import gmsh
-import element
-import assemble
+import element_1dof
+import assemble_1dof
 import plotter
-import boundaryconditions
+import boundaryconditions_1dof
 
 
 def transient(mesh, delta_t, a0, i):
     """Solves for each step.
 
     """
-    ele = element.Matrices(mesh)
+    ele = element_1dof.Matrices(mesh)
 
     s = mesh.surfaces
     def k(x1, x2):
         return {s[0]: 1}
 
-    ele.stiffness_1dof(k)
+    ele.stiffness(k)
 
     ele.mass()
 
     def load(x1, x2):
         return 0.0
 
-    ele.load_1dof(load)
+    ele.load(load)
 
-    K = assemble.globalMatrix(ele.K, mesh)
-    M = assemble.globalMatrix(ele.M, mesh)
-    R = assemble.globalVector(ele.R, mesh)
+    K = assemble_1dof.globalMatrix(ele.K, mesh)
+    M = assemble_1dof.globalMatrix(ele.M, mesh)
+    R = assemble_1dof.globalVector(ele.R, mesh)
 
     def traction(x1, x2):
         return {}
@@ -44,11 +44,11 @@ def transient(mesh, delta_t, a0, i):
                 4:27,
                 5:27}
 
-    T = boundaryconditions.neumann_1dof(mesh, traction)
+    T = boundaryconditions_1dof.neumann(mesh, traction)
 
     B = R + T
 
-    K, B = boundaryconditions.dirichlet_1dof(K, B, mesh, temperature)
+    K, B = boundaryconditions_1dof.dirichlet(K, B, mesh, temperature)
 
     G = delta_t*(B - np.dot(K, a0)) + np.dot(M, a0)
 

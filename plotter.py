@@ -96,22 +96,23 @@ def nodes_network(mesh):
     c = mesh.nodes_coord
 
     X, Y = c[:, 0], c[:, 1]
-
-    G = nx.Graph()
+    plt.figure('Network W/o Labels')
+    G2 = nx.Graph()
 
     label = []
     for i in range(len(X)):
         label.append(i)
-        G.add_node(i, posxy=(X[i], Y[i]))
+        G2.add_node(i, posxy=(X[i], Y[i]))
 
     if mesh.gmsh == 1.0:
         temp = np.copy(mesh.ele_conn[:, 2])
         mesh.ele_conn[:, 2] = mesh.ele_conn[:, 3]
         mesh.ele_conn[:, 3] = temp
+        mesh.gmsh += 1
 
 
     for i in range(len(mesh.ele_conn)):
-        G.add_cycle([mesh.ele_conn[i, 0],
+        G2.add_cycle([mesh.ele_conn[i, 0],
                      mesh.ele_conn[i, 1],
                      mesh.ele_conn[i, 3],
                      mesh.ele_conn[i, 2]], )
@@ -124,12 +125,12 @@ def nodes_network(mesh):
             = mesh.boundary_nodes[i, 0]
 
 
-    positions = nx.get_node_attributes(G, 'posxy')
+    positions = nx.get_node_attributes(G2, 'posxy')
 
-    nx.draw_networkx(G, positions, node_size=5, node_color='k', font_size=0)
+    nx.draw_networkx(G2, positions, node_size=5, node_color='k', font_size=0)
 
     limits=plt.axis('off')
-    plt.show()
+
 
 
 def nodes_network_edges(mesh):
@@ -148,7 +149,7 @@ def nodes_network_edges(mesh):
         temp = np.copy(mesh.ele_conn[:, 2])
         mesh.ele_conn[:, 2] = mesh.ele_conn[:, 3]
         mesh.ele_conn[:, 3] = temp
-
+        mesh.gmsh += 1
 
     for i in range(len(mesh.ele_conn)):
         G.add_cycle([mesh.ele_conn[i, 0],
@@ -166,12 +167,12 @@ def nodes_network_edges(mesh):
 
     positions = nx.get_node_attributes(G, 'posxy')
 
-    nx.draw_networkx(G, positions, node_size=1, node_color='k', font_size=0)
+    nx.draw_networkx(G, positions, node_size=5, node_color='k', font_size=3)
     nx.draw_networkx_edge_labels(G, positions, edge_labels, label_pos=0.5,
                                  font_size=7)
 
     limits=plt.axis('off')
-    plt.draw()
+
 
 def surface(a, nodes_coord):
     fig = plt.figure(1)
@@ -333,3 +334,104 @@ def tricontour_transient(a, mesh, i):
     #plt.savefig(str(i)+'.eps', transparent=True, dpi=300)
     plt.draw()
 
+
+def nodes_network_deformedshape(mesh, a):
+    c = mesh.nodes_coord
+
+    X, Y = c[:, 0], c[:, 1]
+    dX, dY = c[:, 0] + a[::2], c[:, 1] + a[1::2]
+    plt.figure('Deformation')
+
+    G = nx.Graph()
+
+    label = []
+    for i in range(len(X)):
+        label.append(i)
+        G.add_node(i, posxy=(X[i], Y[i]))
+
+    if mesh.gmsh == 1.0:
+        temp = np.copy(mesh.ele_conn[:, 2])
+        mesh.ele_conn[:, 2] = mesh.ele_conn[:, 3]
+        mesh.ele_conn[:, 3] = temp
+        mesh.gmsh += 1.0
+
+
+    for i in range(len(mesh.ele_conn)):
+        G.add_cycle([mesh.ele_conn[i, 0],
+                     mesh.ele_conn[i, 1],
+                     mesh.ele_conn[i, 3],
+                     mesh.ele_conn[i, 2]], )
+
+    positions = nx.get_node_attributes(G, 'posxy')
+
+    nx.draw_networkx(G, positions, node_size=7, node_color='k', font_size=0,
+                     style = 'dashed')
+    G2 = nx.Graph()
+
+    label2 = []
+    for i in range(len(dX)):
+        label2.append(i)
+        G2.add_node(i, posxy2=(dX[i], dY[i]))
+
+    for i in range(len(mesh.ele_conn)):
+        G2.add_cycle([mesh.ele_conn[i, 0],
+                     mesh.ele_conn[i, 1],
+                     mesh.ele_conn[i, 3],
+                     mesh.ele_conn[i, 2]], )
+
+    positions2 = nx.get_node_attributes(G2, 'posxy2')
+
+    nx.draw_networkx(G2, positions2, node_size=7, node_color='k',
+                        font_size=0)
+
+
+    limits=plt.axis('off')
+
+
+def nodes_network_deformedshape2(mesh, a):
+    c = mesh.nodes_coord
+
+
+    bn = mesh.boundary_nodes
+    cn = np.reshape(bn, 3*len(bn[:, 0]))
+    cn2 = cn[len(bn[:, 0]):]
+    cn3 = np.unique(cn)
+
+    adX = a[::2]
+    adY = a[1::2]
+
+    X, Y = c[cn3, 0], c[cn3, 1]
+    dX, dY = c[cn3, 0] + adX[cn3], c[cn3, 1] + adY[cn3]
+    #plt.figure('Deformation')
+
+    G = nx.Graph()
+
+    label = []
+    for i in range(len(X)):
+        label.append(i)
+        G.add_node(i, posxy=(X[i], Y[i]))
+
+    for i in range(len(X)-2):
+       G.add_edge(i, i+1)
+
+    positions = nx.get_node_attributes(G, 'posxy')
+
+    nx.draw_networkx(G, positions, node_size=7, node_color='k', font_size=0,
+                     style = 'dashed')
+    G2 = nx.Graph()
+
+    label2 = []
+    for i in range(len(dX)):
+        label2.append(i)
+        G2.add_node(i, posxy2=(dX[i], dY[i]))
+
+    for i in range(len(X)-10):
+        G2.add_edge(i, i+1)
+
+    positions2 = nx.get_node_attributes(G2, 'posxy2')
+
+    nx.draw_networkx(G2, positions2, node_size=7, node_color='k',
+                        font_size=0)
+
+
+    limits=plt.axis('off')
