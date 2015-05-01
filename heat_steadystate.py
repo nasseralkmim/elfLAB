@@ -9,7 +9,7 @@ import assemble_1dof
 import plotter
 import boundaryconditions_1dof
 
-mesh = gmsh.parse('mesh13')
+mesh = gmsh.parse('mesh14')
 
 
 ele = element_1dof.Matrices(mesh)
@@ -54,11 +54,11 @@ K, B = boundaryconditions_1dof.dirichlet(K, B, mesh, temperature)
 
 K = sparse.csc_matrix(K)
 
-a = spsolve(K, B)
+d = spsolve(K, B)
 
 
-plotter.trisurface(a, mesh)
-plotter.tricontour(a, mesh)
-plotter.nodes_network(mesh)
+plotter.trisurface(d, mesh)
+plotter.tricontour(d, mesh)
+#plotter.nodes_network(mesh)
 plotter.nodes_network_edges(mesh)
 plt.show()

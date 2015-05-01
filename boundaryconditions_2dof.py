@@ -42,16 +42,20 @@ def dirichlet(K, B, mesh, displacement):
     for line in displacement(1,1).keys():
         for n in range(len(mesh.boundary_nodes[:, 0])):
             if line == mesh.boundary_nodes[n, 0]:
-                K[mesh.boundary_nodes[n, 1], :] = 0.0
-                K[mesh.boundary_nodes[n, 1]+1, :] = 0.0
-                K[mesh.boundary_nodes[n, 2], :] = 0.0
-                K[mesh.boundary_nodes[n, 2]+1, :] = 0.0
+                K[2*mesh.boundary_nodes[n, 1], :] = 0.0
+                K[2*mesh.boundary_nodes[n, 1]+1, :] = 0.0
+                K[2*mesh.boundary_nodes[n, 2], :] = 0.0
+                K[2*mesh.boundary_nodes[n, 2]+1, :] = 0.0
 
-                K[mesh.boundary_nodes[n, 1], mesh.boundary_nodes[n, 1]] =  1.0
-                K[mesh.boundary_nodes[n, 1]+1, mesh.boundary_nodes[n, 1]+1] =\
+                K[2*mesh.boundary_nodes[n, 1], 2*mesh.boundary_nodes[n,
+                                                                    1]] =  1.0
+                K[2*mesh.boundary_nodes[n, 1]+1,2* mesh.boundary_nodes[n,
+                                                                      1]+1] =\
                     1.0
-                K[mesh.boundary_nodes[n, 2], mesh.boundary_nodes[n, 2]] = 1.0
-                K[mesh.boundary_nodes[n, 2]+1, mesh.boundary_nodes[n, 2]+1] =\
+                K[2*mesh.boundary_nodes[n, 2], 2*mesh.boundary_nodes[n,
+                                                                     2]] = 1.0
+                K[2*mesh.boundary_nodes[n, 2]+1, 2*mesh.boundary_nodes[n,
+                                                                      2]+1] =\
                     1.0
 
                 d1 = displacement(
@@ -62,10 +66,10 @@ def dirichlet(K, B, mesh, displacement):
                     mesh.nodes_coord[mesh.boundary_nodes[n, 2], 0],
                     mesh.nodes_coord[mesh.boundary_nodes[n, 2], 1],)
 
-                B[mesh.boundary_nodes[n, 1]] = d1[line][0]
-                B[mesh.boundary_nodes[n, 1]+1] = d1[line][1]
-                B[mesh.boundary_nodes[n, 2]] = d2[line][0]
-                B[mesh.boundary_nodes[n, 2]+1] = d2[line][1]
+                B[2*mesh.boundary_nodes[n, 1]] = d1[line][0]
+                B[2*mesh.boundary_nodes[n, 1]+1] = d1[line][1]
+                B[2*mesh.boundary_nodes[n, 2]] = d2[line][0]
+                B[2*mesh.boundary_nodes[n, 2]+1] = d2[line][1]
 
     return K, B
 

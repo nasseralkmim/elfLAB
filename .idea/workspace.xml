@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab52b4e-f35e-406b-b471-d3dbd6a88c69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assemble_2dof.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boundaryconditions_2dof.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/element_1dof.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/element_2dof.py" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\element.py" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Nasser\OneDrive\elflab\assemble.py" afterPath="$PROJECT_DIR$/assemble_1dof.py" />
-      <change type="MOVED" beforePath="C:\Users\Nasser\OneDrive\elflab\boundaryconditions.py" afterPath="$PROJECT_DIR$/boundaryconditions_1dof.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Nasser.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Nasser.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/processing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boundaryconditions_2dof.py" afterPath="$PROJECT_DIR$/boundaryconditions_2dof.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticity_steadystate.py" afterPath="$PROJECT_DIR$/elasticity_steadystate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gmsh.py" afterPath="$PROJECT_DIR$/gmsh.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/element_2dof.py" afterPath="$PROJECT_DIR$/element_2dof.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heat_steadystate.py" afterPath="$PROJECT_DIR$/heat_steadystate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heat_transient.py" afterPath="$PROJECT_DIR$/heat_transient.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plotter.py" afterPath="$PROJECT_DIR$/plotter.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -38,14 +31,24 @@
     <favorites_list name="elflab" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.40161106">
+    <splitter split-orientation="horizontal" split-proportion="0.3846154">
       <split-first>
         <leaf>
+          <file leaf-file-name="heat_transient.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/heat_transient.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="739" max-vertical-offset="1248">
+                  <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="heat_steadystate.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/heat_steadystate.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="353" max-vertical-offset="1120">
-                  <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="1120">
+                  <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
                   <folding>
                     <element signature="e#22#40#0" expanded="true" />
                   </folding>
@@ -56,8 +59,8 @@
           <file leaf-file-name="elasticity_steadystate.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/elasticity_steadystate.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7602996" vertical-offset="207" max-vertical-offset="1008">
-                  <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+                <state vertical-scroll-proportion="0.8082902" vertical-offset="0" max-vertical-offset="1216">
+                  <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
                   <folding>
                     <element signature="e#23#41#0" expanded="true" />
                   </folding>
@@ -65,21 +68,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="heat_transient.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/heat_transient.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1248">
-                  <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="gmsh.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gmsh.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1539" max-vertical-offset="4672">
-                  <caret line="213" column="59" selection-start-line="213" selection-start-column="59" selection-end-line="213" selection-end-column="59" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="4176" max-vertical-offset="4672">
+                  <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -91,11 +84,45 @@
       </split-first>
       <split-second>
         <leaf>
+          <file leaf-file-name="processing.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/processing.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="896">
+                  <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+                  <folding>
+                    <element signature="e#22#40#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="assemble_1dof.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assemble_1dof.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
+                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="plotter.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/plotter.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.94394904" vertical-offset="5403" max-vertical-offset="9120">
+                  <caret line="384" column="48" selection-start-line="384" selection-start-column="48" selection-end-line="384" selection-end-column="48" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="boundaryconditions_2dof.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/boundaryconditions_2dof.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="2368">
-                  <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="2432">
+                  <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
                   <folding>
                     <element signature="e#22#40#0" expanded="true" />
                   </folding>
@@ -106,8 +133,8 @@
           <file leaf-file-name="boundaryconditions_1dof.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/boundaryconditions_1dof.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1248" max-vertical-offset="2128">
-                  <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="2128">
+                  <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -126,34 +153,10 @@
           <file leaf-file-name="element_2dof.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/element_2dof.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1217" max-vertical-offset="1984">
-                  <caret line="97" column="11" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="1984">
+                  <caret line="62" column="31" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="31" />
                   <folding>
                     <element signature="e#23#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="plotter.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/plotter.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8601748" vertical-offset="6159" max-vertical-offset="7088">
-                  <caret line="428" column="8" selection-start-line="428" selection-start-column="8" selection-end-line="428" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#0#18#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="element_1dof.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/element_1dof.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1297" max-vertical-offset="2064">
-                  <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#18#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -183,9 +186,12 @@
         <option value="$PROJECT_DIR$/element.py" />
         <option value="$PROJECT_DIR$/boundaryconditions.py" />
         <option value="$PROJECT_DIR$/heat_transient.py" />
-        <option value="$PROJECT_DIR$/boundaryconditions_2dof.py" />
-        <option value="$PROJECT_DIR$/element_2dof.py" />
         <option value="$PROJECT_DIR$/assemble_2dof.py" />
+        <option value="$PROJECT_DIR$/boundaryconditions_1dof.py" />
+        <option value="$PROJECT_DIR$/boundaryconditions_2dof.py" />
+        <option value="$PROJECT_DIR$/stress_recovery.py" />
+        <option value="$PROJECT_DIR$/element_2dof.py" />
+        <option value="$PROJECT_DIR$/processing.py" />
         <option value="$PROJECT_DIR$/heat_steadystate.py" />
         <option value="$PROJECT_DIR$/elasticity_steadystate.py" />
         <option value="$PROJECT_DIR$/plotter.py" />
@@ -205,7 +211,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -572,7 +578,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430180424990</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="general commit">
+      <created>1430431138159</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1430431138159</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -580,14 +592,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.094791666" sideWeight="0.44824016" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16041666" sideWeight="0.44824016" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32795155" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14182195" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.094791666" sideWeight="0.55175984" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1583851" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16041666" sideWeight="0.55175984" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13562006" sideWeight="0.54814005" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -627,23 +639,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1356" max-vertical-offset="5456">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="4672">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/element_1dof.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2064">
@@ -961,11 +956,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assemble_1dof.py">
+    <entry file="file://$PROJECT_DIR$/../Berkeley/FEM/codes/Acustics/acoustic2D.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="767">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="6529" max-vertical-offset="9984">
+          <caret line="437" column="3" selection-start-line="437" selection-start-column="3" selection-end-line="444" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boundaryconditions_1dof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="2128">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boundaryconditions_2dof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="2432">
+          <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+          <folding>
+            <element signature="e#22#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -977,12 +989,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Berkeley/FEM/codes/Acustics/acoustic2D.py">
+    <entry file="file://$PROJECT_DIR$/element_2dof.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6529" max-vertical-offset="9984">
-          <caret line="437" column="3" selection-start-line="437" selection-start-column="3" selection-end-line="444" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="1984">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="31" />
           <folding>
-            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/element_1dof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.2357564" vertical-offset="49" max-vertical-offset="2064">
+          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -995,78 +1017,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boundaryconditions_2dof.py">
+    <entry file="file://$PROJECT_DIR$/gmsh.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="2368">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4176" max-vertical-offset="4672">
+          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
           <folding>
-            <element signature="e#22#40#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boundaryconditions_1dof.py">
+    <entry file="file://$USER_HOME$/Miniconda3/Lib/site-packages/matplotlib/tri/tricontour.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1248" max-vertical-offset="2128">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3326613" vertical-offset="331" max-vertical-offset="4704">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assemble_1dof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/heat_steadystate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="353" max-vertical-offset="1120">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="1120">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
           <folding>
             <element signature="e#22#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/element_1dof.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1297" max-vertical-offset="2064">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/element_2dof.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1217" max-vertical-offset="1984">
-          <caret line="97" column="11" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmsh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1539" max-vertical-offset="4672">
-          <caret line="213" column="59" selection-start-line="213" selection-start-column="59" selection-end-line="213" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elasticity_steadystate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7602996" vertical-offset="207" max-vertical-offset="1008">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.8082902" vertical-offset="0" max-vertical-offset="1216">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
             <element signature="e#23#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="896">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding>
+            <element signature="e#22#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plotter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8601748" vertical-offset="6159" max-vertical-offset="7088">
-          <caret line="428" column="8" selection-start-line="428" selection-start-column="8" selection-end-line="428" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.94394904" vertical-offset="5403" max-vertical-offset="9120">
+          <caret line="384" column="48" selection-start-line="384" selection-start-column="48" selection-end-line="384" selection-end-column="48" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
