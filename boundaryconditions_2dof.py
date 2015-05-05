@@ -1,6 +1,6 @@
 __author__ = 'Nasser'
 import numpy as np
-import assemble_1dof
+import assemble_2dof
 from scipy import sparse
 import math
 from numba import jit
@@ -112,7 +112,7 @@ def neumann(mesh, traction):
         T: Traction vector with size equals the dof.
 
     """
-    Tele = np.zeros((4, mesh.num_ele))
+    Tele = np.zeros((8, mesh.num_ele))
 
 
     gp = np.array([[[-1.0/math.sqrt(3), -1.0],
@@ -135,12 +135,16 @@ def neumann(mesh, traction):
                     x1_o_e1e2, x2_o_e1e2 = mesh.mapping(ele)
                     t = traction(x1_o_e1e2, x2_o_e1e2)
 
-                    Tele[0, ele] += mesh.phi[0]*t[l]*mesh.ArchLength[side]
-                    Tele[1, ele] += mesh.phi[1]*t[l]*mesh.ArchLength[side]
-                    Tele[2, ele] += mesh.phi[2]*t[l]*mesh.ArchLength[side]
-                    Tele[3, ele] += mesh.phi[3]*t[l]*mesh.ArchLength[side]
+                    Tele[0, ele] += mesh.phi[0]*t[l][0]*mesh.ArchLength[side]
+                    Tele[1, ele] += mesh.phi[0]*t[l][1]*mesh.ArchLength[side]
+                    Tele[2, ele] += mesh.phi[1]*t[l][0]*mesh.ArchLength[side]
+                    Tele[3, ele] += mesh.phi[1]*t[l][1]*mesh.ArchLength[side]
+                    Tele[4, ele] += mesh.phi[2]*t[l][0]*mesh.ArchLength[side]
+                    Tele[5, ele] += mesh.phi[2]*t[l][1]*mesh.ArchLength[side]
+                    Tele[6, ele] += mesh.phi[3]*t[l][0]*mesh.ArchLength[side]
+                    Tele[7, ele] += mesh.phi[3]*t[l][1]*mesh.ArchLength[side]
 
-    T = assemble_1dof.globalVector(Tele, mesh)
+    T = assemble_2dof.globalVector(Tele, mesh)
 
     return T
 

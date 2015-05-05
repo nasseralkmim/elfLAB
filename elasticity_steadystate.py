@@ -11,17 +11,17 @@ import plotter
 import boundaryconditions_2dof
 import processing
 
-mesh = gmsh.parse('meshteste')
+mesh = gmsh.parse('meshteste3')
 
 ele = element_2dof.Matrices(mesh)
 
 s = mesh.surfaces
 
-ele.stiffness(nu=0.1, E=10000.0)
+ele.stiffness(nu=0.3, E=200*10**9)
 
 def distributed_load(x1, x2):
     return np.array([
-        5.0*x1**2,
+        0.,
         0.
     ])
 
@@ -32,17 +32,21 @@ R = assemble_2dof.globalVector(ele.R, mesh)
 
 
 def traction(x1, x2):
-    return {}
+    return {
+        1:[0., 0.1],
+        0:[0., 0.],
+        2:[0., 0.]
+    }
 
 
 def displacement(x1, x2):
     return {
-        0:[0., 0.]
+        3:[0., 0.]
     }
 
 T = boundaryconditions_2dof.neumann(mesh, traction)
 
-B = R #+ T
+B = R + T
 
 K, B = boundaryconditions_2dof.dirichlet(K, B, mesh, displacement)
 
@@ -50,21 +54,19 @@ K = sparse.csc_matrix(K)
 
 d = spsolve(K, B)
 
-s11, s22, s12 = processing.stress_recovery(mesh, d, ele.C)
+s11, s22, s12 = processing.stress_recovery_gauss(mesh, d, ele.C)
 
-s11 = np.reshape(s11, len(s11))
-s22 = np.reshape(s22, len(s22))
-s12 = np.reshape(s12, len(s12))
-
-plotter.tricontour1(s11, mesh)
-plotter.tricontour2(s22, mesh)
-plotter.tricontour3(s12, mesh)
-
-plotter.nodes_network_deformedshape_contour(mesh, d)
-plotter.nodes_network_deformedshape(mesh, d)
-plotter.nodes_network_edges(mesh)
+principal_11 = processing.principal_stress(s11, s22, s12)
 
 
-
+dpi = 80
+plotter.tricontour(principal_11, mesh, name='Principal Stress', cmap='cool',
+                   dpi=dpi)
+plotter.tricontour(s11, mesh, name='Stress 11', cmap='spring', dpi=dpi)
+plotter.tricontour(s22, mesh, name='Stress 22', cmap='summer', dpi=dpi)
+plotter.tricontour(s12, mesh, name='Stress 12', cmap='winter', dpi=dpi)
+plotter.nodes_network_deformedshape_contour(mesh, d, dpi=dpi)
+plotter.nodes_network_deformedshape(mesh, d, dpi=dpi)
+plotter.nodes_network_edges(mesh, dpi=dpi)
 
 plt.show()

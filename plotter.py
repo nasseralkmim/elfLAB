@@ -222,12 +222,12 @@ def contour2(a, mesh):
     # plt.savefig('1.png', transparent=True, dpi=300)
     plt.show()
 
-def tricontour(a, mesh):
+def tricontour(a, mesh, name, cmap, dpi):
     """Plot contour with the tricoutour function and the boundary line with
     the boundary node.
 
     """
-    plt.figure('Tricontour', dpi=120)
+    plt.figure(name, dpi=dpi)
     c = mesh.nodes_coord
     bn = mesh.boundary_nodes
 
@@ -244,17 +244,19 @@ def tricontour(a, mesh):
     triangles = np.asarray(triangles)
 
     CS2 = plt.tricontourf(xx, yy, triangles, zz, 10, origin='lower',
-                          cmap='hot')
+                          cmap=cmap)
 
     plt.plot(ccx , ccy, '-k')
     #plt.scatter(xx, yy, c=zz)
     plt.xlabel(r'$x$', fontsize=18)
     plt.ylabel(r'$y$', fontsize=18)
     cbar = plt.colorbar(CS2, shrink=0.8, extend='both')
-    cbar.ax.set_ylabel('Temperature', fontsize=14)
+    cbar.ax.set_ylabel(name, fontsize=14)
 
-    limits=plt.axis('off')
+    #limits=plt.axis('off')
     # plt.savefig('1.png', transparent=True, dpi=300)
+    plt.axes().set_aspect('equal')
+
     plt.draw()
 
 def tricontour_transient(a, mesh, i):
@@ -293,12 +295,12 @@ def tricontour_transient(a, mesh, i):
     plt.draw()
 
 
-def nodes_network_deformedshape(mesh, a):
+def nodes_network_deformedshape(mesh, a, dpi):
     c = mesh.nodes_coord
 
     X, Y = c[:, 0], c[:, 1]
     dX, dY = c[:, 0] + a[::2], c[:, 1] + a[1::2]
-    plt.figure('Deformation', dpi=120)
+    plt.figure('Deformation', dpi=dpi)
 
     G = nx.Graph()
 
@@ -342,14 +344,14 @@ def nodes_network_deformedshape(mesh, a):
     nx.draw_networkx(G2, positions2, node_size=0, node_color='k',
                         font_size=0)
 
+    plt.axes().set_aspect('equal')
+    #limits=plt.axis('off')
 
-    limits=plt.axis('off')
 
-
-def nodes_network_deformedshape_contour(mesh, a):
+def nodes_network_deformedshape_contour(mesh, a, dpi):
     c = mesh.nodes_coord
 
-    plt.figure('Deformation - Boundary', dpi=120)
+    plt.figure('Deformation - Boundary', dpi=dpi)
     bn = mesh.boundary_nodes
     cn = bn[:, 0]
     cn3 = np.unique(cn)
@@ -403,14 +405,14 @@ def nodes_network_deformedshape_contour(mesh, a):
     nx.draw_networkx(G2, positions2, node_size=0, node_color='k',
                         font_size=0)
 
+    plt.axes().set_aspect('equal')
+    #limits=plt.axis('off')
 
-    limits=plt.axis('off')
-
-def nodes_network_edges(mesh):
+def nodes_network_edges(mesh, dpi):
     c = mesh.nodes_coord
 
     X, Y = c[:, 0], c[:, 1]
-    plt.figure('Elements - Boundary Labels', dpi=120)
+    plt.figure('Elements - Boundary Labels', dpi=dpi)
     G = nx.Graph()
 
     label = []
@@ -456,110 +458,9 @@ def nodes_network_edges(mesh):
     nx.draw_networkx(G, positions, node_size=1, node_color='k', font_size=0)
     nx.draw_networkx_edge_labels(G, positions, edge_labels, label_pos=0.5,
                                  font_size=10)
+    plt.axes().set_aspect('equal')
 
-    limits=plt.axis('off')
+    #limits=plt.axis('off')
 
-def tricontour1(a, mesh):
-    """Plot contour with the tricoutour function and the boundary line with
-    the boundary node.
 
-    """
-    plt.figure('Sigma 11', dpi=120)
-    c = mesh.nodes_coord
-    bn = mesh.boundary_nodes
 
-    xx, yy, zz = c[:, 0], c[:, 1], a
-
-    ccx = np.append(c[bn[:, 1], 0], c[bn[0, 1], 0])
-    ccy = np.append(c[bn[:, 1], 1], c[bn[0, 1], 1])
-
-    triangles = []
-    for n1, n2, n3, n4 in mesh.ele_conn:
-        triangles.append([n1, n2, n3])
-        triangles.append([n1, n3, n4])
-
-    triangles = np.asarray(triangles)
-
-    CS2 = plt.tricontourf(xx, yy, triangles, zz, 10, origin='lower',
-                          cmap='spring')
-
-    plt.plot(ccx , ccy, '-k')
-    #plt.scatter(xx, yy, c=zz)
-    plt.xlabel(r'$x$', fontsize=18)
-    plt.ylabel(r'$y$', fontsize=18)
-    cbar = plt.colorbar(CS2, shrink=0.8, extend='both')
-    cbar.ax.set_ylabel('Sigma 11', fontsize=14)
-
-    limits=plt.axis('off')
-    # plt.savefig('1.png', transparent=True, dpi=300)
-    plt.draw()
-
-def tricontour2(a, mesh):
-    """Plot contour with the tricoutour function and the boundary line with
-    the boundary node.
-
-    """
-    plt.figure('Sigma 22', dpi=120)
-    c = mesh.nodes_coord
-    bn = mesh.boundary_nodes
-
-    xx, yy, zz = c[:, 0], c[:, 1], a
-
-    ccx = np.append(c[bn[:, 1], 0], c[bn[0, 1], 0])
-    ccy = np.append(c[bn[:, 1], 1], c[bn[0, 1], 1])
-
-    triangles = []
-    for n1, n2, n3, n4 in mesh.ele_conn:
-        triangles.append([n1, n2, n3])
-        triangles.append([n1, n3, n4])
-
-    triangles = np.asarray(triangles)
-
-    CS2 = plt.tricontourf(xx, yy, triangles, zz, 10, origin='lower',
-                          cmap='summer')
-
-    plt.plot(ccx , ccy, '-k')
-    #plt.scatter(xx, yy, c=zz)
-    plt.xlabel(r'$x$', fontsize=18)
-    plt.ylabel(r'$y$', fontsize=18)
-    cbar = plt.colorbar(CS2, shrink=0.8, extend='both')
-    cbar.ax.set_ylabel('Sigma 22', fontsize=14)
-
-    limits=plt.axis('off')
-    # plt.savefig('1.png', transparent=True, dpi=300)
-    plt.draw()
-
-def tricontour3(a, mesh):
-    """Plot contour with the tricoutour function and the boundary line with
-    the boundary node.
-
-    """
-    plt.figure('Sigma 12', dpi=120)
-    c = mesh.nodes_coord
-    bn = mesh.boundary_nodes
-
-    xx, yy, zz = c[:, 0], c[:, 1], a
-
-    ccx = np.append(c[bn[:, 1], 0], c[bn[0, 1], 0])
-    ccy = np.append(c[bn[:, 1], 1], c[bn[0, 1], 1])
-
-    triangles = []
-    for n1, n2, n3, n4 in mesh.ele_conn:
-        triangles.append([n1, n2, n3])
-        triangles.append([n1, n3, n4])
-
-    triangles = np.asarray(triangles)
-
-    CS2 = plt.tricontourf(xx, yy, triangles, zz, 10, origin='lower',
-                          cmap='winter')
-
-    plt.plot(ccx , ccy, '-k')
-    #plt.scatter(xx, yy, c=zz)
-    plt.xlabel(r'$x$', fontsize=18)
-    plt.ylabel(r'$y$', fontsize=18)
-    cbar = plt.colorbar(CS2, shrink=0.8, extend='both')
-    cbar.ax.set_ylabel('Sigma 12', fontsize=14)
-
-    limits=plt.axis('off')
-    # plt.savefig('1.png', transparent=True, dpi=300)
-    plt.draw()

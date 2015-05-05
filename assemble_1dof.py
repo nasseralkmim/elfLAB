@@ -20,3 +20,13 @@ def globalVector(V_ele, mesh):
         for i in range(len(mesh.ele_conn[e])):
             V[mesh.ele_conn[e, i]] += V_ele[i, e]
     return V
+
+def globalVectorAverage(V_ele, mesh):
+    V = np.zeros((mesh.num_nodes, 1))
+
+    for e in range(mesh.num_ele):
+        for i in range(len(mesh.ele_conn[e])):
+            V[mesh.ele_conn[e, i]] += V_ele[i, e]/(mesh.ele_conn ==
+                                                   mesh.ele_conn[e, i]).sum()
+    return V
+
