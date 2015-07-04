@@ -8,8 +8,8 @@ import scipy.interpolate
 from scipy.spatial import cKDTree as KDTree
 
 
-def trisurface(a, mesh):
-    fig = plt.figure('Trisurface', dpi=120)
+def trisurface(a, mesh, dpi):
+    fig = plt.figure('Trisurface', dpi=dpi)
     ax = fig.add_subplot(111, projection='3d')
 
     c = mesh.nodes_coord
@@ -348,65 +348,6 @@ def nodes_network_deformedshape(mesh, a, dpi):
     #limits=plt.axis('off')
 
 
-def nodes_network_deformedshape_contour(mesh, a, dpi):
-    c = mesh.nodes_coord
-
-    plt.figure('Deformation - Boundary', dpi=dpi)
-    bn = mesh.boundary_nodes
-    cn = bn[:, 0]
-    cn3 = np.unique(cn)
-
-    adX = a[::2]
-    adY = a[1::2]
-
-    X, Y = c[cn3, 0], c[cn3, 1]
-    dX, dY = c[cn3, 0] + adX[cn3], c[cn3, 1] + adY[cn3]
-    #plt.figure('Deformation')
-
-    G = nx.Graph()
-
-    label = []
-    for i in range(len(X)):
-        label.append(i)
-        G.add_node(i, posxy=(X[i], Y[i]))
-
-    if mesh.gmsh == 1.0:
-        temp = np.copy(mesh.ele_conn[:, 2])
-        mesh.ele_conn[:, 2] = mesh.ele_conn[:, 3]
-        mesh.ele_conn[:, 3] = temp
-        mesh.gmsh += 1.0
-
-    for i in range(len(X)-1):
-       G.add_edge(i, i+1)
-
-    G.add_edge(len(X)-1, 0)
-
-    positions = nx.get_node_attributes(G, 'posxy')
-
-    nx.draw_networkx(G, positions, node_size=0, node_color='k', font_size=0,
-                     style = 'dashed', width=0.5)
-    G2 = nx.Graph()
-
-    label2 = []
-    for i in range(len(dX)):
-        label2.append(i)
-        G2.add_node(i, posxy2=(dX[i], dY[i]))
-
-    for i in range(len(X)-10):
-        G2.add_edge(i, i+1)
-
-    for i in range(len(X)-1):
-       G2.add_edge(i, i+1)
-
-    G2.add_edge(len(X)-1, 0)
-
-    positions2 = nx.get_node_attributes(G2, 'posxy2')
-
-    nx.draw_networkx(G2, positions2, node_size=0, node_color='k',
-                        font_size=0)
-
-    plt.axes().set_aspect('equal')
-    #limits=plt.axis('off')
 
 def nodes_network_edges(mesh, dpi):
     c = mesh.nodes_coord
@@ -458,9 +399,135 @@ def nodes_network_edges(mesh, dpi):
     nx.draw_networkx(G, positions, node_size=1, node_color='k', font_size=0)
     nx.draw_networkx_edge_labels(G, positions, edge_labels, label_pos=0.5,
                                  font_size=10)
+
     plt.axes().set_aspect('equal')
+
 
     #limits=plt.axis('off')
 
 
+def nodes_network_deformedshape_contour(mesh, a, dpi):
+    c = mesh.nodes_coord
 
+    plt.figure('Deformation - Boundary', dpi=dpi)
+    bn = mesh.boundary_nodes
+
+    adX = a[::2]
+    adY = a[1::2]
+
+    X, Y = c[bn[:, 1], 0], c[bn[:, 1], 1]
+    dX, dY = c[bn[:, 1], 0] + adX[bn[:, 1]], c[bn[:, 1], 1] + adY[bn[:, 1]]
+
+    G = nx.Graph()
+
+    label = []
+    for i in range(len(X)):
+        label.append(i)
+        G.add_node(i, posxy=(X[i], Y[i]))
+
+    if mesh.gmsh == 1.0:
+        temp = np.copy(mesh.ele_conn[:, 2])
+        mesh.ele_conn[:, 2] = mesh.ele_conn[:, 3]
+        mesh.ele_conn[:, 3] = temp
+        mesh.gmsh += 1.0
+
+    for i in range(len(bn[:, 0]) - 1):
+       G.add_edge(i, i+1)
+
+    G.add_edge(len(bn[:, 0]) - 1, 0)
+
+    positions = nx.get_node_attributes(G, 'posxy')
+
+    nx.draw_networkx(G, positions, node_size=0, node_color='k', font_size=0,
+                     style = 'dashed', width=0.5)
+    G2 = nx.Graph()
+
+    label2 = []
+    for i in range(len(dX)):
+        label2.append(i)
+        G2.add_node(i, posxy2=(dX[i], dY[i]))
+
+    for i in range(len(bn[:, 0]) - 1):
+       G2.add_edge(i, i+1)
+
+    G2.add_edge(len(bn[:, 0]) - 1, 0)
+
+    positions2 = nx.get_node_attributes(G2, 'posxy2')
+
+    nx.draw_networkx(G2, positions2, node_size=0, node_color='k',
+                        font_size=0)
+
+    plt.axes().set_aspect('equal')
+    #limits=plt.axis('off')
+
+
+def nodes_network_edges_element_label(mesh, dpi):
+    c = mesh.nodes_coord
+
+    X, Y = c[:, 0], c[:, 1]
+    plt.figure('Elements - Boundary Labels', dpi=dpi)
+    G = nx.Graph()
+
+    label = []
+    for i in range(len(X)):
+        label.append(i)
+        G.add_node(i, posxy=(X[i], Y[i]))
+
+    if mesh.gmsh == 1.0:
+        temp = np.copy(mesh.ele_conn[:, 2])
+        mesh.ele_conn[:, 2] = mesh.ele_conn[:, 3]
+        mesh.ele_conn[:, 3] = temp
+        mesh.gmsh += 1
+
+    for i in range(len(mesh.ele_conn)):
+        G.add_cycle([mesh.ele_conn[i, 0],
+                     mesh.ele_conn[i, 1],
+                     mesh.ele_conn[i, 3],
+                     mesh.ele_conn[i, 2]], )
+
+    bound_middle = {}
+    iant = mesh.boundary_nodes[0, 0]
+
+    cont = 0
+    for i,e1,e2 in mesh.boundary_nodes:
+        if i == iant:
+            cont += 1
+            bound_middle[i] = cont
+        else:
+            cont = 1
+        iant = i
+
+    edge_labels = {}
+    cont = 0
+    for i,e1,e2 in mesh.boundary_nodes:
+        cont += 1
+        if cont == int(bound_middle[i]/2.0):
+            edge_labels[e1, e2] = str(i)
+        if cont == bound_middle[i]:
+            cont = 0
+
+    positions = nx.get_node_attributes(G, 'posxy')
+
+    nx.draw_networkx(G, positions, node_size=1, node_color='blue', font_size=0)
+    nx.draw_networkx_edge_labels(G, positions, edge_labels, label_pos=0.5,
+                                 font_size=7)
+
+    for e in range(len(mesh.ele_conn)):
+        x_element = (mesh.nodes_coord[mesh.ele_conn[e, 0], 0] +
+                  mesh.nodes_coord[mesh.ele_conn[e, 1], 0] +
+                          mesh.nodes_coord[mesh.ele_conn[e, 2], 0] +
+                          mesh.nodes_coord[mesh.ele_conn[e, 3], 0])/4.
+
+        y_element = (mesh.nodes_coord[mesh.ele_conn[e, 0], 1] +
+                          mesh.nodes_coord[mesh.ele_conn[e, 1], 1] +
+                          mesh.nodes_coord[mesh.ele_conn[e, 2], 1] +
+                          mesh.nodes_coord[mesh.ele_conn[e, 3], 1])/4.
+
+
+        plt.annotate(str(e), (x_element, y_element), size=7, color='r')
+
+
+    plt.axes().set_aspect('equal')
+
+
+    #limits=plt.axis('off')

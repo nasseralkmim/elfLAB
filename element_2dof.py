@@ -57,7 +57,7 @@ class Matrices:
         C[1, 1] = 1.0
         C[1, 0] = nu
         C[0, 1] = nu
-        C[2, 2] = 1.0 - nu
+        C[2, 2] = (1.0 - nu)
         self.C = (E/(1.0-nu**2.0))*C
 
         self.gp = self.mesh.chi / math.sqrt(3)

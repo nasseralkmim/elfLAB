@@ -57,8 +57,8 @@ K = sparse.csc_matrix(K)
 d = spsolve(K, B)
 
 
-plotter.trisurface(d, mesh)
-plotter.tricontour(d, mesh, name='Temperature', dpi=60, cmap='heat')
+plotter.trisurface(d, mesh, dpi=60)
+plotter.tricontour(d, mesh, name='Temperature', cmap='hot', dpi=60)
 #plotter.nodes_network(mesh)
 plotter.nodes_network_edges(mesh, dpi=60)
 plt.show()
