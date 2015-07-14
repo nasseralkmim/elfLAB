@@ -91,12 +91,12 @@ def nodes(nodes_coord):
     plt.show()
 
 
-def nodes_network(mesh):
+def nodes_network(mesh, dpi):
 
     c = mesh.nodes_coord
 
     X, Y = c[:, 0], c[:, 1]
-    plt.figure('Network W/o Labels', dpi=120)
+    plt.figure('Elements', dpi=dpi)
     G2 = nx.Graph()
 
     label = []
@@ -129,7 +129,7 @@ def nodes_network(mesh):
 
     nx.draw_networkx(G2, positions, node_size=5, node_color='k', font_size=0)
 
-    limits=plt.axis('off')
+    #limits=plt.axis('off')
 
 
 def surface(a, nodes_coord):
@@ -222,7 +222,8 @@ def contour2(a, mesh):
     # plt.savefig('1.png', transparent=True, dpi=300)
     plt.show()
 
-def tricontour(a, mesh, name, cmap, dpi):
+
+def tricontourf(a, mesh, name, cmap, dpi):
     """Plot contour with the tricoutour function and the boundary line with
     the boundary node.
 
@@ -258,6 +259,46 @@ def tricontour(a, mesh, name, cmap, dpi):
     plt.axes().set_aspect('equal')
 
     plt.draw()
+
+
+def tricontour(a, mesh, name, label, color, dpi, ls):
+    """Plot contour with the tricoutour function and the boundary line with
+    the boundary node.
+
+    """
+    plt.figure(name, dpi=dpi)
+    c = mesh.nodes_coord
+    bn = mesh.boundary_nodes
+
+    xx, yy, zz = c[:, 0], c[:, 1], a
+
+    ccx = np.append(c[bn[:, 1], 0], c[bn[0, 1], 0])
+    ccy = np.append(c[bn[:, 1], 1], c[bn[0, 1], 1])
+
+    triangles = []
+    for n1, n2, n3, n4 in mesh.ele_conn:
+        triangles.append([n1, n2, n3])
+        triangles.append([n1, n3, n4])
+
+    triangles = np.asarray(triangles)
+
+    CS2 = plt.tricontour(xx, yy, triangles, zz, 10, origin='lower',
+                         linestyles=ls, colors=color)
+
+    plt.plot(ccx , ccy, '-k')
+    #plt.scatter(xx, yy, c=zz)
+    plt.xlabel(r'$x$', fontsize=18)
+    plt.ylabel(r'$y$', fontsize=18)
+    cbar = plt.colorbar(CS2, shrink=0.8, extend='both')
+    cbar.ax.set_ylabel(label, fontsize=14)
+
+
+    #limits=plt.axis('off')
+    # plt.savefig('1.png', transparent=True, dpi=300)
+    plt.axes().set_aspect('equal')
+
+    plt.draw()
+
 
 def tricontour_transient(a, mesh, i):
     """Plot contour with the tricoutour function and the boundary line with
@@ -349,11 +390,11 @@ def nodes_network_deformedshape(mesh, a, dpi):
 
 
 
-def nodes_network_edges(mesh, dpi):
+def nodes_network_edges_label(mesh, dpi):
     c = mesh.nodes_coord
 
     X, Y = c[:, 0], c[:, 1]
-    plt.figure('Elements - Boundary Labels', dpi=dpi)
+    plt.figure('Elements', dpi=dpi)
     G = nx.Graph()
 
     label = []
@@ -396,7 +437,7 @@ def nodes_network_edges(mesh, dpi):
 
     positions = nx.get_node_attributes(G, 'posxy')
 
-    nx.draw_networkx(G, positions, node_size=1, node_color='k', font_size=0)
+    nx.draw_networkx(G, positions, node_size=1.5, node_color='k', font_size=0)
     nx.draw_networkx_edge_labels(G, positions, edge_labels, label_pos=0.5,
                                  font_size=10)
 
@@ -406,10 +447,114 @@ def nodes_network_edges(mesh, dpi):
     #limits=plt.axis('off')
 
 
+def boundary_condition_dirichlet(displacement, mesh, dpi):
+
+    plt.figure('Elements', dpi=dpi)
+
+    h = mesh.AvgLength
+
+
+    for line in displacement(1,1).keys():
+        d= displacement(1,1)[line]
+        if d[0] == 0.0 and d[1]== 0.0:
+            for l, n1, n2 in mesh.boundary_nodes:
+                if line == l:
+                    x1 = mesh.nodes_coord[n1, 0]
+                    y1 = mesh.nodes_coord[n1, 1]
+                    plt.annotate('', xy=(x1, y1), xycoords='data',
+                                 xytext=(x1-h,y1-h), textcoords='data',
+                                 arrowprops=dict(facecolor='black', width=0.2,
+                                                 headwidth=0.2))
+
+                    x2 = mesh.nodes_coord[n2, 0]
+                    y2 = mesh.nodes_coord[n2, 1]
+                    plt.annotate('', xy=(x2, y2), xycoords='data',
+                                 xytext=(x2-h,y2-h), textcoords='data',
+                                 arrowprops=dict(facecolor='black', width=0.2,
+                                                 headwidth=0.2))
+
+    plt.draw()
+
+
+def boundary_condition_neumann_value(traction, mesh, dpi):
+
+    plt.figure('Elements', dpi=dpi)
+
+    h = mesh.AvgLength
+
+
+    for line in traction(1,1).keys():
+        t = traction(1,1)[line]
+        if t[0] != 0.0 or t[1] != 0.0:
+            for l, n1, n2 in mesh.boundary_nodes:
+                if line == l:
+                    x1 = mesh.nodes_coord[n1, 0]
+                    y1 = mesh.nodes_coord[n1, 1]
+                    t1 = traction(x1, y1)[line]
+                    t_r1 = np.sqrt(t1[0]**2.+t1[1]**2.)
+                    plt.annotate(str(t_r1), xy=(x1, y1), xycoords='data',
+                                 xytext=(x1 - t1[0], y1 - t1[1]),
+                                 textcoords='data', size=8,
+                                 verticalalignment='top',
+                                 arrowprops=dict(facecolor='black', width=0,
+                                                 headwidth=5, shrink=0.1))
+
+                    t_r2 = np.sqrt(t1[0]**2.+t1[1]**2.)
+                    x2 = mesh.nodes_coord[n2, 0]
+                    y2 = mesh.nodes_coord[n2, 1]
+                    t2 = traction(x2, y2)[line]
+                    plt.annotate(str(t_r2), xy=(x2, y2), xycoords='data',
+                                 xytext=(x2 - t2[0], y2 - t2[1]),
+                                 textcoords='data', size=8,
+                                 verticalalignment='top',
+                                 arrowprops=dict(facecolor='black', width=0,
+                                                 headwidth=5, shrink=0.1))
+
+    plt.draw()
+
+
+def boundary_condition_neumann(traction, mesh, dpi):
+
+    plt.figure('Elements', dpi=dpi)
+
+    h = mesh.AvgLength
+
+
+    for line in traction(1,1).keys():
+        t = traction(1,1)[line]
+        if t[0] != 0.0 or t[1] != 0.0:
+            for l, n1, n2 in mesh.boundary_nodes:
+                if line == l:
+                    x1 = mesh.nodes_coord[n1, 0]
+                    y1 = mesh.nodes_coord[n1, 1]
+                    t1 = traction(x1, y1)[line]
+                    t_r1 = np.sqrt(t1[0]**2.+t1[1]**2.)
+                    plt.annotate('', xy=(x1, y1), xycoords='data',
+                                 xytext=(x1 - t1[0], y1 - t1[1]),
+                                 textcoords='data', size=8,
+                                 verticalalignment='top',
+                                 arrowprops=dict(facecolor='black', width=0,
+                                                 headwidth=5, shrink=0.1))
+
+                    t_r2 = np.sqrt(t1[0]**2.+t1[1]**2.)
+                    x2 = mesh.nodes_coord[n2, 0]
+                    y2 = mesh.nodes_coord[n2, 1]
+                    t2 = traction(x2, y2)[line]
+                    plt.annotate('', xy=(x2, y2), xycoords='data',
+                                 xytext=(x2 - t2[0], y2 - t2[1]),
+                                 textcoords='data', size=8,
+                                 verticalalignment='top',
+                                 arrowprops=dict(facecolor='black', width=0,
+                                                 headwidth=5, shrink=0.1))
+
+    plt.draw()
+
+
+
 def nodes_network_deformedshape_contour(mesh, a, dpi):
     c = mesh.nodes_coord
 
-    plt.figure('Deformation - Boundary', dpi=dpi)
+    plt.figure('Deformation Contour', dpi=dpi)
     bn = mesh.boundary_nodes
 
     adX = a[::2]
@@ -465,7 +610,7 @@ def nodes_network_edges_element_label(mesh, dpi):
     c = mesh.nodes_coord
 
     X, Y = c[:, 0], c[:, 1]
-    plt.figure('Elements - Boundary Labels', dpi=dpi)
+    plt.figure('Elements', dpi=dpi)
     G = nx.Graph()
 
     label = []
@@ -508,9 +653,10 @@ def nodes_network_edges_element_label(mesh, dpi):
 
     positions = nx.get_node_attributes(G, 'posxy')
 
-    nx.draw_networkx(G, positions, node_size=1, node_color='blue', font_size=0)
+    nx.draw_networkx(G, positions, node_size=1.5, node_color='blue',
+                     font_size=0)
     nx.draw_networkx_edge_labels(G, positions, edge_labels, label_pos=0.5,
-                                 font_size=7)
+                                 font_size=10)
 
     for e in range(len(mesh.ele_conn)):
         x_element = (mesh.nodes_coord[mesh.ele_conn[e, 0], 0] +
@@ -524,10 +670,89 @@ def nodes_network_edges_element_label(mesh, dpi):
                           mesh.nodes_coord[mesh.ele_conn[e, 3], 1])/4.
 
 
-        plt.annotate(str(e), (x_element, y_element), size=7, color='r')
+        plt.annotate(str(e), (x_element, y_element), size=10, color='r')
 
 
     plt.axes().set_aspect('equal')
 
 
     #limits=plt.axis('off')
+
+
+def draw_elements_label(mesh, dpi):
+
+    for e in range(len(mesh.ele_conn)):
+        x_element = (mesh.nodes_coord[mesh.ele_conn[e, 0], 0] +
+                  mesh.nodes_coord[mesh.ele_conn[e, 1], 0] +
+                          mesh.nodes_coord[mesh.ele_conn[e, 2], 0] +
+                          mesh.nodes_coord[mesh.ele_conn[e, 3], 0])/4.
+
+        y_element = (mesh.nodes_coord[mesh.ele_conn[e, 0], 1] +
+                          mesh.nodes_coord[mesh.ele_conn[e, 1], 1] +
+                          mesh.nodes_coord[mesh.ele_conn[e, 2], 1] +
+                          mesh.nodes_coord[mesh.ele_conn[e, 3], 1])/4.
+
+
+        plt.annotate(str(e), (x_element, y_element), size=9, color='r')
+
+
+def draw_edges_label(mesh, dpi):
+    c = mesh.nodes_coord
+
+    X, Y = c[:, 0], c[:, 1]
+    plt.figure('Elements', dpi=dpi)
+    G = nx.Graph()
+
+
+    label = []
+    for i in range(len(X)):
+        label.append(i)
+        G.add_node(i, posxy=(X[i], Y[i]))
+
+    bound_middle = {}
+    iant = mesh.boundary_nodes[0, 0]
+
+    cont = 0
+    for i,e1,e2 in mesh.boundary_nodes:
+        if i == iant:
+            cont += 1
+            bound_middle[i] = cont
+        else:
+            cont = 1
+        iant = i
+
+    edge_labels = {}
+    cont = 0
+    for i,e1,e2 in mesh.boundary_nodes:
+        cont += 1
+        if cont == int(bound_middle[i]/2.0):
+            edge_labels[e1, e2] = str(i)
+        if cont == bound_middle[i]:
+            cont = 0
+
+    positions = nx.get_node_attributes(G, 'posxy')
+
+    nx.draw_networkx_edge_labels(G, positions, edge_labels, label_pos=0.5,
+                                 font_size=9, font_color='b')
+
+
+
+
+def draw_nodes_label(mesh, dpi):
+    c = mesh.nodes_coord
+
+    X, Y = c[:, 0], c[:, 1]
+    plt.figure('Elements', dpi=dpi)
+    G = nx.Graph()
+
+    label = {}
+    for i in range(len(X)):
+        label[i] = i
+        G.add_node(i, posxy=(X[i], Y[i]))
+
+
+    positions = nx.get_node_attributes(G, 'posxy')
+
+    nx.draw_networkx_nodes(G, positions, node_color='w', node_size=200)
+    nx.draw_networkx_labels(G,positions,label,font_size=9)
+

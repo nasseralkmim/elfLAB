@@ -161,6 +161,8 @@ class parse:
 
         self.boundary_elements = np.asarray(boundary_elements)
 
+        self.AvgLength = (self.nodes_coord[1, 0] - self.nodes_coord[0, 0])/30.
+
         # Nodal coordinates in the natural domain
         self.chi = np.array([[-1.0, -1.0],
                              [1.0, -1.0],
