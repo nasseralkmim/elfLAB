@@ -1,176 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/elasticity2d.py" line="13" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ab52b4e-f35e-406b-b471-d3dbd6a88c69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/poster/Poster-JoseAugusto-Pibic.pptm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/poster/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/poster/casestudy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/poster/code.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/poster/elemtno.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/elflab.dvi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/elflab.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/elflab.ps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.bbl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.dvi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/elflab" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/poster/poster.ppt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/poster/posterNasser.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/poster/posterNasserPibic.ppt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/poster/posterNasserv2.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/poster/shape.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/validations.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/0.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/10.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/11.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/12.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/13.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/14.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/15.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/16.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/17.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/18.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/19.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/20.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/21.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/22.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/23.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/24.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/25.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/26.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/27.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/28.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/29.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/3.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/30.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/31.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/32.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/33.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/34.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/4.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/5.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/6.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/7.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/8.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/9.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/poster/casestudy.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings-Nasser-PC.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/poster/drawing.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/elflab.aux" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/elflab.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/elflab.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/elflab.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/elflab.toc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.aux" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.blg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.ps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.tex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.toc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings-Nasser-PC.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex1_deformation.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex1_elements.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex1_stress_11.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex1_von_mises.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex2_deformation.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex2_elements.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex2_principal_stress.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex2_stress_11.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex2_stress_12.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex2_von_mises.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex3_deformation.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex3_elements.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex3_principal_stress.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex3_stress_11.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex3_stress_12.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex3_von_mises.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex4_deformation.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex4_elements.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex4_principal_stress.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex4_stress_11.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex4_stress_12.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex4_von_mises.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam1_1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam1_2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam1_3.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam1_4.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam2_1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam2_2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam2_3.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam2_4.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam3_1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam3_2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam3_3.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam3_4.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam4_1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam4_2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam4_3.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam4_4.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam5_1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam5_2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam5_3.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_1.1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_2.1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_3.1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_3.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_4.1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_4.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_5.1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_5.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_6.1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_6.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_7.1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_7.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/gauss_x_regular.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/isoparametric.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/logo.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/logo2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/logo2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/logo3.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/logo3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/logo4.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/logo4.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/logo5.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/logo5.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/logo6.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/logo7.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/logo7.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/mesh1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/mesh1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/mesh2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/mesh2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/meshgmsh.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/meshgmsh.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc-Nasser-PC.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules-Nasser-PC.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/poster/shape function.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test1_1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test1_2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test1_3.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test2_1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test2_2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test2_3.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test2_4.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test3_1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test3_2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test3_3.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test3_4.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test4_1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test4_2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test4_3.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test5_1.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test5_2.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test5_3.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs-Nasser-PC.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace-Nasser-PC.xml" />
-      <change type="MOVED" beforePath="C:\Users\Nasser\OneDrive\elflab\mesh\meshvalidation.geo" afterPath="$PROJECT_DIR$/mesh/meshteste4.geo" />
-      <change type="MOVED" beforePath="C:\Users\Nasser\OneDrive\elflab\mesh\meshvalidation.msh" afterPath="$PROJECT_DIR$/mesh/meshteste4.msh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticity_steadystate.py" afterPath="$PROJECT_DIR$/elasticity_steadystate.py" />
+    <list default="true" id="9ab52b4e-f35e-406b-b471-d3dbd6a88c69" name="Default" comment="general commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/0-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/10-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/11-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/12-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/13-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/14-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/15-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/16-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/17-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/18-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/19-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/20-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/21-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/22-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/23-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/24-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/25-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/26-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/27-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/28-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/29-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/3-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/30-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/31-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/32-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/33-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/34-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/4-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/5-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/6-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/7-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/8-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/9-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/elflab.synctex.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.synctex.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex1_deformation-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex1_elements-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex1_stress_11-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex1_von_mises-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex2_deformation-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex2_elements-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex2_principal_stress-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex2_stress_11-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex2_stress_12-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex2_von_mises-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex3_deformation-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex3_elements-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex3_principal_stress-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex3_stress_11-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex3_stress_12-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex3_von_mises-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex4_deformation-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex4_elements-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex4_principal_stress-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex4_stress_11-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex4_stress_12-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/ex4_von_mises-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam1_1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam1_2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam1_3-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam2_1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam2_2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam2_3-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam3_1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam3_2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam3_3-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam4_1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam4_2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam4_3-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam5_1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam5_2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/exdam5_3-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_3-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_4-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_5-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_6-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/figure_7-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/gauss_x_regular-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/logo7-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/logo7-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/mesh1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/mesh1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/mesh2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/mesh2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/fig/meshgmsh-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/meshgmsh-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test1_1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test1_2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test1_3-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test2_1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test2_2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test2_3-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test2_4-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test3_1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test3_2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test3_3-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test3_4-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test4_1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test4_2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test4_3-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test5_1-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test5_2-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/poisson/fig/test5_3-eps-converted-to.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/elasticity/validations.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/barragem1.geo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/barragem1.msh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boundaryconditions2dof.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticity2d.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/element2dof.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/ex1_imposedU.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/ex2_imposedT.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/ex3_bending.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/ex4_dam.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/ex5_heat2d.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heat2d.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/patch.geo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/patch.msh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/patch2.geo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/patch2.msh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/patch2_2.geo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/patch2_2.msh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/patch3.geo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/patch3.msh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/patch4.geo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/patch4.msh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/patch5.geo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/patch5.msh" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\boundaryconditions_2dof.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\elasticity_steadystate.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\element_2dof.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\heat_steadystate.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\mesh\mesh12.geo" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\mesh\mesh12.msh" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Nasser\OneDrive\elflab\assemble_1dof.py" afterPath="$PROJECT_DIR$/assemble1dof.py" />
+      <change type="MOVED" beforePath="C:\Users\Nasser\OneDrive\elflab\assemble_2dof.py" afterPath="$PROJECT_DIR$/assemble2dof.py" />
+      <change type="MOVED" beforePath="C:\Users\Nasser\OneDrive\elflab\boundaryconditions_1dof.py" afterPath="$PROJECT_DIR$/boundaryconditions1dof.py" />
+      <change type="MOVED" beforePath="C:\Users\Nasser\OneDrive\elflab\element_1dof.py" afterPath="$PROJECT_DIR$/element1dof.py" />
+      <change type="MOVED" beforePath="C:\Users\Nasser\OneDrive\elflab\heat_transient.py" afterPath="$PROJECT_DIR$/heat2dtransient.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tex/poisson/elflab.pdf" afterPath="$PROJECT_DIR$/tex/poisson/elflab.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tex/elasticity/elflab2.pdf" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tex/poisson/elflab.aux" afterPath="$PROJECT_DIR$/tex/poisson/elflab.aux" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tex/poisson/elflab.log" afterPath="$PROJECT_DIR$/tex/poisson/elflab.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tex/poisson/elflab.tex" afterPath="$PROJECT_DIR$/tex/poisson/elflab.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tex/poisson/elflab.toc" afterPath="$PROJECT_DIR$/tex/poisson/elflab.toc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tex/elasticity/elflab2.aux" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.aux" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tex/elasticity/elflab2.log" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tex/elasticity/elflab2.tex" afterPath="$PROJECT_DIR$/tex/elasticity/elflab2.tex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gmsh.py" afterPath="$PROJECT_DIR$/gmsh.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plotter.py" afterPath="$PROJECT_DIR$/plotter.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processing.py" afterPath="$PROJECT_DIR$/processing.py" />
@@ -194,36 +180,24 @@
     <favorites_list name="elflab" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3932794">
+    <splitter split-orientation="horizontal" split-proportion="0.4375765">
       <split-first>
         <leaf>
-          <file leaf-file-name="heat_transient.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/heat_transient.py">
+          <file leaf-file-name="gmsh.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gmsh.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+                  <caret line="130" column="50" selection-start-line="130" selection-start-column="50" selection-end-line="130" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="heat_steadystate.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/heat_steadystate.py">
+          <file leaf-file-name="ex3_bending.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/example/ex3_bending.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#22#40#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="elasticity_steadystate.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/elasticity_steadystate.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+                  <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
                   <folding>
                     <element signature="e#23#41#0" expanded="true" />
                   </folding>
@@ -231,23 +205,33 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="gmsh.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gmsh.py">
+          <file leaf-file-name="ex2_imposedT.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/example/ex2_imposedT.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="163" column="77" selection-start-line="163" selection-start-column="77" selection-end-line="163" selection-end-column="77" />
+                  <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
                   <folding>
-                    <element signature="e#0#18#0" expanded="true" />
+                    <element signature="e#23#41#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="assemble_1dof.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assemble_1dof.py">
+          <file leaf-file-name="ex1_imposedU.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/example/ex1_imposedU.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                  <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ex5_heat2d.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/example/ex5_heat2d.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.44327176">
+                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -257,11 +241,45 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="plotter.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="heat2d.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/heat2d.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.8021108">
+                  <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#22#40#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gmsh.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gmsh.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="element2dof.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/element2dof.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
+                  <folding>
+                    <element signature="e#23#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="plotter.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/plotter.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8976546">
-                  <caret line="758" column="0" selection-start-line="758" selection-start-column="0" selection-end-line="758" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -273,7 +291,7 @@
             <entry file="file://$PROJECT_DIR$/processing.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
+                  <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
                   <folding>
                     <element signature="e#22#40#0" expanded="true" />
                   </folding>
@@ -281,55 +299,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="element_2dof.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/element_2dof.py">
+          <file leaf-file-name="assemble2dof.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assemble2dof.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#23#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="element_1dof.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/element_1dof.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="boundaryconditions_2dof.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/boundaryconditions_2dof.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#22#40#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="boundaryconditions_1dof.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/boundaryconditions_1dof.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="assemble_2dof.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assemble_2dof.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+                  <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -338,6 +312,13 @@
         </leaf>
       </split-second>
     </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -355,22 +336,51 @@
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/make.bat" />
         <option value="$PROJECT_DIR$/source/code.rst" />
-        <option value="$PROJECT_DIR$/element.py" />
         <option value="$PROJECT_DIR$/boundaryconditions.py" />
         <option value="$PROJECT_DIR$/heat_transient.py" />
-        <option value="$PROJECT_DIR$/assemble_2dof.py" />
         <option value="$PROJECT_DIR$/boundaryconditions_1dof.py" />
         <option value="$PROJECT_DIR$/stress_recovery.py" />
         <option value="$PROJECT_DIR$/mesh/meshteste2.geo" />
         <option value="$PROJECT_DIR$/mesh/meshteste2.msh" />
-        <option value="$PROJECT_DIR$/boundaryconditions_2dof.py" />
+        <option value="$PROJECT_DIR$/mesh/barragem2.geo" />
+        <option value="$PROJECT_DIR$/mesh/barragem1.geo" />
+        <option value="$PROJECT_DIR$/mesh/patch.geo" />
+        <option value="$PROJECT_DIR$/mesh/patch.msh" />
         <option value="$PROJECT_DIR$/heat_steadystate.py" />
         <option value="$PROJECT_DIR$/assemble_1dof.py" />
+        <option value="$PROJECT_DIR$/mesh/patch4.geo" />
+        <option value="$PROJECT_DIR$/mesh/patch5.msh" />
+        <option value="$PROJECT_DIR$/mesh/patch5.geo" />
+        <option value="$PROJECT_DIR$/mesh/patch3.geo" />
+        <option value="$PROJECT_DIR$/mesh/patch3.msh" />
+        <option value="$PROJECT_DIR$/patch_ex3.py" />
+        <option value="$PROJECT_DIR$/element.py" />
+        <option value="$PROJECT_DIR$/boundaryconditions_2dof.py" />
+        <option value="$PROJECT_DIR$/mesh/patch2.msh" />
         <option value="$PROJECT_DIR$/element_2dof.py" />
-        <option value="$PROJECT_DIR$/processing.py" />
+        <option value="$PROJECT_DIR$/assemble_2dof.py" />
+        <option value="$PROJECT_DIR$/patch_ex2_2.py" />
+        <option value="$PROJECT_DIR$/mesh/patch2.geo" />
+        <option value="$PROJECT_DIR$/patch_ex2.py" />
+        <option value="$PROJECT_DIR$/patch_ex5.py" />
+        <option value="$PROJECT_DIR$/patch_ex4.py" />
+        <option value="$PROJECT_DIR$/patch_ex1.py" />
+        <option value="$PROJECT_DIR$/patch_ex6.py" />
         <option value="$PROJECT_DIR$/gmsh.py" />
+        <option value="$PROJECT_DIR$/example/patch_ex1.py" />
+        <option value="$PROJECT_DIR$/example/patch_ex2.py" />
+        <option value="$PROJECT_DIR$/example/patch_ex6.py" />
+        <option value="$PROJECT_DIR$/example/patch_ex2_imposedT.py" />
+        <option value="$PROJECT_DIR$/example/patch_ex1_imposedU.py" />
         <option value="$PROJECT_DIR$/plotter.py" />
+        <option value="$PROJECT_DIR$/example/patch_ex4_dam.py" />
+        <option value="$PROJECT_DIR$/example/patch_ex3_bending.py" />
+        <option value="$PROJECT_DIR$/processing.py" />
         <option value="$PROJECT_DIR$/elasticity_steadystate.py" />
+        <option value="$PROJECT_DIR$/example/ex1_imposedU.py" />
+        <option value="$PROJECT_DIR$/example/ex5_heat2d.py" />
+        <option value="$PROJECT_DIR$/heat2d.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
       </list>
     </option>
   </component>
@@ -409,6 +419,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -427,52 +438,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elfLAB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elflab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elfLAB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elflab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elfLAB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elflab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mesh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -482,19 +450,75 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings />
-    </option>
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nasser\OneDrive\elflab\example" />
       <recent name="C:\Users\Nasser\OneDrive\elflab\mesh" />
+      <recent name="C:\Users\Nasser\OneDrive\elflab" />
+      <recent name="C:\Users\Nasser\OneDrive\elflab\examples" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nasser\OneDrive\elflab\example" />
+      <recent name="C:\Users\Nasser\OneDrive\elflab" />
+      <recent name="C:\Users\Nasser\OneDrive\elflab\patch_ex4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.elasticity_steadystate">
-    <configuration default="false" name="steadystate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ex5_heat2d">
+    <configuration default="false" name="patch_ex4_dam" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="elfLAB" />
+      <option name="SCRIPT_NAME" value="C:\Users\Nasser\OneDrive\elflab\example\ex4_dam.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="patch_ex3_bending" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="elfLAB" />
+      <option name="SCRIPT_NAME" value="C:\Users\Nasser\OneDrive\elflab\example\ex3_bending.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ex1_imposedU" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="elfLAB" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/ex1_imposedU.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="heat2d" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -506,90 +530,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="elfLAB" />
-      <option name="SCRIPT_NAME" value="C:\Users\Nasser\OneDrive\elflab\heat_steadystate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heat2d.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="elasticity_steadystate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="ex5_heat2d" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="elfLAB" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/elasticity_steadystate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/ex5_heat2d.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="element" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="elfLAB" />
-      <option name="SCRIPT_NAME" value="C:\Users\Nasser\OneDrive\elflab\element_1dof.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="heat_steadystate" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="elfLAB" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heat_steadystate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in elflab" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="elfLAB" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
-      <option name="TEST_TYPE" value="TEST_FOLDER" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -715,19 +675,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.steadystate" />
-      <item index="1" class="java.lang.String" itemvalue="Python.elasticity_steadystate" />
-      <item index="2" class="java.lang.String" itemvalue="Python.element" />
-      <item index="3" class="java.lang.String" itemvalue="Python.heat_steadystate" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in elflab" />
+      <item index="0" class="java.lang.String" itemvalue="Python.patch_ex4_dam" />
+      <item index="1" class="java.lang.String" itemvalue="Python.patch_ex3_bending" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ex1_imposedU" />
+      <item index="3" class="java.lang.String" itemvalue="Python.heat2d" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ex5_heat2d" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.elasticity_steadystate" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in elflab" />
-        <item index="2" class="java.lang.String" itemvalue="Python.heat_steadystate" />
-        <item index="3" class="java.lang.String" itemvalue="Python.element" />
-        <item index="4" class="java.lang.String" itemvalue="Python.steadystate" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ex5_heat2d" />
+        <item index="1" class="java.lang.String" itemvalue="Python.heat2d" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ex1_imposedU" />
+        <item index="3" class="java.lang.String" itemvalue="Python.patch_ex3_bending" />
+        <item index="4" class="java.lang.String" itemvalue="Python.patch_ex4_dam" />
       </list>
     </recent_temporary>
   </component>
@@ -832,22 +792,31 @@
       <option name="project" value="LOCAL" />
       <updated>1436045418510</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="general commit">
+      <created>1436881903745</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1436881903745</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20208333" sideWeight="0.39233956" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14895834" sideWeight="0.57660455" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32795155" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20208333" sideWeight="0.6076605" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1863354" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14895834" sideWeight="0.42339545" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13562006" sideWeight="0.54814005" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -855,12 +824,32 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="91" y="565" width="683" height="390" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20289855" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32795155" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="91" y="565" width="683" height="390" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3726708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14895834" sideWeight="0.3706004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14895834" sideWeight="0.6293996" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13562006" sideWeight="0.54814005" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -879,221 +868,45 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/element_1dof.py">
+    <entry file="file://$PROJECT_DIR$/element2dof.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heat_steadystate.py">
+    <entry file="file://$PROJECT_DIR$/plotter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="1001" column="5" selection-start-line="1001" selection-start-column="5" selection-end-line="1001" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
           <folding>
             <element signature="e#22#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heat_transient.py">
+    <entry file="file://$PROJECT_DIR$/assemble2dof.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmsh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heat_steadystate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heat_transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmsh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/code.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heat_steadystate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heat_transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmsh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="260" column="37" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heat_transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heat_transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heat_transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1150,22 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boundaryconditions_1dof.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assemble_2dof.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Miniconda3/Lib/site-packages/matplotlib/tri/tricontour.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3326613">
@@ -1201,32 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heat_steadystate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heat_transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assemble_1dof.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mesh/meshteste3.geo">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22976501">
@@ -1241,71 +1012,264 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/element_2dof.py">
+    <entry file="file://$PROJECT_DIR$/element1dof.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+          <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/barragem1.geo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08528785">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heat2dtransient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Miniconda3/Lib/site-packages/networkx/drawing/nx_pylab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3328841">
+          <caret line="270" column="4" selection-start-line="270" selection-start-column="4" selection-end-line="270" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Miniconda3/Lib/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33278146">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boundaryconditions1dof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assemble1dof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/patch5.msh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7832168">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/patch4.msh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/patch3.msh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2214533">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/patch4.geo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/patch5.geo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07570978">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/patch3.geo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.100946374">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/patch.msh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47761193">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/patch.geo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11111111">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/patch2.msh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20813008">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/patch2_2.msh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/patch2_2.geo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh/patch2.geo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0890538">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assemble2dof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boundaryconditions2dof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/element2dof.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
           <folding>
             <element signature="e#23#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/element_1dof.py">
+    <entry file="file://$PROJECT_DIR$/example/ex4_dam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.08443272">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boundaryconditions_2dof.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/processing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
+          <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
           <folding>
             <element signature="e#22#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
+    <entry file="file://$PROJECT_DIR$/elasticity2d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8976546">
-          <caret line="758" column="0" selection-start-line="758" selection-start-column="0" selection-end-line="758" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.28759894">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#23#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ex3_bending.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ex2_imposedT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ex1_imposedU.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gmsh.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="163" column="77" selection-start-line="163" selection-start-column="77" selection-end-line="163" selection-end-column="77" />
+          <caret line="130" column="50" selection-start-line="130" selection-start-column="50" selection-end-line="130" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticity_steadystate.py">
+    <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heat2d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8021108">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#23#41#0" expanded="true" />
+            <element signature="e#22#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ex5_heat2d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44327176">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

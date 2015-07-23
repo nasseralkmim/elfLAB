@@ -73,7 +73,7 @@ class parse:
 
     """
     def __init__(self, filename):
-        path = os.path.join("mesh", filename+'.geo')
+        path = os.path.join("..\mesh", filename+'.geo')
         geometry_feeder = open(path, 'r')
 
         surfaces = []
@@ -93,7 +93,7 @@ class parse:
         self.boundary_lines = np.asarray(boundary_lines)
         self.surfaces = np.asarray(surfaces)
 
-        path2 = os.path.join("mesh", filename+'.msh')
+        path2 = os.path.join("..\mesh", filename+'.msh')
         mesh_feeder = open(path2, 'r')
 
         nodes_coord = []
@@ -256,8 +256,9 @@ class parse:
         #         x1_e2 x2_e2]
         self.Jac = np.dot(self.dphi_ei, element_nodes_coord)
 
-        self.detJac = abs((self.Jac[0, 0]*self.Jac[1, 1] -
+        self.detJac = ((self.Jac[0, 0]*self.Jac[1, 1] -
                               self.Jac[0, 1]*self.Jac[1, 0]))
+
 
         # JacInv = [ e1_x1 e2_x1
         #            e1_x2 e2_x2 ]

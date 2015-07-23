@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=latex 2015.1.9)  8 JUL 2015 15:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.6)  16 JUL 2015 16:49
 entering extended mode
 **elflab2.tex
 (C:\Users\Nasser\OneDrive\elflab\tex\elasticity\elflab2.tex
@@ -39,7 +39,7 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
@@ -74,10 +74,18 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: dvips.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvips.def"
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count90
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
@@ -113,13 +121,13 @@ Package: amsbsy 1999/11/29 v1.2d
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count90
+\inf@bad=\count91
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count91
-\leftroot@=\count92
+\uproot@=\count92
+\leftroot@=\count93
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count93
-\DOTSCASE@=\count94
+\classnum@=\count94
+\DOTSCASE@=\count95
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -128,15 +136,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen115
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count95
-\c@MaxMatrixCols=\count96
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
-\c@parentequation=\count97
-\dspbrk@lvl=\count98
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
 \tag@help=\toks18
-\row@=\count99
-\column@=\count100
-\maxfields@=\count101
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
 \andhelp@=\toks19
 \eqnshift@=\dimen116
 \alignsep@=\dimen117
@@ -373,16 +381,16 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count102
+\c@NAT@ctr=\count103
 )
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks24
-\MT@count=\count103
+\MT@count=\count104
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen122
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count104
+\MT@listname@count=\count105
 
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype-pdfte
 x.def
@@ -406,7 +414,7 @@ L3 Module: l3bootstrap 2014/08/23 v5354 L3 Bootstrap code
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count105
+\et@xins=\count106
 )
 L3 Module: l3names 2014/08/22 v5343 L3 Namespace for primitives
 L3 Module: l3basics 2014/08/24 v5364 L3 Basic definitions
@@ -415,24 +423,24 @@ L3 Module: l3tl 2014/11/19 v5460 L3 Token lists
 L3 Module: l3str 2014/08/24 v5368 L3 Strings
 L3 Module: l3seq 2014/08/23 v5354 L3 Sequences and stacks
 L3 Module: l3int 2014/09/14 v5421 L3 Integers
-\c_max_int=\count106
-\l_tmpa_int=\count107
-\l_tmpb_int=\count108
-\g_tmpa_int=\count109
-\g_tmpb_int=\count110
+\c_max_int=\count107
+\l_tmpa_int=\count108
+\l_tmpb_int=\count109
+\g_tmpa_int=\count110
+\g_tmpb_int=\count111
 L3 Module: l3quark 2014/08/23 v5354 L3 Quarks
 L3 Module: l3prg 2014/08/23 v5354 L3 Control structures
-\g__prg_map_int=\count111
+\g__prg_map_int=\count112
 L3 Module: l3clist 2014/08/23 v5354 L3 Comma separated lists
 L3 Module: l3token 2014/09/15 v5422 L3 Experimental token manipulation
 L3 Module: l3prop 2014/08/23 v5354 L3 Property lists
 L3 Module: l3msg 2014/08/24 v5358 L3 Messages
 L3 Module: l3file 2014/08/24 v5369 L3 File and I/O operations
-\l_iow_line_count_int=\count112
-\l__iow_target_count_int=\count113
-\l__iow_current_line_int=\count114
-\l__iow_current_word_int=\count115
-\l__iow_current_indentation_int=\count116
+\l_iow_line_count_int=\count113
+\l__iow_target_count_int=\count114
+\l__iow_current_line_int=\count115
+\l__iow_current_word_int=\count116
+\l__iow_current_indentation_int=\count117
 L3 Module: l3skip 2014/08/23 v5354 L3 Dimensions and skips
 \c_zero_dim=\dimen123
 \c_max_dim=\dimen124
@@ -453,18 +461,18 @@ L3 Module: l3skip 2014/08/23 v5354 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2014/08/23 v5354 L3 Key-value interfaces
-\g__keyval_level_int=\count117
-\l_keys_choice_int=\count118
+\g__keyval_level_int=\count118
+\l_keys_choice_int=\count119
 L3 Module: l3fp 2014/08/22 v5336 L3 Floating points
-\c__fp_leading_shift_int=\count119
-\c__fp_middle_shift_int=\count120
-\c__fp_trailing_shift_int=\count121
-\c__fp_big_leading_shift_int=\count122
-\c__fp_big_middle_shift_int=\count123
-\c__fp_big_trailing_shift_int=\count124
-\c__fp_Bigg_leading_shift_int=\count125
-\c__fp_Bigg_middle_shift_int=\count126
-\c__fp_Bigg_trailing_shift_int=\count127
+\c__fp_leading_shift_int=\count120
+\c__fp_middle_shift_int=\count121
+\c__fp_trailing_shift_int=\count122
+\c__fp_big_leading_shift_int=\count123
+\c__fp_big_middle_shift_int=\count124
+\c__fp_big_trailing_shift_int=\count125
+\c__fp_Bigg_leading_shift_int=\count126
+\c__fp_Bigg_middle_shift_int=\count127
+\c__fp_Bigg_trailing_shift_int=\count128
 L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
 \c_empty_box=\box28
 \l_tmpa_box=\box29
@@ -513,17 +521,19 @@ L3 Module: l3candidates 2014/11/23 v5466 L3 Experimental additions to l3kernel
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3unicode-data.d
 ef
 File: l3unicode-data.def 2014/11/23 v5465 L3 Unicode data
-) (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3dvips.def
-File: l3dvips.def 2014/11/23 v5466 L3 Experimental driver: dvips
+)
+(C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.def
+File: l3pdfmode.def 2014/11/23 v5466 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count129
 ))
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xparse.
 sty
 Package: xparse 2014/11/25 v5471 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count128
-\l__xparse_m_args_int=\count129
-\l__xparse_mandatory_args_int=\count130
-\l__xparse_processor_int=\count131
-\l__xparse_v_nesting_int=\count132
+\l__xparse_current_arg_int=\count130
+\l__xparse_m_args_int=\count131
+\l__xparse_mandatory_args_int=\count132
+\l__xparse_processor_int=\count133
+\l__xparse_v_nesting_int=\count134
 )
 Package: siunitx 2014/10/28 v2.6d A comprehensive (SI) units package
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
@@ -541,30 +551,30 @@ Package: l3keys2e 2014/11/25 v5471 LaTeX2e option processing using LaTeX3 keys
 Variant \tl_if_blank:VTF already defined; not changing it on line 50
 \l__siunitx_tmp_box=\box43
 \l__siunitx_tmp_dim=\dimen156
-\l__siunitx_tmp_int=\count133
+\l__siunitx_tmp_int=\count135
 Variant \prop_get:NVNT already defined; not changing it on line 372
 Variant \prop_get:NVNF already defined; not changing it on line 373
 Variant \prop_get:NVNTF already defined; not changing it on line 374
-\l__siunitx_number_mantissa_length_int=\count134
-\l__siunitx_number_uncert_length_int=\count135
-\l__siunitx_round_int=\count136
-\l__siunitx_process_decimal_int=\count137
-\l__siunitx_process_uncertainty_int=\count138
-\l__siunitx_process_fixed_int=\count139
-\l__siunitx_process_integer_min_int=\count140
-\l__siunitx_process_precision_int=\count141
-\l__siunitx_group_min_int=\count142
+\l__siunitx_number_mantissa_length_int=\count136
+\l__siunitx_number_uncert_length_int=\count137
+\l__siunitx_round_int=\count138
+\l__siunitx_process_decimal_int=\count139
+\l__siunitx_process_uncertainty_int=\count140
+\l__siunitx_process_fixed_int=\count141
+\l__siunitx_process_integer_min_int=\count142
+\l__siunitx_process_precision_int=\count143
+\l__siunitx_group_min_int=\count144
 \l__siunitx_angle_marker_box=\box44
 \l__siunitx_angle_unit_box=\box45
 \l__siunitx_angle_marker_dim=\dimen157
 \l__siunitx_angle_unit_dim=\dimen158
-\l__siunitx_unit_int=\count143
-\l__siunitx_unit_denominator_int=\count144
-\l__siunitx_unit_numerator_int=\count145
-\l__siunitx_unit_prefix_int=\count146
-\l__siunitx_unit_prefix_base_int=\count147
-\l__siunitx_unit_prefix_gram_int=\count148
-\l__siunitx_number_product_int=\count149
+\l__siunitx_unit_int=\count145
+\l__siunitx_unit_denominator_int=\count146
+\l__siunitx_unit_numerator_int=\count147
+\l__siunitx_unit_prefix_int=\count148
+\l__siunitx_unit_prefix_base_int=\count149
+\l__siunitx_unit_prefix_gram_int=\count150
+\l__siunitx_number_product_int=\count151
 \c__siunitx_one_fill_skip=\skip57
 \l__siunitx_table_unit_align_skip=\skip58
 \l__siunitx_table_exponent_dim=\dimen159
@@ -726,11 +736,11 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen173
 \caption@hangindent=\dimen174
 )
-\c@ContinuedFloat=\count150
+\c@ContinuedFloat=\count152
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count151
+\c@float@type=\count153
 \float@exts=\toks26
 \float@box=\box50
 \@float@everytoks=\toks27
@@ -738,9 +748,52 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
-\c@subfigure=\count152
-\c@subtable=\count153
+\c@subfigure=\count154
+\c@subtable=\count155
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen175
@@ -753,12 +806,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen182
 \cmidrulekern=\dimen183
 \defaultaddspace=\dimen184
-\@cmidla=\count154
-\@cmidlb=\count155
+\@cmidla=\count156
+\@cmidlb=\count157
 \@aboverulesep=\dimen185
 \@belowrulesep=\dimen186
-\@thisruleclass=\count156
-\@lastruleclass=\count157
+\@thisruleclass=\count158
+\@lastruleclass=\count159
 \@thisrulewidth=\dimen187
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
@@ -779,7 +832,7 @@ Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 \XKV@toks=\toks28
 \XKV@tempa@toks=\toks29
-\XKV@depth=\count158
+\XKV@depth=\count160
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjcalc.sty
@@ -797,28 +850,30 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@lly=\dimen190
 \tc@urx=\dimen191
 \tc@ury=\dimen192
-Package trimclip Info: Using driver 'tc-dvips.def'.
- (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\tc-dvips.def
-File: tc-dvips.def 2012/05/13 v1.0 Clipping driver for dvips
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen193
 \adjbox@Height=\dimen194
 \adjbox@Depth=\dimen195
 \adjbox@Totalheight=\dimen196
- (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.sty
+
+(C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count159
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+\c@checkoddpage=\count161
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box53
-\sift@deathcycles=\count160
+\sift@deathcycles=\count162
 \@vwid@loff=\dimen197
 \@vwid@roff=\dimen198
 ))
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
 \wrapoverhang=\dimen199
 \WF@size=\dimen200
-\c@WF@wrappedlines=\count161
+\c@WF@wrappedlines=\count163
 \WF@box=\box54
 \WF@everypar=\toks30
 Package: wrapfig 2003/01/31  v 3.6
@@ -829,18 +884,15 @@ Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: dvips.def on input line 130.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
-File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
-))
+Package color Info: Driver file: pdftex.def on input line 130.
+)
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\rotating\rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count162
+\c@r@tfl@t=\count164
 \rotFPtop=\skip61
 \rotFPbot=\skip62
 \rot@float@box=\box55
@@ -859,14 +911,14 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count163
+\c@tracingmulticols=\count165
 \mult@box=\box56
 \multicol@leftmargin=\dimen201
-\c@unbalance=\count164
-\c@collectmore=\count165
-\doublecol@number=\count166
-\multicoltolerance=\count167
-\multicolpretolerance=\count168
+\c@unbalance=\count166
+\c@collectmore=\count167
+\doublecol@number=\count168
+\multicoltolerance=\count169
+\multicolpretolerance=\count170
 Normal \dimen register pool exhausted, switching to extended pool.
 \full@width=\dimen256
 \page@free=\dimen257
@@ -897,19 +949,19 @@ Normal \dimen register pool exhausted, switching to extended pool.
 \@tempa=\box77
 \@tempa=\box78
 \@tempa=\box79
-\c@columnbadness=\count169
-\c@finalcolumnbadness=\count170
+\c@columnbadness=\count171
+\c@finalcolumnbadness=\count172
 \last@try=\dimen260
 \multicolovershoot=\dimen261
 \multicolundershoot=\dimen262
 \mult@nat@firstbox=\box80
 \colbreak@box=\box81
-\multicol@sort@counter=\count171
+\multicol@sort@counter=\count173
 )
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\psfrag\psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
-\pfg@pcount=\count172
-\pfg@scount=\count173
+\pfg@pcount=\count174
+\pfg@scount=\count175
 \pfg@temp=\write3
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
@@ -922,26 +974,16 @@ Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -961,19 +1003,16 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-)
 \@linkdim=\dimen263
-\Hy@linkcounter=\count174
-\Hy@pagecounter=\count175
+\Hy@linkcounter=\count176
+\Hy@pagecounter=\count177
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count176
+\Hy@SavedSpaceFactor=\count178
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -996,7 +1035,7 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count177
+\c@Hy@tempcnt=\count179
 
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip17
@@ -1004,7 +1043,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen264
-\Fld@menulength=\count178
+\Fld@menulength=\count180
 \Field@Width=\dimen265
 \Fld@charsize=\dimen266
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -1016,27 +1055,19 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count179
-\c@Item=\count180
-\c@Hfootnote=\count181
+\Hy@abspage=\count181
+\c@Item=\count182
+\c@Hfootnote=\count183
 )
 
-Package hyperref Message: Driver (default): hdvips.
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hdvips.def"
-File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pdfmark.def"
-File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
-\pdf@docset=\toks32
-\pdf@box=\box82
-\pdf@toks=\toks33
-\pdf@defaulttoks=\toks34
-\HyField@AnnotCount=\count182
-\Fld@listcount=\count183
-\c@bookmark@seq@number=\count184
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count184
+\c@bookmark@seq@number=\count185
 \Hy@SectionHShift=\skip74
-))
+)
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\chngcntr\chngcntr.sty
 Package: chngcntr 2009/09/02 v1.0a change counter resetting
 )
@@ -1045,7 +1076,7 @@ y (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
 ommon.tex
-\pgfutil@everybye=\toks35
+\pgfutil@everybye=\toks32
 \pgfutil@tempdima=\dimen267
 \pgfutil@tempdimb=\dimen268
 
@@ -1053,7 +1084,7 @@ ommon.tex
 ommon-lists.tex))
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-l
 atex.def
-\pgfutil@abb=\box83
+\pgfutil@abb=\box82
  (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -1073,12 +1104,12 @@ Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
 ode.tex
-\pgfkeys@pathtoks=\toks36
-\pgfkeys@temptoks=\toks37
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
 
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfi
 ltered.code.tex
-\pgfkeys@tmptoks=\toks38
+\pgfkeys@tmptoks=\toks35
 ))
 \pgf@x=\dimen269
 \pgf@y=\dimen270
@@ -1090,27 +1121,26 @@ ltered.code.tex
 \pgf@yc=\dimen276
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count185
-\c@pgf@countb=\count186
-\c@pgf@countc=\count187
-\c@pgf@countd=\count188
-\t@pgf@toka=\toks39
-\t@pgf@tokb=\toks40
-\t@pgf@tokc=\toks41
+\c@pgf@counta=\count186
+\c@pgf@countb=\count187
+\c@pgf@countc=\count188
+\c@pgf@countd=\count189
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
 
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-dvips.def
+Driver file for pgf: pgfsys-pdftex.def
 
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
-dvips.def
-File: pgfsys-dvips.def 2013/07/16  (rcs-revision 1.23)
+pdftex.def
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
-common-postscript.def
-File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
-\pgf@objectcount=\count189
+common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyss
 oftpath.code.tex
@@ -1128,9 +1158,10 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 LaTeX Info: Redefining \color on input line 702.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -1153,10 +1184,10 @@ de.tex)
 code.tex
 \pgfmath@dimen=\dimen277
 \pgfmath@count=\count192
-\pgfmath@box=\box84
-\pgfmath@toks=\toks42
-\pgfmath@stack@operand=\toks43
-\pgfmath@stack@operation=\toks44
+\pgfmath@box=\box83
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
 )
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
 ns.code.tex
@@ -1213,9 +1244,9 @@ File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
 copes.code.tex
 File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
-\pgfpic=\box85
-\pgf@hbox=\box86
-\pgf@layerbox@main=\box87
+\pgfpic=\box84
+\pgf@hbox=\box85
+\pgf@layerbox@main=\box86
 \pgf@picture@serial@count=\count194
 )
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreg
@@ -1260,7 +1291,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoree
 xternal.code.tex
 File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
-\pgfexternal@startupbox=\box88
+\pgfexternal@startupbox=\box87
 ))
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorel
 ayers.code.tex
@@ -1277,7 +1308,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulesh
 apes.code.tex
 File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
-\pgfnodeparttextbox=\box89
+\pgfnodeparttextbox=\box88
 )
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulepl
 ot.code.tex
@@ -1309,8 +1340,8 @@ Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 ex)
 \pgffor@iter=\dimen304
 \pgffor@skip=\dimen305
-\pgffor@stack=\toks45
-\pgffor@toks=\toks46
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
 ))
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
 tikz.code.tex
@@ -1328,10 +1359,10 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \tikz@lastysaved=\dimen310
 \tikzleveldistance=\dimen311
 \tikzsiblingdistance=\dimen312
-\tikz@figbox=\box90
-\tikz@figbox@bg=\box91
-\tikz@tempbox=\box92
-\tikz@tempbox@bg=\box93
+\tikz@figbox=\box89
+\tikz@figbox@bg=\box90
+\tikz@tempbox=\box91
+\tikz@tempbox@bg=\box92
 \tikztreelevel=\count197
 \tikznumberofchildren=\count198
 \tikznumberofcurrentchild=\count199
@@ -1400,26 +1431,26 @@ File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\shapes\pg
 flibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
-\pgfnodepartlowerbox=\box94
-\pgfnodeparttwobox=\box95
-\pgfnodepartthreebox=\box96
-\pgfnodepartfourbox=\box97
-\pgfnodeparttwentybox=\box98
-\pgfnodepartnineteenbox=\box99
-\pgfnodeparteighteenbox=\box100
-\pgfnodepartseventeenbox=\box101
-\pgfnodepartsixteenbox=\box102
-\pgfnodepartfifteenbox=\box103
-\pgfnodepartfourteenbox=\box104
-\pgfnodepartthirteenbox=\box105
-\pgfnodeparttwelvebox=\box106
-\pgfnodepartelevenbox=\box107
-\pgfnodeparttenbox=\box108
-\pgfnodepartninebox=\box109
-\pgfnodeparteightbox=\box110
-\pgfnodepartsevenbox=\box111
-\pgfnodepartsixbox=\box112
-\pgfnodepartfivebox=\box113
+\pgfnodepartlowerbox=\box93
+\pgfnodeparttwobox=\box94
+\pgfnodepartthreebox=\box95
+\pgfnodepartfourbox=\box96
+\pgfnodeparttwentybox=\box97
+\pgfnodepartnineteenbox=\box98
+\pgfnodeparteighteenbox=\box99
+\pgfnodepartseventeenbox=\box100
+\pgfnodepartsixteenbox=\box101
+\pgfnodepartfifteenbox=\box102
+\pgfnodepartfourteenbox=\box103
+\pgfnodepartthirteenbox=\box104
+\pgfnodeparttwelvebox=\box105
+\pgfnodepartelevenbox=\box106
+\pgfnodeparttenbox=\box107
+\pgfnodepartninebox=\box108
+\pgfnodeparteightbox=\box109
+\pgfnodepartsevenbox=\box110
+\pgfnodepartsixbox=\box111
+\pgfnodepartfivebox=\box112
 )))
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
 libraries\tikzlibraryarrows.code.tex
@@ -1581,25 +1612,25 @@ LaTeX Warning: Label `fig:1' multiply defined.
 LaTeX Warning: Label `fig:3_1' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1630,15 +1661,31 @@ LaTeX Font Info:    ... okay on input line 75.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 75.
-Package microtype Info: Generating DVI output.
+(C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count280
+\scratchdimen=\dimen314
+\scratchbox=\box113
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen315
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks45
+)
+LaTeX Info: Redefining \microtypecontext on input line 77.
+Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: No font expansion.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-cmr.cfg
+ (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -1732,27 +1779,27 @@ Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box114
-Package backref Info: ** backref set up for natbib ** on input line 75.
-Package hyperref Info: Link coloring ON on input line 75.
+Package backref Info: ** backref set up for natbib ** on input line 77.
+Package hyperref Info: Link coloring ON on input line 77.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count280
+\c@section@level=\count286
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
+LaTeX Info: Redefining \ref on input line 77.
+LaTeX Info: Redefining \pageref on input line 77.
+LaTeX Info: Redefining \nameref on input line 77.
 
 (C:\Users\Nasser\OneDrive\elflab\tex\elasticity\elflab2.out)
 (C:\Users\Nasser\OneDrive\elflab\tex\elasticity\elflab2.out)
 \@outlinefile=\write5
 
 ABD: EveryShipout initializing macros
-\c__siunitx_mathsf_int=\count281
-LaTeX Font Info:    Try loading font information for U+msa on input line 75.
+\c__siunitx_mathsf_int=\count287
+LaTeX Font Info:    Try loading font information for U+msa on input line 77.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1760,7 +1807,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\Nasser\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 75.
+LaTeX Font Info:    Try loading font information for U+msb on input line 77.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1772,115 +1819,580 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count282
+\c__siunitx_mathtt_int=\count288
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-File: fig/logo7.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <fig/logo7.eps>
+(epstopdf)                    date: 2015-02-20 10:24:49
+(epstopdf)                    size: 6636 bytes
+(epstopdf)             Output file: <fig/logo7-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:00
+(epstopdf)                    size: 3107 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/logo7-eps-converted-to.
+pdf fig/logo7.eps>
+(epstopdf)             \includegraphics on input line 82.
+Package epstopdf Info: Output file is already uptodate.
 
-<fig/logo7.eps> [1
+<fig/logo7-eps-converted-to.pdf, id=154, 311.1625pt x 296.10625pt>
+File: fig/logo7-eps-converted-to.pdf Graphic file (type pdf)
 
-] (C:\Users\Nasser\OneDrive\elflab\tex\elasticity\elflab2.toc)
-\tf@toc=\write6
+<use fig/logo7-eps-converted-to.pdf>
+Package pdftex.def Info: fig/logo7-eps-converted-to.pdf used on input line 82.
+(pdftex.def)             Requested size: 93.34947pt x 88.83255pt.
  [1
+Non-PDF special ignored!
 
-]
+ <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/logo7-eps-converted-to.pdf
+>]
+(C:\Users\Nasser\OneDrive\elflab\tex\elasticity\elflab2.toc)
+\tf@toc=\write6
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.99 \clearpage
+                [1
+
+{C:/Users/Nasser/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 140.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 142.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 140.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
  [2
 
 ] [3] [4]
 [5] [6] [7] [8] [9] [10] [11]
-File: fig/mesh1.eps Graphic file (type eps)
- <fig/mesh1.eps>
-Overfull \hbox (40.4312pt too wide) in paragraph at lines 518--519
+Package epstopdf Info: Source file: <fig/mesh1.eps>
+(epstopdf)                    date: 2015-02-20 10:24:49
+(epstopdf)                    size: 2795 bytes
+(epstopdf)             Output file: <fig/mesh1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:00
+(epstopdf)                    size: 3597 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/mesh1-eps-converted-to.
+pdf fig/mesh1.eps>
+(epstopdf)             \includegraphics on input line 520.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/mesh1-eps-converted-to.pdf, id=276, 589.20125pt x 444.66125pt>
+File: fig/mesh1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/mesh1-eps-converted-to.pdf>
+Package pdftex.def Info: fig/mesh1-eps-converted-to.pdf used on input line 520.
+
+(pdftex.def)             Requested size: 242.59029pt x 183.07898pt.
+
+Overfull \hbox (40.4312pt too wide) in paragraph at lines 520--521
 [][] 
  []
 
-File: fig/mesh2.eps Graphic file (type eps)
-<fig/mesh2.eps> [12]
-File: fig/meshgmsh.eps Graphic file (type eps)
- <fig/meshgmsh.eps> [13] [14] [15] [16] [17] [18]
-File: fig/ex1_elements.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <fig/mesh2.eps>
+(epstopdf)                    date: 2015-02-20 10:24:49
+(epstopdf)                    size: 7227 bytes
+(epstopdf)             Output file: <fig/mesh2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:01
+(epstopdf)                    size: 5316 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/mesh2-eps-converted-to.
+pdf fig/mesh2.eps>
+(epstopdf)             \includegraphics on input line 525.
+Package epstopdf Info: Output file is already uptodate.
+<fig/mesh2-eps-converted-to.pdf, id=277, 589.20125pt x 444.66125pt>
+File: fig/mesh2-eps-converted-to.pdf Graphic file (type pdf)
 
-<fig/ex1_elements.eps>
-File: fig/ex1_deformation.eps Graphic file (type eps)
- <fig/ex1_deformation.eps>
-File: fig/ex1_stress_11.eps Graphic file (type eps)
- <fig/ex1_stress_11.eps>
-Overfull \hbox (40.4312pt too wide) in paragraph at lines 903--904
+<use fig/mesh2-eps-converted-to.pdf>
+Package pdftex.def Info: fig/mesh2-eps-converted-to.pdf used on input line 525.
+
+(pdftex.def)             Requested size: 202.15909pt x 152.56696pt.
+ [12 <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/mesh1-eps-converted-to
+.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/mesh2-eps-converted-t
+o.pdf>]
+Package epstopdf Info: Source file: <fig/meshgmsh.eps>
+(epstopdf)                    date: 2015-02-20 10:24:49
+(epstopdf)                    size: 7475 bytes
+(epstopdf)             Output file: <fig/meshgmsh-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:01
+(epstopdf)                    size: 3552 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/meshgmsh-eps-converted-
+to.pdf fig/meshgmsh.eps>
+(epstopdf)             \includegraphics on input line 544.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/meshgmsh-eps-converted-to.pdf, id=288, 765.86125pt x 948.54375pt>
+File: fig/meshgmsh-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/meshgmsh-eps-converted-to.pdf>
+Package pdftex.def Info: fig/meshgmsh-eps-converted-to.pdf used on input line 5
+44.
+(pdftex.def)             Requested size: 330.05322pt x 127.60716pt.
+ [13 <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/meshgmsh-eps-converted
+-to.pdf>] [14] [15] [16] [17] [18]
+Package epstopdf Info: Source file: <fig/ex1_elements.eps>
+(epstopdf)                    date: 2015-07-04 17:49:33
+(epstopdf)                    size: 1297708 bytes
+(epstopdf)             Output file: <fig/ex1_elements-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:04
+(epstopdf)                    size: 481877 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex1_elements-eps-conver
+ted-to.pdf fig/ex1_elements.eps>
+(epstopdf)             \includegraphics on input line 895.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex1_elements-eps-converted-to.pdf, id=338, 578.16pt x 430.60875pt>
+File: fig/ex1_elements-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex1_elements-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex1_elements-eps-converted-to.pdf used on input li
+ne 895.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex1_deformation.eps>
+(epstopdf)                    date: 2015-07-04 17:48:30
+(epstopdf)                    size: 2574013 bytes
+(epstopdf)             Output file: <fig/ex1_deformation-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:07
+(epstopdf)                    size: 242300 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex1_deformation-eps-con
+verted-to.pdf fig/ex1_deformation.eps>
+(epstopdf)             \includegraphics on input line 900.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex1_deformation-eps-converted-to.pdf, id=339, 578.16pt x 430.60875pt>
+File: fig/ex1_deformation-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex1_deformation-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex1_deformation-eps-converted-to.pdf used on input
+ line 900.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex1_stress_11.eps>
+(epstopdf)                    date: 2015-07-04 17:45:45
+(epstopdf)                    size: 81652 bytes
+(epstopdf)             Output file: <fig/ex1_stress_11-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:07
+(epstopdf)                    size: 28734 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex1_stress_11-eps-conve
+rted-to.pdf fig/ex1_stress_11.eps>
+(epstopdf)             \includegraphics on input line 905.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex1_stress_11-eps-converted-to.pdf, id=340, 578.16pt x 430.60875pt>
+File: fig/ex1_stress_11-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex1_stress_11-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex1_stress_11-eps-converted-to.pdf used on input l
+ine 905.
+(pdftex.def)             Requested size: 242.59029pt x 180.67703pt.
+
+Overfull \hbox (40.4312pt too wide) in paragraph at lines 905--906
 [][] 
  []
 
-File: fig/ex1_von_mises.eps Graphic file (type eps)
-<fig/ex1_von_mises.eps>
-Overfull \hbox (40.4312pt too wide) in paragraph at lines 908--909
+Package epstopdf Info: Source file: <fig/ex1_von_mises.eps>
+(epstopdf)                    date: 2015-07-04 17:47:52
+(epstopdf)                    size: 58167 bytes
+(epstopdf)             Output file: <fig/ex1_von_mises-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:08
+(epstopdf)                    size: 22633 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex1_von_mises-eps-conve
+rted-to.pdf fig/ex1_von_mises.eps>
+(epstopdf)             \includegraphics on input line 910.
+Package epstopdf Info: Output file is already uptodate.
+<fig/ex1_von_mises-eps-converted-to.pdf, id=341, 578.16pt x 430.60875pt>
+File: fig/ex1_von_mises-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex1_von_mises-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex1_von_mises-eps-converted-to.pdf used on input l
+ine 910.
+(pdftex.def)             Requested size: 242.59029pt x 180.67703pt.
+
+Overfull \hbox (40.4312pt too wide) in paragraph at lines 910--911
 [][] 
  []
 
 [19]
-File: fig/ex2_elements.eps Graphic file (type eps)
- <fig/ex2_elements.eps>
-File: fig/ex2_deformation.eps Graphic file (type eps)
- <fig/ex2_deformation.eps>
-File: fig/ex2_stress_11.eps Graphic file (type eps)
- <fig/ex2_stress_11.eps>
-File: fig/ex2_stress_12.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <fig/ex2_elements.eps>
+(epstopdf)                    date: 2015-07-04 18:13:23
+(epstopdf)                    size: 37684 bytes
+(epstopdf)             Output file: <fig/ex2_elements-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:08
+(epstopdf)                    size: 17836 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex2_elements-eps-conver
+ted-to.pdf fig/ex2_elements.eps>
+(epstopdf)             \includegraphics on input line 924.
+Package epstopdf Info: Output file is already uptodate.
+ <fig/ex2_elements-eps-converted-to.pdf, id=348, 578.16pt x 430.60875pt>
+File: fig/ex2_elements-eps-converted-to.pdf Graphic file (type pdf)
 
-<fig/ex2_stress_12.eps>
-File: fig/ex2_von_mises.eps Graphic file (type eps)
- <fig/ex2_von_mises.eps>
-File: fig/ex2_principal_stress.eps Graphic file (type eps)
- <fig/ex2_principal_stress.eps>
-[20]
-File: fig/ex3_elements.eps Graphic file (type eps)
- <fig/ex3_elements.eps>
-File: fig/ex3_deformation.eps Graphic file (type eps)
- <fig/ex3_deformation.eps>
-File: fig/ex3_stress_11.eps Graphic file (type eps)
- <fig/ex3_stress_11.eps>
-File: fig/ex3_stress_12.eps Graphic file (type eps)
+<use fig/ex2_elements-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex2_elements-eps-converted-to.pdf used on input li
+ne 924.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex2_deformation.eps>
+(epstopdf)                    date: 2015-07-04 18:13:39
+(epstopdf)                    size: 54292 bytes
+(epstopdf)             Output file: <fig/ex2_deformation-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:09
+(epstopdf)                    size: 12515 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex2_deformation-eps-con
+verted-to.pdf fig/ex2_deformation.eps>
+(epstopdf)             \includegraphics on input line 929.
+Package epstopdf Info: Output file is already uptodate.
 
-<fig/ex3_stress_12.eps>
-File: fig/ex3_von_mises.eps Graphic file (type eps)
- <fig/ex3_von_mises.eps>
-File: fig/ex3_principal_stress.eps Graphic file (type eps)
- <fig/ex3_principal_stress.eps>
-[21]
-File: fig/ex4_elements.eps Graphic file (type eps)
- <fig/ex4_elements.eps>
-File: fig/ex4_deformation.eps Graphic file (type eps)
- <fig/ex4_deformation.eps>
-File: fig/ex4_stress_11.eps Graphic file (type eps)
- <fig/ex4_stress_11.eps>
-File: fig/ex4_stress_12.eps Graphic file (type eps)
+<fig/ex2_deformation-eps-converted-to.pdf, id=349, 578.16pt x 430.60875pt>
+File: fig/ex2_deformation-eps-converted-to.pdf Graphic file (type pdf)
 
-<fig/ex4_stress_12.eps>
-File: fig/ex4_von_mises.eps Graphic file (type eps)
- <fig/ex4_von_mises.eps>
-File: fig/ex4_principal_stress.eps Graphic file (type eps)
- <fig/ex4_principal_stress.eps>
-[22]
-File: fig/gauss_x_regular.eps Graphic file (type eps)
- <fig/gauss_x_regular.eps> [23] [24]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1047.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1047.
+<use fig/ex2_deformation-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex2_deformation-eps-converted-to.pdf used on input
+ line 929.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex2_stress_11.eps>
+(epstopdf)                    date: 2015-07-04 18:15:06
+(epstopdf)                    size: 31538 bytes
+(epstopdf)             Output file: <fig/ex2_stress_11-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:09
+(epstopdf)                    size: 15547 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex2_stress_11-eps-conve
+rted-to.pdf fig/ex2_stress_11.eps>
+(epstopdf)             \includegraphics on input line 934.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex2_stress_11-eps-converted-to.pdf, id=350, 578.16pt x 430.60875pt>
+File: fig/ex2_stress_11-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex2_stress_11-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex2_stress_11-eps-converted-to.pdf used on input l
+ine 934.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex2_stress_12.eps>
+(epstopdf)                    date: 2015-07-04 18:17:13
+(epstopdf)                    size: 30445 bytes
+(epstopdf)             Output file: <fig/ex2_stress_12-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:10
+(epstopdf)                    size: 15304 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex2_stress_12-eps-conve
+rted-to.pdf fig/ex2_stress_12.eps>
+(epstopdf)             \includegraphics on input line 939.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex2_stress_12-eps-converted-to.pdf, id=351, 578.16pt x 430.60875pt>
+File: fig/ex2_stress_12-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex2_stress_12-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex2_stress_12-eps-converted-to.pdf used on input l
+ine 939.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex2_von_mises.eps>
+(epstopdf)                    date: 2015-07-04 18:14:30
+(epstopdf)                    size: 30872 bytes
+(epstopdf)             Output file: <fig/ex2_von_mises-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:10
+(epstopdf)                    size: 15503 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex2_von_mises-eps-conve
+rted-to.pdf fig/ex2_von_mises.eps>
+(epstopdf)             \includegraphics on input line 944.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex2_von_mises-eps-converted-to.pdf, id=352, 578.16pt x 430.60875pt>
+File: fig/ex2_von_mises-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex2_von_mises-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex2_von_mises-eps-converted-to.pdf used on input l
+ine 944.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex2_principal_stress.eps>
+(epstopdf)                    date: 2015-07-04 18:14:50
+(epstopdf)                    size: 35171 bytes
+(epstopdf)             Output file: <fig/ex2_principal_stress-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-07-16 16:49:11
+(epstopdf)                    size: 18561 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex2_principal_stress-ep
+s-converted-to.pdf fig/ex2_principal_stress.eps>
+(epstopdf)             \includegraphics on input line 949.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex2_principal_stress-eps-converted-to.pdf, id=353, 578.16pt x 430.60875pt>
+File: fig/ex2_principal_stress-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/ex2_principal_stress-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex2_principal_stress-eps-converted-to.pdf used on 
+input line 949.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+ [20 <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/ex1_elements-eps-conve
+rted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/ex1_deformatio
+n-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/ex1
+_stress_11-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/elasticit
+y/fig/ex1_von_mises-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <fig/ex3_elements.eps>
+(epstopdf)                    date: 2015-07-04 18:27:39
+(epstopdf)                    size: 859839 bytes
+(epstopdf)             Output file: <fig/ex3_elements-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:12
+(epstopdf)                    size: 320237 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex3_elements-eps-conver
+ted-to.pdf fig/ex3_elements.eps>
+(epstopdf)             \includegraphics on input line 963.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex3_elements-eps-converted-to.pdf, id=449, 578.16pt x 430.60875pt>
+File: fig/ex3_elements-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex3_elements-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex3_elements-eps-converted-to.pdf used on input li
+ne 963.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex3_deformation.eps>
+(epstopdf)                    date: 2015-07-04 18:28:02
+(epstopdf)                    size: 1698548 bytes
+(epstopdf)             Output file: <fig/ex3_deformation-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:14
+(epstopdf)                    size: 161579 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex3_deformation-eps-con
+verted-to.pdf fig/ex3_deformation.eps>
+(epstopdf)             \includegraphics on input line 968.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex3_deformation-eps-converted-to.pdf, id=450, 578.16pt x 430.60875pt>
+File: fig/ex3_deformation-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex3_deformation-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex3_deformation-eps-converted-to.pdf used on input
+ line 968.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex3_stress_11.eps>
+(epstopdf)                    date: 2015-07-04 18:28:26
+(epstopdf)                    size: 69081 bytes
+(epstopdf)             Output file: <fig/ex3_stress_11-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:15
+(epstopdf)                    size: 25645 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex3_stress_11-eps-conve
+rted-to.pdf fig/ex3_stress_11.eps>
+(epstopdf)             \includegraphics on input line 973.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex3_stress_11-eps-converted-to.pdf, id=451, 578.16pt x 430.60875pt>
+File: fig/ex3_stress_11-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex3_stress_11-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex3_stress_11-eps-converted-to.pdf used on input l
+ine 973.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex3_stress_12.eps>
+(epstopdf)                    date: 2015-07-04 18:28:16
+(epstopdf)                    size: 46475 bytes
+(epstopdf)             Output file: <fig/ex3_stress_12-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:15
+(epstopdf)                    size: 19435 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex3_stress_12-eps-conve
+rted-to.pdf fig/ex3_stress_12.eps>
+(epstopdf)             \includegraphics on input line 978.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex3_stress_12-eps-converted-to.pdf, id=452, 578.16pt x 430.60875pt>
+File: fig/ex3_stress_12-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex3_stress_12-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex3_stress_12-eps-converted-to.pdf used on input l
+ine 978.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex3_von_mises.eps>
+(epstopdf)                    date: 2015-07-04 18:27:21
+(epstopdf)                    size: 43052 bytes
+(epstopdf)             Output file: <fig/ex3_von_mises-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:16
+(epstopdf)                    size: 17708 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex3_von_mises-eps-conve
+rted-to.pdf fig/ex3_von_mises.eps>
+(epstopdf)             \includegraphics on input line 983.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex3_von_mises-eps-converted-to.pdf, id=453, 578.16pt x 430.60875pt>
+File: fig/ex3_von_mises-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex3_von_mises-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex3_von_mises-eps-converted-to.pdf used on input l
+ine 983.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex3_principal_stress.eps>
+(epstopdf)                    date: 2015-07-04 18:30:08
+(epstopdf)                    size: 52416 bytes
+(epstopdf)             Output file: <fig/ex3_principal_stress-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-07-16 16:49:16
+(epstopdf)                    size: 23237 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex3_principal_stress-ep
+s-converted-to.pdf fig/ex3_principal_stress.eps>
+(epstopdf)             \includegraphics on input line 988.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex3_principal_stress-eps-converted-to.pdf, id=454, 578.16pt x 430.60875pt>
+File: fig/ex3_principal_stress-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/ex3_principal_stress-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex3_principal_stress-eps-converted-to.pdf used on 
+input line 988.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+ [21 <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/ex2_elements-eps-conve
+rted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/ex2_deformatio
+n-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/ex2
+_stress_11-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/elasticit
+y/fig/ex2_stress_12-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/
+elasticity/fig/ex2_von_mises-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/el
+flab/tex/elasticity/fig/ex2_principal_stress-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <fig/ex4_elements.eps>
+(epstopdf)                    date: 2015-07-08 14:01:33
+(epstopdf)                    size: 859839 bytes
+(epstopdf)             Output file: <fig/ex4_elements-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:18
+(epstopdf)                    size: 320236 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex4_elements-eps-conver
+ted-to.pdf fig/ex4_elements.eps>
+(epstopdf)             \includegraphics on input line 1003.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex4_elements-eps-converted-to.pdf, id=594, 578.16pt x 430.60875pt>
+File: fig/ex4_elements-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex4_elements-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex4_elements-eps-converted-to.pdf used on input li
+ne 1003.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex4_deformation.eps>
+(epstopdf)                    date: 2015-07-08 14:02:35
+(epstopdf)                    size: 1698548 bytes
+(epstopdf)             Output file: <fig/ex4_deformation-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:20
+(epstopdf)                    size: 161579 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex4_deformation-eps-con
+verted-to.pdf fig/ex4_deformation.eps>
+(epstopdf)             \includegraphics on input line 1008.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex4_deformation-eps-converted-to.pdf, id=595, 578.16pt x 430.60875pt>
+File: fig/ex4_deformation-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex4_deformation-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex4_deformation-eps-converted-to.pdf used on input
+ line 1008.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex4_stress_11.eps>
+(epstopdf)                    date: 2015-07-08 14:01:48
+(epstopdf)                    size: 69660 bytes
+(epstopdf)             Output file: <fig/ex4_stress_11-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:21
+(epstopdf)                    size: 25896 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex4_stress_11-eps-conve
+rted-to.pdf fig/ex4_stress_11.eps>
+(epstopdf)             \includegraphics on input line 1013.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex4_stress_11-eps-converted-to.pdf, id=596, 578.16pt x 430.60875pt>
+File: fig/ex4_stress_11-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex4_stress_11-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex4_stress_11-eps-converted-to.pdf used on input l
+ine 1013.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex4_stress_12.eps>
+(epstopdf)                    date: 2015-07-08 14:02:17
+(epstopdf)                    size: 46381 bytes
+(epstopdf)             Output file: <fig/ex4_stress_12-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:22
+(epstopdf)                    size: 19429 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex4_stress_12-eps-conve
+rted-to.pdf fig/ex4_stress_12.eps>
+(epstopdf)             \includegraphics on input line 1018.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex4_stress_12-eps-converted-to.pdf, id=597, 578.16pt x 430.60875pt>
+File: fig/ex4_stress_12-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex4_stress_12-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex4_stress_12-eps-converted-to.pdf used on input l
+ine 1018.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex4_von_mises.eps>
+(epstopdf)                    date: 2015-07-08 14:01:16
+(epstopdf)                    size: 42688 bytes
+(epstopdf)             Output file: <fig/ex4_von_mises-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:22
+(epstopdf)                    size: 17604 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex4_von_mises-eps-conve
+rted-to.pdf fig/ex4_von_mises.eps>
+(epstopdf)             \includegraphics on input line 1023.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex4_von_mises-eps-converted-to.pdf, id=598, 578.16pt x 430.60875pt>
+File: fig/ex4_von_mises-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/ex4_von_mises-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex4_von_mises-eps-converted-to.pdf used on input l
+ine 1023.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+Package epstopdf Info: Source file: <fig/ex4_principal_stress.eps>
+(epstopdf)                    date: 2015-07-08 14:01:03
+(epstopdf)                    size: 51936 bytes
+(epstopdf)             Output file: <fig/ex4_principal_stress-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-07-16 16:49:23
+(epstopdf)                    size: 23091 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ex4_principal_stress-ep
+s-converted-to.pdf fig/ex4_principal_stress.eps>
+(epstopdf)             \includegraphics on input line 1028.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/ex4_principal_stress-eps-converted-to.pdf, id=599, 578.16pt x 430.60875pt>
+File: fig/ex4_principal_stress-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/ex4_principal_stress-eps-converted-to.pdf>
+Package pdftex.def Info: fig/ex4_principal_stress-eps-converted-to.pdf used on 
+input line 1028.
+(pdftex.def)             Requested size: 202.15909pt x 150.5642pt.
+ [22 <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/ex3_elements-eps-conve
+rted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/ex3_deformatio
+n-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/ex3
+_stress_11-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/elasticit
+y/fig/ex3_stress_12-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/
+elasticity/fig/ex3_von_mises-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/el
+flab/tex/elasticity/fig/ex3_principal_stress-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <fig/gauss_x_regular.eps>
+(epstopdf)                    date: 2015-07-08 14:49:41
+(epstopdf)                    size: 56157 bytes
+(epstopdf)             Output file: <fig/gauss_x_regular-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-16 16:49:23
+(epstopdf)                    size: 25009 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/gauss_x_regular-eps-con
+verted-to.pdf fig/gauss_x_regular.eps>
+(epstopdf)             \includegraphics on input line 1041.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig/gauss_x_regular-eps-converted-to.pdf, id=738, 578.16pt x 430.60875pt>
+File: fig/gauss_x_regular-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig/gauss_x_regular-eps-converted-to.pdf>
+Package pdftex.def Info: fig/gauss_x_regular-eps-converted-to.pdf used on input
+ line 1041.
+(pdftex.def)             Requested size: 330.05322pt x 245.81747pt.
+ [23 <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/ex4_elements-eps-conve
+rted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/ex4_deformatio
+n-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/elasticity/fig/ex4
+_stress_11-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/elasticit
+y/fig/ex4_stress_12-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/elflab/tex/
+elasticity/fig/ex4_von_mises-eps-converted-to.pdf> <C:/Users/Nasser/OneDrive/el
+flab/tex/elasticity/fig/ex4_principal_stress-eps-converted-to.pdf>] [24 <C:/Use
+rs/Nasser/OneDrive/elflab/tex/elasticity/fig/gauss_x_regular-eps-converted-to.p
+df>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1049.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1049.
 
 (C:\Users\Nasser\OneDrive\elflab\tex\elasticity\elflab2.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1047.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1047.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1049.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1049.
 
 Package rerunfilecheck Info: File `elflab2.out' has not changed.
 (rerunfilecheck)             Checksum: E62BDAF7840F508004A1E5407F7B05A8;2626.
@@ -1888,15 +2400,36 @@ Package rerunfilecheck Info: File `elflab2.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1047.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1049.
  ) 
 Here is how much of TeX's memory you used:
- 31159 strings out of 493922
- 639226 string characters out of 3144897
- 725331 words of memory out of 3000000
- 33923 multiletter control sequences out of 15000+200000
- 15429 words of font info for 58 fonts, out of 3000000 for 9000
+ 31816 strings out of 493921
+ 651760 string characters out of 3144874
+ 727516 words of memory out of 3000000
+ 34363 multiletter control sequences out of 15000+200000
+ 17507 words of font info for 98 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 55i,16n,75p,10404b,794s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,16n,75p,10404b,792s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on elflab2.pdf (25 pages, 2299907 bytes).
+PDF statistics:
+ 987 PDF objects out of 1000 (max. 8388607)
+ 106 named destinations out of 1000 (max. 500000)
+ 15298 words of extra memory for PDF output out of 17280 (max. 10000000)
 
-Output written on elflab2.dvi (25 pages, 132724 bytes).

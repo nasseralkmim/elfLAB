@@ -35,7 +35,7 @@
 \contentsline {subsection}{\numberline {4.7}Boundary Conditions}{14}{subsection.4.7}
 \contentsline {section}{\numberline {5}Results}{15}{section.5}
 \contentsline {subsection}{\numberline {5.1}Dirichlet Conditions}{15}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Internal Load}{16}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.2}Internal Load}{15}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Neumann Boundary Condition}{16}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}General materials}{17}{subsection.5.4}
 \contentsline {subsection}{\numberline {5.5}General Geometry}{19}{subsection.5.5}
