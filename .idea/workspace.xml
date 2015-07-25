@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab52b4e-f35e-406b-b471-d3dbd6a88c69" name="Default" comment="general commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/barragem2.geo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/barragem2.msh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/ex6_heatStmat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/ex7_imposedTmat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/mesh2surf3.geo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mesh/mesh2surf3.msh" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\mesh\mesh8.geo" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Nasser\OneDrive\elflab\mesh\mesh8.msh" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Nasser\OneDrive\elflab\example\ex5_heat2d.py" afterPath="$PROJECT_DIR$/example/ex5_heatSt.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Nasser.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Nasser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticity2d.py" afterPath="$PROJECT_DIR$/elasticity2d.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/element2dof.py" afterPath="$PROJECT_DIR$/element2dof.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/ex4_dam.py" afterPath="$PROJECT_DIR$/example/ex4_dam.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gmsh.py" afterPath="$PROJECT_DIR$/gmsh.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heat2d.py" afterPath="$PROJECT_DIR$/heat2d.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plotter.py" afterPath="$PROJECT_DIR$/plotter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processing.py" afterPath="$PROJECT_DIR$/processing.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="elflab.iws" />
@@ -79,8 +62,8 @@
           <file leaf-file-name="ex7_imposedTmat.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/example/ex7_imposedTmat.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.1882557">
-                  <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+                <state vertical-scroll-proportion="0.746114">
+                  <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -664,15 +647,22 @@
       <option name="project" value="LOCAL" />
       <updated>1437665253765</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="general commit">
+      <created>1437829716563</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1437829716563</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18541667" sideWeight="0.4120083" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18541667" sideWeight="0.4120083" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32795155" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -684,7 +674,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="91" y="565" width="683" height="390" />
@@ -973,6 +962,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12664908">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,16 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23433875">
           <caret line="824" column="4" selection-start-line="824" selection-start-column="4" selection-end-line="824" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/ex7_imposedTmat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1882557">
-          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1126,6 +1106,14 @@
           <folding>
             <element signature="e#22#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ex7_imposedTmat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.746114">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
