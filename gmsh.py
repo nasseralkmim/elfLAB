@@ -78,20 +78,75 @@ class parse:
 
         surfaces = []
         boundary_lines = []
-        i = 0
-        for line in geometry_feeder:
-            line = line.strip()
 
-            if line.startswith('Physical Line('):
-                boundary_lines.append([int(line[line.find('{')+1:line.find(
-                    '}')]) - 1 , i])
+        self.physicalSurface = {}
+        self.lineLoop = {}
+        self.line = {}
+        #counters for line tag
+        i = 0
+        for txtLine in geometry_feeder:
+            txtLine = txtLine.strip()
+
+            if txtLine.startswith('Physical Line('):
+                boundary_lines.append(
+                    [int(txtLine[txtLine.find('{')+1:txtLine.find('}')]) - 1, i])
                 i += 1
 
-            if line.startswith('Physical Surface('):
-                surfaces.append(int(line[line.find('(')+1:line.find(')')]) - 1)
+            if txtLine.startswith('Physical Surface('):
+                surfaces.append(
+                    int(txtLine[txtLine.find('(')+1:txtLine.find(')')]) - 1
+                )
+
+            columns = txtLine.split()
+
+            # line tag: node 1 node 2
+            if txtLine.startswith('Line('):
+                self.line[
+                    int(txtLine[txtLine.find('(')+1:txtLine.find(')')]) -1] =\
+                    [int(columns[2][1])-1, int(columns[3][0])-1]
+
+            #line loop tag, line1 line2 ....
+            if txtLine.startswith('Line Loop('):
+                lpTag = int(txtLine[txtLine.find('(')+1:txtLine.find(')')])
+                lpList = []
+
+                # Get the first entry
+                tf = columns[3]
+                pf = 1
+                if tf[1] == '-':
+                    pf = 2
+                nf= int(tf[tf.find('{')+pf:tf.find(',')]) - 1
+                lpList.append(nf)
+
+                for i in range(4,len(columns)-1):
+                    t = columns[i]
+                    if columns[i][0] == '-':
+                        print(t[-1])
+                        n = int(t[1:t.find(',')]) - 1
+                        lpList.append(n)
+                    else:
+                        n = int(t[:t.find(',')]) - 1
+                        lpList.append(n)
+
+                tl = columns[-1]
+                pl = 0
+                if tl[0] == '-':
+                    pl = 1
+                nl = int(tl[pl:tl.find('}')]) - 1
+                lpList.append(nl)
+
+                self.lineLoop[lpTag] = lpList
+
+            if txtLine.startswith('Physical Surface('):
+                psTag = int(txtLine[txtLine.find('(')+1:txtLine.find(')')]) - 1
+
+                t = columns[3]
+                number = int(t[t.find('{')+1:t.find('}')]) - 1
+                self.physicalSurface[psTag] = number
 
         self.boundary_lines = np.asarray(boundary_lines)
         self.surfaces = np.asarray(surfaces)
+
 
         path2 = os.path.join("..\mesh", filename+'.msh')
         mesh_feeder = open(path2, 'r')
@@ -119,6 +174,7 @@ class parse:
 
                 ele_surface.append([i, int(columns[3]) - 1])
                 i += 1
+
             # boundary nodes = [line, node 1, node 2]
             if len(columns) == 7:
                 boundary_nodes.append([int(columns[4]) - 1,

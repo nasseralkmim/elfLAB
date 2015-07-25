@@ -554,6 +554,62 @@ def draw_elements_label(mesh, name, dpi):
         plt.draw()
 
 
+def draw_surface_label(mesh, name, dpi):
+
+    c = mesh.nodes_coord
+    plt.figure(name, dpi=dpi, frameon = False)
+
+    X, Y = c[:, 0], c[:, 1]
+
+    G2 = nx.Graph()
+
+    label = []
+    for i in range(len(X)):
+        label.append(i)
+        G2.add_node(i, posxy=(X[i], Y[i]))
+
+    # adjust the node numbering order of an element
+    if mesh.gmsh == 1.0:
+        temp = np.copy(mesh.ele_conn[:, 2])
+        mesh.ele_conn[:, 2] = mesh.ele_conn[:, 3]
+        mesh.ele_conn[:, 3] = temp
+        mesh.gmsh += 1
+
+
+    i = 0
+    for surface, lpTag in mesh.physicalSurface.items():
+        xm = 0.0
+        ym = 0.0
+        for node in mesh.lineLoop[lpTag]:
+            G2.add_edge(mesh.line[node][0],
+                        mesh.line[node][1])
+            xm += (mesh.nodes_coord[mesh.line[node][0], 0] +
+                   mesh.nodes_coord[mesh.line[node][1], 0])
+            ym += (mesh.nodes_coord[mesh.line[node][0], 1] +
+                   mesh.nodes_coord[mesh.line[node][1], 1])
+
+        xs, ys = xm/(2*len(mesh.lineLoop[lpTag])), ym/(2*len(mesh.lineLoop[
+                                                                 lpTag]))
+        plt.annotate(str(i), (xs, ys), size=9, color='g')
+        i += 1
+
+    positions = nx.get_node_attributes(G2, 'posxy')
+
+
+    nx.draw_networkx(G2, positions, node_size=0, edge_color='k',
+                     font_size=0,  width=1)
+
+
+    plt.axes().set_aspect('equal')
+
+    plt.axes().autoscale_view(True, True, True)
+    plt.margins(y=0.1, x=0.1, tight=False)
+    #limits=plt.axis('off')
+    plt.draw()
+
+
+
+
 def draw_edges_label(mesh, name, dpi):
     c = mesh.nodes_coord
 
@@ -615,7 +671,7 @@ def draw_nodes_label(mesh, name, dpi):
 
     positions = nx.get_node_attributes(G, 'posxy')
 
-    nx.draw_networkx_nodes(G, positions, node_color='w', node_size=180,
+    nx.draw_networkx_nodes(G, positions, node_color='w', node_size=140,
                            node_shape='s')
     nx.draw_networkx_labels(G,positions,label,font_size=9)
     plt.axes().set_aspect('equal')
@@ -714,6 +770,15 @@ def draw_elements(mesh, name, dpi, color):
 
 
     plt.draw()
+
+
+
+
+
+
+
+
+
 
 
 def draw_deformed_elements(mesh, a, name, dpi, magf, color, la):
@@ -1040,6 +1105,11 @@ def tricontourf(a, mesh, name, cmap, dpi):
     #plt.axes().autoscale_view(True, True, True)
 
     plt.draw()
+
+
+
+
+
 
 def save_pibic(filename):
     plt.savefig('C:/Users/Nasser/OneDrive/UNB/2015_1/pibic/pibic_relatorio'

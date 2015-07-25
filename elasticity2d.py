@@ -11,40 +11,40 @@ import plotter
 import boundaryconditions2dof
 import processing
 
-def solver(meshname, mat, body_forces, traction_imposed, displacement_imposed,
-           plotDeformed, plotStress, plotUndeformed):
+def solver(meshName, material, body_forces, traction_imposed,
+           displacement_imposed,
+           plotUndeformed, plotStress, plotDeformed):
 
 
-    mesh = gmsh.parse(meshname)
-
+    mesh = gmsh.parse(meshName)
 
     ele = element2dof.Matrices(mesh)
 
     s = mesh.surfaces
+    matDic = {s[i]: material[j] for i, j in enumerate(material)}
 
-    ele.stiffness(mat['nu'], mat['E'])
-
+    ele.stiffness(matDic)
 
     ele.body_forces(body_forces)
 
     K = assemble2dof.globalMatrix(ele.K, mesh)
+
     P0q = assemble2dof.globalVector(ele.P0q, mesh)
-    
 
     P0t = boundaryconditions2dof.neumann(mesh, traction_imposed)
 
     P0 = P0q + P0t
 
-    K, P0 = boundaryconditions2dof.dirichlet(K, P0, mesh, displacement_imposed)
+    Km, P0m = boundaryconditions2dof.dirichlet(K, P0, mesh,displacement_imposed)
 
-    Ks = sparse.csc_matrix(K)
+    Ks = sparse.csc_matrix(Km)
 
-    U = spsolve(Ks, P0)
+    U = spsolve(Ks, P0m)
 
     ele.nodal_forces(U)
     Pnode = assemble2dof.globalVector(ele.pEle, mesh)
 
-    sNode, sEle, eEle = processing.stress_recovery_simple(mesh, U, ele)
+    sNode, sEle, eEle = processing.stress_recovery_simple(mesh, U, material)
 
     principal_max = processing.principal_stress_max(sNode[0], sNode[1], sNode[2])
     principal_min= processing.principal_stress_min(sNode[0], sNode[1], sNode[2])
@@ -88,6 +88,9 @@ def solver(meshname, mat, body_forces, traction_imposed, displacement_imposed,
 
     if plotUndeformed['NodeLabel'] == True:
         plotter.draw_nodes_label(mesh, 'Case Study',dpi)
+
+    if plotUndeformed['SurfaceLabel'] == True:
+        plotter.draw_surface_label(mesh, 'Case Study', dpi)
 
         #PLOTTER DEFORMED SHAPE
     if plotDeformed['DomainUndeformed'] == True:

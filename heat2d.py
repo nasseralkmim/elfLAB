@@ -16,22 +16,17 @@ def solver(meshName, material, internal_heat, flux_imposed,
 
     ele = element1dof.Matrices(mesh)
 
+    # Surfaces tags
     s = mesh.surfaces
 
-    if len(material) != len(s):
-        print('A surface material was not assigned! - Check the material '
-              'Dictionary')
+    if len(s) < len(material):
+        raise ValueError('There are more Materials assigned than Surfaces defined!')
 
-    surfaces_keys = []
-    for surf in material.keys():
-        surfaces_keys.append(surf)
-
-    kDic = {}
-    for i in range(len(s)):
-        kDic[s[i]] = material[surfaces_keys[i]]
+    if len(s) > len(material):
+        raise ValueError('There are more Surfaces defined than Material assigned!')
 
     def diffusivity(x1, x2):
-        return kDic
+        return {s[i]: material[j] for i, j in enumerate(material)}
 
     ele.stiffness(diffusivity)
 
@@ -48,14 +43,13 @@ def solver(meshName, material, internal_heat, flux_imposed,
 
     Ks = sparse.csc_matrix(K)
 
+
     U = spsolve(Ks, P0)
 
     dpi=90
 
     if plotTemperature['Contour'] == True:
-        plotter.tricontourf(U, mesh, 'Temperature', 'hot'
-                                                    ''
-                                                    '', dpi)
+        plotter.tricontourf(U, mesh, 'Temperature', 'hot', dpi)
 
     #PLOTTER DRAW UNDEFORMED SHAPE, ELEMENTS, LABELS, BC
 
@@ -73,6 +67,9 @@ def solver(meshName, material, internal_heat, flux_imposed,
 
     if plotUndeformed['NodeLabel'] == True:
         plotter.draw_nodes_label(mesh, 'Case Study',dpi)
+
+    if plotUndeformed['SurfaceLabel'] == True:
+        plotter.draw_surface_label(mesh, 'Case Study', dpi)
 
     #plt.axis('off')
     plt.gca().set_aspect('equal', adjustable='box')

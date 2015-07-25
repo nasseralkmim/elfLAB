@@ -101,7 +101,7 @@ def principal_stress_min(s11, s22, s12):
 
     return sp_min
 
-def stress_recovery_simple(mesh, U, ele):
+def stress_recovery_simple(mesh, U, material):
     """
 
     :param mesh:
@@ -112,42 +112,56 @@ def stress_recovery_simple(mesh, U, ele):
     stress_ele = np.zeros((3, 4, mesh.num_ele))
     strain_ele = np.zeros((3, 4, mesh.num_ele))
 
-    for e in range(mesh.num_ele):
-        for w in range(4):
-            # Evaluate basis function at nodes natural coordinates chi
-            mesh.basisFunction2D(mesh.chi[w])
-            mesh.eleJacobian(mesh.nodes_coord[
-                mesh.ele_conn[e, :]])
+    for surf, mat in material.items():
+        E = mat[0]
+        nu = mat[1]
 
-            B = np.array([
-                [mesh.dphi_xi[0, 0], 0, mesh.dphi_xi[0, 1], 0,
-                mesh.dphi_xi[0, 2], 0, mesh.dphi_xi[0, 3], 0]
-                         ,
-                [0, mesh.dphi_xi[1, 0], 0, mesh.dphi_xi[1, 1], 0,
-                mesh.dphi_xi[1, 2], 0, mesh.dphi_xi[1, 3]]
-                         ,
-                [mesh.dphi_xi[1, 0], mesh.dphi_xi[0, 0],
-                mesh.dphi_xi[1, 1], mesh.dphi_xi[0, 1],
-                mesh.dphi_xi[1, 2], mesh.dphi_xi[0, 2],
-                mesh.dphi_xi[1, 3], mesh.dphi_xi[0, 3]]])
+        C = np.zeros((3,3))
 
-            uEle = np.array([
-                U[2*mesh.ele_conn[e, 0]],
-                U[2*mesh.ele_conn[e, 0]+1],
-                U[2*mesh.ele_conn[e, 1]],
-                U[2*mesh.ele_conn[e, 1]+1],
-                U[2*mesh.ele_conn[e, 2]],
-                U[2*mesh.ele_conn[e, 2]+1],
-                U[2*mesh.ele_conn[e, 3]],
-                U[2*mesh.ele_conn[e, 3]+1],
-            ])
+        C[0, 0] = 1.0
+        C[1, 1] = 1.0
+        C[1, 0] = nu
+        C[0, 1] = nu
+        C[2, 2] = (1.0 - nu)/2.0
+        C = (E/(1.0-nu**2.0))*C
 
-            eEle = np.dot(B, uEle)
+        for e in range(mesh.num_ele):
+            if surf == mesh.ele_surface[e, 1]:
+                for w in range(4):
+                    # Evaluate basis function at nodes natural coordinates chi
+                    mesh.basisFunction2D(mesh.chi[w])
+                    mesh.eleJacobian(mesh.nodes_coord[
+                        mesh.ele_conn[e, :]])
 
-            strain_ele[:, w, e] = eEle
+                    B = np.array([
+                        [mesh.dphi_xi[0, 0], 0, mesh.dphi_xi[0, 1], 0,
+                        mesh.dphi_xi[0, 2], 0, mesh.dphi_xi[0, 3], 0]
+                                 ,
+                        [0, mesh.dphi_xi[1, 0], 0, mesh.dphi_xi[1, 1], 0,
+                        mesh.dphi_xi[1, 2], 0, mesh.dphi_xi[1, 3]]
+                                 ,
+                        [mesh.dphi_xi[1, 0], mesh.dphi_xi[0, 0],
+                        mesh.dphi_xi[1, 1], mesh.dphi_xi[0, 1],
+                        mesh.dphi_xi[1, 2], mesh.dphi_xi[0, 2],
+                        mesh.dphi_xi[1, 3], mesh.dphi_xi[0, 3]]])
 
-            # w represents each node
-            stress_ele[:, w, e] = np.dot(ele.C, eEle)
+                    uEle = np.array([
+                        U[2*mesh.ele_conn[e, 0]],
+                        U[2*mesh.ele_conn[e, 0]+1],
+                        U[2*mesh.ele_conn[e, 1]],
+                        U[2*mesh.ele_conn[e, 1]+1],
+                        U[2*mesh.ele_conn[e, 2]],
+                        U[2*mesh.ele_conn[e, 2]+1],
+                        U[2*mesh.ele_conn[e, 3]],
+                        U[2*mesh.ele_conn[e, 3]+1],
+                    ])
+
+                    eEle = np.dot(B, uEle)
+
+                    strain_ele[:, w, e] = eEle
+
+                    # w represents each node
+                    stress_ele[:, w, e] = np.dot(C, eEle)
 
 
 

@@ -12,12 +12,8 @@ class Matrices:
     """
     def __init__(self, objectmesh):
         self.mesh = objectmesh
-        mesh = self.mesh
 
-
-
-
-    def stiffness(self, nu, E):
+    def stiffness(self, material):
         """Build the elemental stiffness matrix.
 
         Runs over each individual element properties when the object methods
@@ -57,46 +53,50 @@ class Matrices:
 
         """
         mesh = self.mesh
-        C = np.zeros((3,3))
-        C[0, 0] = 1.0
-        C[1, 1] = 1.0
-        C[1, 0] = nu
-        C[0, 1] = nu
-        C[2, 2] = (1.0 - nu)/2.0
-
-        self.C = (E/(1.0-nu**2.0))*C
-
-        self.gp = mesh.chi / math.sqrt(3.0)
 
         self.K = np.zeros((8, 8, mesh.num_ele))
 
+        self.gp = mesh.chi / math.sqrt(3.0)
 
-        for e in range(mesh.num_ele):
-            for w in range(4):
-                mesh.basisFunction2D(self.gp[w])
-                mesh.eleJacobian(mesh.nodes_coord[
-                    mesh.ele_conn[e, :]])
+        for surf, mat in material.items():
+            E = mat[0]
+            nu = mat[1]
 
-                if mesh.detJac <= 0.0:
-                    print('Error: non-positive Jacobian - '
-                          'check element nodes numbering')
-                    print('Element', e)
+            C = np.zeros((3,3))
 
-                dp_xi = mesh.dphi_xi
-                B = np.array([
-                    [dp_xi[0, 0], 0, dp_xi[0, 1], 0, dp_xi[0, 2], 0,
-                     dp_xi[0, 3], 0]
-                             ,
-                    [0, dp_xi[1, 0], 0, dp_xi[1, 1], 0, dp_xi[1, 2], 0,
-                     dp_xi[1, 3]]
-                             ,
-                    [dp_xi[1, 0], dp_xi[0, 0], dp_xi[1, 1], dp_xi[0, 1],
-                    dp_xi[1, 2], dp_xi[0, 2],dp_xi[1, 3], dp_xi[0, 3]]])
+            C[0, 0] = 1.0
+            C[1, 1] = 1.0
+            C[1, 0] = nu
+            C[0, 1] = nu
+            C[2, 2] = (1.0 - nu)/2.0
+            self.C = (E/(1.0-nu**2.0))*C
 
+            for e in range(mesh.num_ele):
+                if surf == mesh.ele_surface[e, 1]:
+                    for w in range(4):
+                        mesh.basisFunction2D(self.gp[w])
+                        mesh.eleJacobian(mesh.nodes_coord[
+                            mesh.ele_conn[e, :]])
 
-                CB = np.dot(self.C, B)
-                self.K[:, :, e] += (np.dot(np.transpose(B), CB) * mesh.detJac)
+                        if mesh.detJac <= 0.0:
+                            print('Error: non-positive Jacobian - '
+                                  'check element nodes numbering')
+                            print('Element', e)
 
+                        dp_xi = mesh.dphi_xi
+                        B = np.array([
+                            [dp_xi[0, 0], 0, dp_xi[0, 1], 0, dp_xi[0, 2], 0,
+                             dp_xi[0, 3], 0]
+                                     ,
+                            [0, dp_xi[1, 0], 0, dp_xi[1, 1], 0, dp_xi[1, 2], 0,
+                             dp_xi[1, 3]]
+                                     ,
+                            [dp_xi[1, 0], dp_xi[0, 0], dp_xi[1, 1], dp_xi[0, 1],
+                            dp_xi[1, 2], dp_xi[0, 2],dp_xi[1, 3], dp_xi[0, 3]]])
+
+                        CB = np.dot(self.C, B)
+
+                        self.K[:, :, e] += (np.dot(np.transpose(B), CB) * mesh.detJac)
 
 
 
